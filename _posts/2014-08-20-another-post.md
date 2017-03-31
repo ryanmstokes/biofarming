@@ -1,0 +1,9 @@
+---
+title: Lorem Ipsum Dolor Sit Amet
+date: 2014-08-20 00:00:00 Z
+featured: images/pic04.jpg
+layout: post
+---
+
+<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
