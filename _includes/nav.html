@@ -2,29 +2,23 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a class="home-btn" href="{{ site.baseurl }}/index.html"><i class="fa fa-home"></i></a></li>
 			<li>
-				<a href="">Dropdown</a>
+				<a href="">Our Service</a>
 				<ul>
-					<li><a href="#">Lorem ipsum dolor</a></li>
-					<li><a href="#">Magna phasellus</a></li>
-					<li><a href="#">Etiam dolore nisl</a></li>
+					<li><a href="{{ site.baseurl }}/biomass-management">Biomass Management</a></li>
+					<li><a href="#">Cover Crops</a></li>
+					<li><a href="#">Beneficial Microbes</a></li>
 					<li>
-						<a href="">Phasellus consequat</a>
-						<ul>
-							<li><a href="#">Lorem ipsum dolor</a></li>
-							<li><a href="#">Phasellus consequat</a></li>
-							<li><a href="#">Magna phasellus</a></li>
-							<li><a href="#">Etiam dolore nisl</a></li>
-							<li><a href="#">Veroeros feugiat</a></li>
-						</ul>
+						<a href="">Erosion Control</a>
+
 					</li>
-					<li><a href="#">Veroeros feugiat</a></li>
+					<li><a href="#">Bioological pest and disease control</a></li>
 				</ul>
 			</li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Practices</a></li>
+			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Courses</a></li>
+			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/biomass-management.html">Accreditations</a></li>
+			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Contact Us</a></li>
 		</ul>
 	</nav>

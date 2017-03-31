@@ -15,7 +15,7 @@
 	body, input, select, textarea {
 		color: #555555;
 		font-family: 'Raleway', sans-serif;
-		font-size: 13pt;
+		font-size: 10pt;
 		font-weight: 300;
 		line-height: 1.75em;
 	}
@@ -89,9 +89,7 @@
 		text-align: center;
 	}
 
-	header.major {
-		padding-bottom: 4em;
-	}
+
 
 	header h2 {
 		margin: 0;
@@ -448,7 +446,7 @@
 
 	.wrapper.style2 {
 		background: #ececec;
-		padding: 6em 0;
+		padding: 3em 0 6em 0;
 		text-align: center;
 	}
 
@@ -471,10 +469,10 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/cows2.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
-		padding: 6em 0;
+		padding: 3em 0 6em 0;
 		text-align: center;
 		background-position: 0% 65%;
 		position: relative;
@@ -502,14 +500,19 @@
 
 	#logo {
 		font-size: 2em;
+		background: #3ac984;
+		padding: 0.4em 0.8em;
 	}
 
+#nav{
+	margin-top:2.7em;
+}
 	#nav > ul {
 		margin: 0;
 	}
 
 		#nav > ul > li {
-			border-radius: 10px 10px 0 0;
+			border-radius: 0 0;
 			display: inline-block;
 			margin-left: 0.5em;
 			padding: 0.5em 1.5em;
@@ -520,7 +523,10 @@
 				text-decoration: none;
 				font-size: 1.2em;
 			}
-
+			#nav > ul > li a.home-btn{
+			background: #3ac984;
+			padding: 0.4em 0.6em;
+		}
 			#nav > ul > li:first-child {
 				margin-left: 0;
 			}
@@ -546,15 +552,16 @@
 	.dropotron {
 		margin-top: -2px;
 		background: #3ac984;
-		border-radius: 10px;
+		border-radius: 0;
 		color: white;
 		min-width: 12em;
-		padding: 1em 0;
+		padding: 1em 1em;
 	}
 
 		.dropotron > li {
 			line-height: 2em;
-			padding: 0 1em;
+			padding: 0.6em; 1em;
+			border-top:1px solid #f9f9f9;
 		}
 
 			.dropotron > li > a {
@@ -567,7 +574,7 @@
 			}
 
 		.dropotron.level-0 {
-			border-radius: 0 10px 10px 10px;
+			border-radius: 0 0;
 			font-size: 1em;
 		}
 
@@ -575,7 +582,6 @@
 
 	#banner {
 		text-align: center;
-		padding: 4em 0 0 0;
 	}
 
 		#banner .major h2 {
@@ -584,14 +590,69 @@
 
 		#banner .major .byline {
 			display: block;
-			margin: 0em 2em;
+			margin: 0em;
 			line-height: 1.6em;
 			font-size: 1.5em;
+			max-width:750px;
+			margin-bottom:2em;
+			display: inline-block;
 		}
-		
+		#banner cta-wrapper{
+			width:100%;
+		}
 		#banner a {
 			color: inherit;
+			line-height: 16.2pt;
 		}
+.home-video{
+	text-align: center;
+	margin-top:3em;
+}
+.title-cta-wrap{
+	text-align: center;
+
+}
+.title-cta{
+	display: inline-block;
+	float:none;
+}
+.title-cta .cta-wrapper{
+	margin-top:1em;
+}
+
+.video-wrapper{
+		height: 300px;
+    max-width: 750px;
+    display: inline-block;
+    width: 100%;
+		float:none;
+}
+/*  VIDEO  */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* End VIDEO */
+
+
+.cat-title{
+	font-size: 15pt;
+	font-weight:600
+}
+
 
 /* Main */
 
@@ -654,4 +715,9 @@
 
 		#footer a {
 			color: inherit;
+		}
+		@media screen and (min-width: 480px) {
+		    body {
+		        font-size:13pt
+		    }
 		}
