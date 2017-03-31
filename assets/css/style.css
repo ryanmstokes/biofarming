@@ -15,7 +15,7 @@
 	body, input, select, textarea {
 		color: #555555;
 		font-family: 'Raleway', sans-serif;
-		font-size: 13pt;
+		font-size: 10pt;
 		font-weight: 300;
 		line-height: 1.75em;
 	}
@@ -89,9 +89,7 @@
 		text-align: center;
 	}
 
-	header.major {
-		padding-bottom: 4em;
-	}
+
 
 	header h2 {
 		margin: 0;
@@ -102,6 +100,7 @@
 
 	header .byline {
 		font-size: 1.6em;
+		display: inline-block;
 	}
 
 	footer > :last-child {
@@ -324,7 +323,7 @@
 		ul.style h3 {
 			display: block;
 			margin: 0;
-			padding-bottom: 0.50em;
+			padding-bottom: 0.1em;
 			font-size: 1.1em;
 			font-weight: 700;
 			color: #404040;
@@ -406,7 +405,7 @@
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background: #3ac984;
-		border-radius: 40px;
+		border-radius: 6px;
 		border: 0;
 		color: white;
 		cursor: pointer;
@@ -448,7 +447,7 @@
 
 	.wrapper.style2 {
 		background: #ececec;
-		padding: 6em 0;
+		padding: 5em 0 6em 0;
 		text-align: center;
 	}
 
@@ -471,15 +470,27 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/cows2.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
-		padding: 6em 0;
+		padding: 3em 0 2em 0;
 		text-align: center;
 		background-position: 0% 65%;
 		position: relative;
 	}
+	#header.home{
+		padding: 3em 0 6em 0;
 
+	}
+
+	header.major {
+	    margin-bottom: 2em;
+			font-size:0.8em;
+	}
+	#banner header.major {
+	    margin-bottom: 0;
+			font-size:0.8em;
+	}
 		#header:before {
 			content: '';
 			position: absolute;
@@ -502,25 +513,40 @@
 
 	#logo {
 		font-size: 2em;
+    color: #fff;
 	}
 
+#nav{
+	margin-top:2.7em;
+	margin-bottom:1.5em;
+}
 	#nav > ul {
 		margin: 0;
 	}
 
 		#nav > ul > li {
-			border-radius: 10px 10px 0 0;
+			border-radius: 0 0;
 			display: inline-block;
 			margin-left: 0.5em;
 			padding: 0.5em 1.5em;
 		}
 
 			#nav > ul > li a {
-				color: #FFF;
+				color: #dadada;
 				text-decoration: none;
-				font-size: 1.2em;
+				font-size: 1.1em;
+				font-weight: 400;
 			}
-
+			#nav > ul > li a:hover {
+				cursor:pointer;
+			}
+			#nav > ul > li a.home-btn{
+				background: rgba(255,255,255,1);
+    padding: 0.3em 0.7em;
+    color: #3ac984;
+		font-size:1.3em;
+	}
+		}
 			#nav > ul > li:first-child {
 				margin-left: 0;
 			}
@@ -540,21 +566,25 @@
 			#nav > ul > li > ul {
 				display: none;
 			}
+			#nav > ul > li > ul  > li a:hover {
+				font-weight:600 !Important;
+			}
 
 /* Dropotron */
 
 	.dropotron {
 		margin-top: -2px;
 		background: #3ac984;
-		border-radius: 10px;
+		border-radius: 0;
 		color: white;
 		min-width: 12em;
-		padding: 1em 0;
+		padding: 1em 1em;
 	}
 
 		.dropotron > li {
 			line-height: 2em;
-			padding: 0 1em;
+			padding: 0.6em; 1em;
+			border-top:1px solid #f9f9f9;
 		}
 
 			.dropotron > li > a {
@@ -567,7 +597,7 @@
 			}
 
 		.dropotron.level-0 {
-			border-radius: 0 10px 10px 10px;
+			border-radius: 0 0;
 			font-size: 1em;
 		}
 
@@ -575,24 +605,84 @@
 
 	#banner {
 		text-align: center;
-		padding: 4em 0 0 0;
 	}
 
 		#banner .major h2 {
 			font-size: 3.5em;
+    	font-weight: 600;
+    	color: #f1f1f1;
 		}
 
 		#banner .major .byline {
 			display: block;
-			margin: 0em 2em;
+			margin: 0em;
 			line-height: 1.6em;
 			font-size: 1.5em;
+			max-width:660px;
+			margin-bottom:0;
+			display: inline-block;
+			color: #e8e8e8;
 		}
-		
-		#banner a {
-			color: inherit;
+		#banner cta-wrapper{
+			width:100%;
 		}
+		.cta-wrapper a {
+			color: #ffffff;
+			line-height: 16.2pt;
+		}
+.home-video{
+	text-align: center;
+	margin-top:3em;
+}
+.title-cta-wrap{
+	text-align: center;
 
+}
+.title-cta{
+	display: inline-block;
+	float:none;
+}
+.title-cta .cta-wrapper{
+	margin-top:1em;
+}
+
+.video-wrapper{
+    max-width: 750px;
+    display: inline-block;
+    width: 100%;
+		float:none;
+		margin-bottom:1em;
+}
+/*  VIDEO  */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* End VIDEO */
+
+
+.cat-title{
+	font-size: 18pt;
+	font-weight:600;
+	margin-bottom:0.2em;
+}
+
+.cat{
+	margin-bottom:3em;
+}
 /* Main */
 
 	.no-sidebar #main .major, .left-sidebar #main .major, .right-sidebar #main .major {
@@ -604,7 +694,7 @@
 	}
 
 	#main {
-		padding: 6em 0;
+		padding: 4em 0 6em;
 	}
 
 		#main .sidebar .major {
@@ -632,7 +722,14 @@
 	#footer {
 		padding: 4em 0;
 		color: #fff;
-	}
+		background: #333333 url("../images/cows2.jpg") no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 3em 0 6em 0;
+		text-align: center;
+		background-position: 0% 65%;
+		position: relative;
+		}
 
 		#footer .major h2 {
 			font-size: 2em;
@@ -655,3 +752,14 @@
 		#footer a {
 			color: inherit;
 		}
+		@media screen and (min-width: 480px) {
+		    body {
+		        font-size:12pt
+		    }
+		}
+		@media screen and (min-width: 1280px) {
+
+		#banner .major .byline {
+			margin-bottom:2em
+		}
+	}
