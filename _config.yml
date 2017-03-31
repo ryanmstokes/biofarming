@@ -1,23 +1,4 @@
----
-title: bio-farming
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+name: Horizons
+description: Horizons template for Jekyll
+paginate: 10
+baseurl: '/Horizons-Jekyll-Theme'
