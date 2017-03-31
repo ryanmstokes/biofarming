@@ -477,7 +477,9 @@
 		background-position: 0% 65%;
 		position: relative;
 	}
-
+	header.major {
+	    margin-bottom: 2em;
+	}
 		#header:before {
 			content: '';
 			position: absolute;
