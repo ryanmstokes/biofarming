@@ -3,11 +3,11 @@ layout: default
 ---
 
 <!-- Header -->
-			<div id="header">
+			<div id="header" class="home">
 				<div class="container">
 
 					<!-- Logo -->
-						<h1><a href="#" id="logo"><i class="fa fa-globe"></i>&nbsp;BioFarming</a></h1>
+						<h1><a href="/" id="logo"><i class="fa fa-globe"></i>&nbsp;BioFarming</a></h1>
 
 					{% include nav.html %}
 
@@ -18,7 +18,9 @@ layout: default
 									<header class="major">
 										<h2>{{ page.home-title }}</h2>
 										<span class="byline">{{ page.home-description }}</span>
-										<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+									</header>
+										<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+
 								</section>
 							</div>
 						</div>
@@ -30,7 +32,6 @@ layout: default
 			<div class="wrapper style2">
 				<section class="container">
 					<header class="major">
-						<h2>{{ page.home-video-title }}</h2>
 						<span class="byline">{{ page.home-video-description }}</span>
 					</header>
 					<div class="row no-collapse-1 home-video">
@@ -45,8 +46,8 @@ layout: default
 					<div class="row title-cta-wrap">
 
 						<div class="title-cta">
-							<span class="byline">{{ page.home-video-description }}</span>
-							<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+							<span class="byline">{{ page.home-video-sub-description }}</span>
+							<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-video-cta-title }}</a></div>
 						</div>
 
 				</div>
@@ -57,8 +58,8 @@ layout: default
 				<div id="main" class="wrapper style1">
 					<section class="container">
 						<header class="major">
-							<h2>Nulla luctus eleifend</h2>
-							<span class="byline">Mauris vulputate dolor sit amet nibh</span>
+							<h2>{{page.usp-title}}</h2>
+							<span class="byline">{{page.usp-sub-title}}</span>
 						</header>
 						<div class="row">
 
@@ -68,12 +69,12 @@ layout: default
 										<ul class="style">
 											<li>
 												<span class="fa fa-wrench"></span>
-												<h3>Integer ultrices</h3>
+												<h3>{{ page.usp-sub-point1-title}}</h3>
 												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
 											</li>
 											<li>
 												<span class="fa fa-cloud"></span>
-												<h3>Aliquam luctus</h3>
+												<h3>{{ page.usp-sub-point2-title}}</h3>
 												<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
 											</li>
 										</ul>
@@ -84,12 +85,12 @@ layout: default
 										<ul class="style">
 											<li>
 												<span class="fa fa-cogs"></span>
-												<h3>Integer ultrices</h3>
+												<h3>{{ page.usp-sub-point3-title}}</h3>
 												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
 											</li>
 											<li>
 												<span class="fa fa-leaf"></span>
-												<h3>Aliquam luctus</h3>
+												<h3>{{ page.usp-sub-point4-title}}</h3>
 												<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
 											</li>
 										</ul>
@@ -106,35 +107,41 @@ layout: default
 							<h2>{{ page.home-triple-title }}</h2>
 							</header>
 							<div class="row">
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-1.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point1-title }}</div>
 											<p>{{ page.home-triple-point1 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-2.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point2-title }}</div>
 											<p>{{ page.home-triple-point2 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-3.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point3-title }}</div>
 											<p>{{ page.home-triple-point3 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-5.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point4-title }}</div>
 											<p>{{ page.home-triple-point4 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-4.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point5-title }}</div>
 											<p>{{ page.home-triple-point5 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
-										<section class="4u">
-											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt=""></a>
+										<section class="4u cat">
+											<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-6.jpg" alt=""></a>
 											<div class="cat-title">{{ page.home-triple-point6-title }}</div>
 											<p>{{ page.home-triple-point6 }}</p>
+											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
 										</section>
 							</div>
 			</section>

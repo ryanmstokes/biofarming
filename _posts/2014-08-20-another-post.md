@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: Dont just take our word for it!
 date: 2014-08-20 00:00:00 Z
 featured: images/pic04.jpg
 layout: post
