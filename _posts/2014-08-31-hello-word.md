@@ -1,5 +1,6 @@
 ---
 title: Ullamco Laboris minim veniam
+date: 2014-08-31 00:00:00 Z
 featured: images/pic03.jpg
 layout: post
 ---
