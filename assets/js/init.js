@@ -1,5 +1,6 @@
 ---
 ---
+
 /*
 	Horizons by TEMPLATED
     templated.co @templatedco

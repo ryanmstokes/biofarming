@@ -1,9 +1,8 @@
 ---
-
 title: Landing Page
 layout: landing
 ---
- 
+
 <!-- Main -->
 	<div id="main" class="wrapper style1">
 		<section class="container">
