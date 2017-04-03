@@ -649,7 +649,7 @@
 	width:100%;
 }
 
-.downloads i{
+.downloads   i{
 	margin-right:10px;
 }
 /* Banner */
@@ -773,10 +773,10 @@
 	#footer {
 		padding: 4em 0;
 		color: #fff;
-		background: #333333 url("../images/cows2.jpg") no-repeat;
+		background: #3ac984;
 		background-size: cover;
 		color: #fff;
-		padding: 3em 0 6em 0;
+		padding: 3em 0 3em 0;
 		text-align: center;
 		background-position: 0% 65%;
 		position: relative;
