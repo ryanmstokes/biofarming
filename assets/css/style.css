@@ -649,7 +649,9 @@
 	display:inline-block;
 	width:100%;
 }
-
+.downloads{
+	margin-bottom:20px;
+}
 .downloads   i{
 	margin-right:10px;
 }

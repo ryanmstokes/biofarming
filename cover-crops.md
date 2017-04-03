@@ -1,7 +1,7 @@
 ---
 title: Cover crops
 layout: page-layout
-sub-title: Integer sit amet pede vel arcu aliquet pretium
+sub-title: A cover crop is a crop planted primarily to manage soil erosion
 paragraph1: Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin
   gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie
   semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero.

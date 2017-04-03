@@ -1,7 +1,7 @@
 ---
 title: Beneficial Microbes
 layout: page-layout
-sub-title: Integer sit amet pede vel arcu aliquet pretium
+sub-title: Many different soil microorganisms are responsible for nutrient recycling
 paragraph1: Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin
   gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie
   semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero.
