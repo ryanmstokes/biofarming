@@ -193,8 +193,9 @@
 		}
 
 			.image.feature img {
-				display: block;
 				width: 100%;
+    max-width: 280px;
+    display: inline-block;
 			}
 
 /* Icon */
