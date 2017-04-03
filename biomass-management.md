@@ -36,4 +36,3 @@ cat-pdf1-title: Biomass Management Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Biomass Management Course
 ---
-
