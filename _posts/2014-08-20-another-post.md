@@ -5,7 +5,6 @@ featured: images/pic04.jpg
 layout: post
 ---
 
-
 <ul>
   <li>1.Login to whatsapp</li>
   <li>2.Search for #BioFarming and request access</li>
