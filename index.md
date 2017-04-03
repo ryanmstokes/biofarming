@@ -28,7 +28,7 @@ home-triple-point5: Nam in massa. Sed vel tellus. Curabitur sem urna, consequat 
 home-triple-point6-title: Energy Efficiency
 home-triple-point6: Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel,
   suscipit in, mattis placerat.
-usp-title: Best practice Knowhow for organic agriculture
+usp-title: Best practice knowhow for organic agriculture
 usp-sub-title: Improve your agricultural performance - Tailormade courses to help
   you grow more!
 usp-sub-point1-title: Energy Efficient Technology
