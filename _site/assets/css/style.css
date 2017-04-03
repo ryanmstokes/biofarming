@@ -526,6 +526,7 @@
 	margin-top:2.7em;
 	margin-bottom:1.5em;
 }
+
 #nav{
 	margin-top: 0;
 	margin-bottom: 0;
@@ -609,6 +610,48 @@
 			font-size: 1em;
 		}
 
+#sidebar section{
+	background:#f9f9f9;
+	padding:25px;
+}
+.whatsapp{
+	width:80px;
+	height:auto;
+	float:left;
+	margin-right:10px;
+}
+.whatsapp-title{
+	margin-top:25px;
+	float:left;
+}
+.whats-point{
+	display:inline-block;
+	width:100%;
+	margin-bottom:20px;
+}
+.points{
+	margin-top:20px;
+}
+.whats-num{
+	background: #000000;
+	padding:7px 17px;
+	border-radius:100px;
+	margin-right:10px;
+	color:#ffffff;
+	float:left;
+}
+.whats-title{
+	float:left;
+	width:80%;
+}
+.block{
+	display:inline-block;
+	width:100%;
+}
+
+.downloads i{
+	margin-right:10px;
+}
 /* Banner */
 
 	#banner {
@@ -627,7 +670,7 @@
 			line-height: 1.6em;
 			font-size: 1.5em;
 			max-width:660px;
-			margin-bottom:0;
+			margin-bottom:2em;
 			display: inline-block;
 			color: #e8e8e8;
 		}
