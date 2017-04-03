@@ -32,8 +32,8 @@ paragraph3: Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Pro
   quis, justo. Donec nonummy magna. Quisque eleifend. Aliquam lacinia metus ut elit.
   Donec ornare neque ac sem. Mauris aliquet.
 cat-pdf1: "/assets/AdobeIntroToScripting.pdf"
-cat-pdf1-title: Biomass Management Guidelines
+cat-pdf1-title: Erosion Control Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
-cat-pdf2-title: Biomass Management Course
+cat-pdf2-title: Erosion Control Course
 ---
 
