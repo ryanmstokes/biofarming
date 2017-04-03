@@ -470,7 +470,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/apple-farmer.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 3em 0 2em 0;
@@ -483,9 +483,15 @@
 
 	}
 
+	.home header.major{
+		margin-bottom: 0em;
+		font-size: 0.8em;
+	}
+
 	header.major {
 	    margin-bottom: 2em;
 			font-size:0.8em;
+			padding-bottom:0;
 	}
 	#banner header.major {
 	    margin-bottom: 0;
@@ -516,9 +522,13 @@
     color: #fff;
 	}
 
-#nav{
+.homepage  #nav{
 	margin-top:2.7em;
 	margin-bottom:1.5em;
+}
+#nav{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 	#nav > ul {
 		margin: 0;
