@@ -1,7 +1,8 @@
 ---
 title: Biological Pest and Disease Control
 layout: page-layout
-sub-title: Biological control is a method of controlling pests such as insects, mites, weeds
+sub-title: Biological control is a method of controlling pests such as insects, mites,
+  weeds
 paragraph1: Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin
   gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie
   semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero.
