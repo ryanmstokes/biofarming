@@ -272,6 +272,9 @@ $('#videoPlayer').trigger('play')
 		var bannerOffset = function(){
 			headerHeight = window.innerHeight *0.8;
 			if($(window).width() > 500){
+				if(headerHeight > 800){
+					headerHeight = 800;
+				}
 			$('#header').css('height', headerHeight + 'px');
 			var bannerHeight = $('#banner').height();
 			var offset = headerHeight/2 - (bannerHeight) + 'px';
