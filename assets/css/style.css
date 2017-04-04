@@ -446,6 +446,8 @@ p{
 
 	.wrapper.style1 {
 		background: #fff;
+		text-align: center;
+		padding: 3em 0 6em;
 	}
 
 	.wrapper.style2 {
