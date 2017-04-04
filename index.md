@@ -3,12 +3,13 @@ title: BioFarming
 home-title: Intelligent farming!
 home-description: A platform to provide you with the information to make your farming
   system fit for the future, to resist climate change.
-home-cta-title: get started >>
-home-video-url: https://www.youtube.com/embed/pjZxN3eDQ3Y
+home-cta-title: get started
+video-title: Sustainability is profitable!
+home-video-url: https://www.youtube.com/embed/KRcRuj8T9oI
 home-video-description: the <a href="">facts are clear</a>, it pays to grow biologically
   and sustainably!
 home-video-sub-description: Still don't beleive us?
-home-video-cta-title: find out more >>
+home-video-cta-title: find out more
 home-triple-title: Specialists in agriculture
 home-triple-point1-title: Biomass Management
 home-triple-point1: Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel,
@@ -35,7 +36,6 @@ usp-sub-point1-title: Energy Efficient Technology
 usp-sub-point2-title: Cloudbased Software
 usp-sub-point3-title: Management Tools
 usp-sub-point4-title: Bio Management
-Field name: 
+Field name:
 layout: landing
 ---
-

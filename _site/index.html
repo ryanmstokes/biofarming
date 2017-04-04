@@ -31,7 +31,7 @@
 	<nav id="nav">
 		<ul>
 			
-			<li ><a class="home-btn" href="/index.html"><i class="fa fa-home"></i></a></li>
+			<!--<li ><a class="home-btn" href="/index.html"><i class="fa fa-home"></i></a></li>-->
 			<li>
 				<a href="">Our Service</a>
 				<ul>
@@ -61,7 +61,7 @@
 										<h2>Intelligent farming!</h2>
 										<span class="byline">A platform to provide you with the information to make your farming system fit for the future, to resist climate change.</span>
 									</header>
-										<div class="cta-wrapper"><a href="/biomass-management" class="button alt">get started >></a></div>
+										<div class="cta-wrapper"><a href="/biomass-management" class="button alt">get started</a></div>
 
 								</section>
 							</div>
@@ -74,12 +74,14 @@
 			<div class="wrapper style2">
 				<section class="container">
 					<header class="major">
+						<h2>Sustainability is profitable!</h2>
 						<span class="byline">the <a href="">facts are clear</a>, it pays to grow biologically and sustainably!</span>
 					</header>
 					<div class="row no-collapse-1 home-video">
 						<div class="video-wrapper">
 						<div class="video-container">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/pjZxN3eDQ3Y" frameborder="0" allowfullscreen></iframe>
+							<img id="videoImg" src="/assets/images/videoImg.jpg">
+							<iframe id="videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/KRcRuj8T9oI" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 
@@ -89,7 +91,7 @@
 
 						<div class="title-cta">
 							<span class="byline">Still don't beleive us?</span>
-							<div class="cta-wrapper"><a href="/biomass-management" class="button alt">find out more >></a></div>
+							<div class="cta-wrapper"><a href="/biomass-management" class="button alt">find out more</a></div>
 						</div>
 
 				</div>
@@ -149,35 +151,35 @@
 							<h2>Specialists in agriculture</h2>
 							</header>
 							<div class="row">
-										<section class="4u cat">
+										<section class="12u cat">
 											<a href="/biomass-management" class="image feature"><img src="/assets/images/cat-1.jpg" alt=""></a>
 											<div class="cat-title">Biomass Management</div>
 											<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">get started >></a></div>
+											<div class="cta-wrapper"><a href="#" class="button alt">get started</a></div>
 										</section>
-										<section class="4u cat">
+										<section class="12u cat">
 											<a href="/cover=crops" class="image feature"><img src="/assets/images/cat-2.jpg" alt=""></a>
 											<div class="cat-title">Cover Crops</div>
 											<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">get started >></a></div>
+											<div class="cta-wrapper"><a href="#" class="button alt">get started</a></div>
 										</section>
-										<section class="4u cat">
+										<section class="12u cat">
 											<a href="/beneficial-microbes" class="image feature"><img src="/assets/images/cat-3.jpg" alt=""></a>
 											<div class="cat-title">Beneficial Microbes</div>
 											<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">get started >></a></div>
+											<div class="cta-wrapper"><a href="#" class="button alt">get started</a></div>
 										</section>
-										<section class="4u -2u cat">
+										<section class="12u -2u cat">
 											<a href="/erosion-control" class="image feature"><img src="/assets/images/cat-5.jpg" alt=""></a>
 											<div class="cat-title">Erosion Control</div>
 											<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">get started >></a></div>
+											<div class="cta-wrapper"><a href="#" class="button alt">get started</a></div>
 										</section>
-										<section class="4u cat">
+										<section class="12u cat">
 											<a href="/biological-pest-and-disease-control" class="image feature"><img src="/assets/images/cat-4.jpg" alt=""></a>
 											<div class="cat-title">Biological pest + disease control</div>
 											<p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">get started >></a></div>
+											<div class="cta-wrapper"><a href="#" class="button alt">get started</a></div>
 										</section>
 
 							</div>
@@ -186,6 +188,36 @@
 
 	
 
+
+	<script>
+
+	// replace image with video and autoplay //
+	$('#videoImg').click(function(){
+			$(this).toggle();
+	    $('#videoPlayer').toggle()
+$('#videoPlayer').trigger('play')
+	});
+
+	// set banners height and position content with //
+
+	var offsetAmount = window.innerHeight *0.8;
+
+
+		var bannerOffset = function(){
+			headerHeight = window.innerHeight *0.8;
+			if($(window).width() > 500){
+			$('#header').css('height', headerHeight + 'px');
+			var bannerHeight = $('#banner').height();
+			var offset = headerHeight/2 - (bannerHeight) + 'px';
+			$('#banner').css('margin-top', offset);
+			}
+		}
+		bannerOffset();
+		$(window).resize(function(){
+			$('#header').css('height', window.innerHeight *0.8+ 'px');
+			bannerOffset();
+		});
+	</script>
 
 		<!-- Footer -->
 			<div id="footer">
