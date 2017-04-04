@@ -1,6 +1,6 @@
 ---
 title: BioFarming
-home-title: Its time to prepare!
+home-title: Now is the time!
 home-description: A platform to provide you with the information to make your farming
   system fit for the future, to resist climate change.
 home-cta-title: get started
