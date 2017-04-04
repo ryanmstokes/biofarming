@@ -1,6 +1,6 @@
 ---
 title: BioFarming
-home-title: Intelligent farming 2!
+home-title: Intelligent farming!
 home-description: A platform to provide you with the information to make your farming
   system fit for the future, to resist climate change.
 home-cta-title: get started
