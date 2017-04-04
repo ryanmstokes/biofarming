@@ -32,12 +32,14 @@ layout: default
 			<div class="wrapper style2">
 				<section class="container">
 					<header class="major">
+						<h2>{{page.video-title}}</h2>
 						<span class="byline">{{ page.home-video-description }}</span>
 					</header>
 					<div class="row no-collapse-1 home-video">
 						<div class="video-wrapper">
 						<div class="video-container">
-								<iframe width="560" height="315" src="{{ page.home-video-url }}" frameborder="0" allowfullscreen></iframe>
+							<img id="videoImg" src="/assets/images/videoImg.jpg">
+							<iframe id="videoPlayer" width="560" height="315" src="{{ page.home-video-url }}" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 
@@ -107,39 +109,135 @@ layout: default
 							<h2>{{ page.home-triple-title }}</h2>
 							</header>
 							<div class="row">
-										<section class="4u cat">
-											<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-1.jpg" alt=""></a>
-											<div class="cat-title">{{ page.home-triple-point1-title }}</div>
-											<p>{{ page.home-triple-point1 }}</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="12u cat">
+
+											<div class="4u image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-1.jpg" alt=""></a>
+											</div>
+											<div class="7u description">
+												<div class="cat-title">{{ page.home-triple-point1-title }}</div>
+												<p>{{ page.home-triple-point1 }}
+												</p>
+												<p>
+												<strong class="subline">{{ page.home-triple-point1-b }}</strong>
+												</p>
+												<ul class="downloads">
+													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+												</ul>
+												<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+											</div>
 										</section>
-										<section class="4u cat">
-											<a href="/cover=crops" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-2.jpg" alt=""></a>
-											<div class="cat-title">{{ page.home-triple-point2-title }}</div>
-											<p>{{ page.home-triple-point2 }}</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="12u cat">
+
+											<div class="4u image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-2.jpg" alt=""></a>
+											</div>
+											<div class="7u description">
+												<div class="cat-title">{{ page.home-triple-point2-title }}</div>
+												<p>{{ page.home-triple-point2 }}
+												</p>
+												<p>
+												<strong class="subline">{{ page.home-triple-point2-b }}</strong>
+												</p>
+												<ul class="downloads">
+													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+												</ul>
+												<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+											</div>
 										</section>
-										<section class="4u cat">
-											<a href="/beneficial-microbes" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-3.jpg" alt=""></a>
-											<div class="cat-title">{{ page.home-triple-point3-title }}</div>
-											<p>{{ page.home-triple-point3 }}</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="12u cat">
+
+											<div class="4u image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-3.jpg" alt=""></a>
+											</div>
+											<div class="7u description">
+												<div class="cat-title">{{ page.home-triple-point3-title }}</div>
+												<p>{{ page.home-triple-point3 }}
+												</p>
+												<p>
+												<strong class="subline">{{ page.home-triple-point3-b }}</strong>
+												</p>
+												<ul class="downloads">
+													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+												</ul>
+												<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+											</div>
 										</section>
-										<section class="4u -2u cat">
-											<a href="/erosion-control" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-5.jpg" alt=""></a>
-											<div class="cat-title">{{ page.home-triple-point4-title }}</div>
-											<p>{{ page.home-triple-point4 }}</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="12u cat">
+
+											<div class="4u image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-4.jpg" alt=""></a>
+											</div>
+											<div class="7u description">
+												<div class="cat-title">{{ page.home-triple-point4-title }}</div>
+												<p>{{ page.home-triple-point4 }}
+												</p>
+												<p>
+												<strong class="subline">{{ page.home-triple-point4-b }}</strong>
+												</p>
+												<ul class="downloads">
+													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+												</ul>
+												<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+											</div>
 										</section>
-										<section class="4u cat">
-											<a href="/biological-pest-and-disease-control" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-4.jpg" alt=""></a>
-											<div class="cat-title">{{ page.home-triple-point5-title }}</div>
-											<p>{{ page.home-triple-point5 }}</p>
-											<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="12u cat">
+
+											<div class="4u image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-5.jpg" alt=""></a>
+											</div>
+											<div class="7u description">
+												<div class="cat-title">{{ page.home-triple-point5-title }}</div>
+												<p>{{ page.home-triple-point5 }}
+												</p>
+												<p>
+												<strong class="subline">{{ page.home-triple-point5-b }}</strong>
+												</p>
+												<ul class="downloads">
+													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+												</ul>
+												<div class="cta-wrapper"><a href="#" class="button alt">{{ page.home-cta-title }}</a></div>
+											</div>
 										</section>
+										
 
 							</div>
 			</section>
 		</div>
 
 	{{ content }}
+
+	<script>
+
+	// replace image with video and autoplay //
+	$('#videoImg').click(function(){
+			$(this).toggle();
+	    $('#videoPlayer').toggle()
+$('#videoPlayer').trigger('play')
+	});
+
+	// set banners height and position content with //
+
+	var offsetAmount = window.innerHeight *0.8;
+
+
+		var bannerOffset = function(){
+			headerHeight = window.innerHeight *0.8;
+			if($(window).width() > 500){
+			$('#header').css('height', headerHeight + 'px');
+			var bannerHeight = $('#banner').height();
+			var offset = headerHeight/2 - (bannerHeight) + 'px';
+			$('#banner').css('margin-top', offset);
+			}
+		}
+		bannerOffset();
+		$(window).resize(function(){
+			$('#header').css('height', window.innerHeight *0.8+ 'px');
+			bannerOffset();
+		});
+	</script>
