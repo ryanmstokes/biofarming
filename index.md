@@ -36,6 +36,7 @@ usp-sub-point1-title: Energy Efficient Technology
 usp-sub-point2-title: Cloudbased Software
 usp-sub-point3-title: Management Tools
 usp-sub-point4-title: Bio Management
-Field name:
+Field name: 
 layout: landing
 ---
+
