@@ -37,10 +37,12 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table, blockquote {
+	 ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
-
+p{
+	margin: 0 0 0.5em 0;
+}
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 700;
@@ -194,7 +196,7 @@
 
 			.image.feature img {
 				width: 100%;
-    max-width: 280px;
+    max-width: 320px;
     display: inline-block;
 			}
 
@@ -739,8 +741,19 @@
   height: 100%;
 }
 /* End VIDEO */
-
-
+.subline{
+	margin-top:15px;
+}
+.cat .image{
+	float:left
+}
+.cat .image a{
+	width:100%;
+}
+.cat .description{
+	float:left;
+	text-align:left;
+}
 .cat-title{
 	font-size: 18pt;
 	font-weight:600;
@@ -748,7 +761,10 @@
 }
 
 .cat{
-	margin-bottom:3em;
+	margin-bottom: 3em;
+    border-top: 1px solid #ddd;
+    padding: 3em 0 0 0;
+    margin: 0;
 }
 /* Main */
 
