@@ -473,7 +473,7 @@ p{
 /* Header */
 
 	#header {
-		background: #333333 url("../images/107627258.jpg") no-repeat;
+		background: #333333 url("../images/625145912.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 3em 0 2em 0;
@@ -838,11 +838,14 @@ p{
 		#footer a {
 			color: inherit;
 		}
-		
+
 		@media screen and (min-width: 480px) {
 		    body {
 		        font-size:12pt
 		    }
+				.image.feature img {
+					max-width: 320px;
+				}
 		}
 		@media screen and (min-width: 650px) {
 			.cat .description{
@@ -853,6 +856,7 @@ p{
 		.cat .image{
 			width:27%;
 		}
+
 		}
 		@media screen and (min-width: 1280px) {
 
