@@ -1,0 +1,24 @@
+<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% assign current = page.url | downcase | split: '/' %}
+			<!--<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a class="home-btn" href="{{ site.baseurl }}/index.html"><i class="fa fa-home"></i></a></li>-->
+			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">About Us</a></li>
+			<li>
+				<a href="">Courses</a>
+				<ul>
+					<li><a href="{{ site.baseurl }}/biomass-management">Biomass Management</a></li>
+					<li><a href="{{ site.baseurl }}/cover-crops">Cover Crops</a></li>
+					<li><a href="{{ site.baseurl }}/beneficial-microbes">Beneficial Microbes</a></li>
+					<li>
+						<a href="{{ site.baseurl }}/erosion-control">Erosion Control</a>
+
+					</li>
+					<li><a href="{{ site.baseurl }}/biological-pest-and-disease-control">Bioological pest and disease control</a></li>
+				</ul>
+			</li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">F.A.Q</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Partners</a></li>
+			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Contact Us</a></li>
+		</ul>
+	</nav>
