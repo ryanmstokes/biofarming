@@ -57,6 +57,7 @@ p{
 
 	h2 {
 		font-size: 1.5em;
+		margin-bottom:0.4em;
 	}
 
 	h3 {
@@ -479,7 +480,7 @@ text-align:center;
 
 
 	#header {
-		background: #333333 url("../images/pick-your-own-apples-apple-orchard-in-ontario-canada-during-beginning-F34YDP.jpg") no-repeat;
+		background: #333333 url("../images/625145912.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 3em 0 2em 0;
@@ -682,14 +683,18 @@ text-align:center;
 
 		#banner .major .byline {
 			display: block;
-			margin: 0em;
+			margin: 1em 0 0 0;
 			line-height: 1.6em;
 			font-size: 1.5em;
 			max-width:660px;
-			margin-bottom:2em;
 			display: inline-block;
 			color: #e8e8e8;
 			text-shadow: 1px 2px rgba(0,0,0,0.4);
+		}
+
+
+		.narrow{
+			max-width:550px;
 		}
 		#banner cta-wrapper{
 			width:100%;
@@ -708,7 +713,7 @@ text-align:center;
 }
 .home-video{
 	text-align: center;
-	margin-top:1em;
+	margin-top:0;
 }
 .title-cta-wrap{
 	text-align: center;
@@ -723,7 +728,7 @@ text-align:center;
 }
 
 .video-wrapper{
-    max-width: 750px;
+    max-width: 580px;
     display: inline-block;
     width: 100%;
 		float:none;
@@ -733,7 +738,7 @@ text-align:center;
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /*16:9*/
-  padding-top: 30px;
+  padding-top: 1.4em;
   height: 0;
   overflow: hidden;
 }
