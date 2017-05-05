@@ -14,22 +14,25 @@ layout: default
 					<!-- Banner -->
 						<div id="banner">
 							<div class="container">
-
 								<section>
 								<header class="major">
-						<div class="byline hero">{{ page.home-video-description }}</div>
+
+						<div class="byline hero">
+							<h1 class="hero-title">{{page.usp-title}}</h1>
+							<div>{{ page.usp-sub-title }}</div>
+						</div>
 					</header>
 								<div class="row no-collapse-1 home-video">
 						<div class="video-wrapper">
 						<div class="video-container">
-							<img id="videoImg" src="/assets/images/videoImg.jpg">
+							<img id="videoImg" src="/assets/images/video-plain.jpg">
 							<iframe id="videoPlayer" width="560" height="315" src="{{ page.home-video-url }}" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 
 
 					</div>
-									
+
 
 								</section>
 							</div>
@@ -39,7 +42,7 @@ layout: default
 			</div>
 
 		<!-- Featured -->
-			
+
 			<!-- Main -->
 			<!-- Featured -->
 				<div class="wrapper style1 center">
@@ -148,30 +151,13 @@ layout: default
 							</div>
 			</section>
 		</div>
-		<div class="wrapper style2 center">
-				<section class="container signup">
 
-					
-				
-					<div class="row title-cta-wrap">
-
-						<div class="title-cta">
-							<h2>{{ page.home-title }}</h2>
-							<div class="byline narrow">{{ page.home-description }}</div>
-
-							<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-video-cta-title }}</a></div>
-						</div>
-
-				</div>
-				</section>
-
-			</div>
 				<div id="main" class="wrapper style1">
 
 					<section class="container">
 						<header class="major">
-							<h2>{{page.usp-title}}</h2>
-							<span class="byline">{{page.usp-sub-title}}</span>
+							<h2>{{ page.home-title }}</h2>
+							<span class="byline">{{ page.home-description }}</span>
 						</header>
 						<div class="row">
 
@@ -212,7 +198,7 @@ layout: default
 						</div>
 					</section>
 				</div>
-			
+
 
 	{{ content }}
 
