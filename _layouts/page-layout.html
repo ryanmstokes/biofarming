@@ -1,41 +1,66 @@
 ---
 layout: main
 ---
+<div class="topic">
+<div class="container">
+			<header class="major">
+							<h2>{{page.title}}</h2>
+						</header>
+			<img src="/assets/images/crop-rotation-and-tillage.jpg"/>
+			<header class="major">
+					<span class="byline">{{page.sub-title}}</span>
+			</header>
+
+</div>
 
 <!-- Main -->
 	<div id="main" class="wrapper style1">
+
 		<div class="container">
+
 			<div class="row">
 
 				<!-- Content -->
-				<div id="content" class="8u skel-cell-important">
-					<section>
-						<header class="major">
-							<h2>{{page.title}}</h2>
-							<span class="byline">{{page.sub-title}}</span>
-						</header>
-						<p>{{page.paragraph1}}</p>
+				<div id="content" class="12u skel-cell-important">
+					<section class="narrower">
+						<p class="sub-title">{{page.paragraph1}}</p>
 						<br/>
 						<div class="video-wrapper">
+						<label>Video 1</label>
 						<div class="video-container">
+							
 								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url }}" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 						<br/>
 						<br/>
-						<p>{{page.paragraph2}}</p>
+						<p class="sub-title">{{page.paragraph2}}</p>
 						<br/>
 						<div class="video-wrapper">
+						<label>Video 2</label>
 						<div class="video-container">
+
 								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url2 }}" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 						<br/>
 						<br/>
-						<p>{{page.paragraph3}}</p>
+						
 
 					</section>
-					<section>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<section>
+						<p>{{page.paragraph3}}</p>
+						<iframe src="Annex-5.b_Poster_Composting_DV04.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+		
 						<header class="major">
 							<h2>Downloadable Documents</h2>
 						</header>
@@ -44,10 +69,6 @@ layout: main
 							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
 						</ul>
 					</section>
-				</div>
+</div>
 
-				{% include sidebar.html %}
-
-			</div>
-		</div>
-	</div>
+</div>

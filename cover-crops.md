@@ -35,5 +35,6 @@ cat-pdf1: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf1-title: Cover Crops Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Cover Crops Course
+banner-img: crop-rotation-and-tillage.jpg
 ---
 

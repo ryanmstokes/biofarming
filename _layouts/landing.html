@@ -3,44 +3,55 @@ layout: default
 ---
 
 <!-- Header -->
+
+			{% include nav.html %}
+			
 			<div id="header" class="home">
-				<div class="container">
-
-					<!-- Logo -->
-						<h1><a href="/" id="logo"><i class="fa fa-globe"></i>&nbsp;BioFarming</a></h1>
-
-					{% include nav.html %}
-
+				
+				<div class="container">				
 					<!-- Banner -->
 						<div id="banner">
-							<div class="container">
 								<section>
-								<header class="major">
+									<header class="major">
 
-						<div class="byline hero">
-							<h1 class="hero-title">{{page.usp-title}}</h1>
-							<div>{{ page.usp-sub-title }}</div>
-						</div>
-					</header>
+										<div class="byline hero">
+											<h1 class="hero-title">{{page.usp-title}}</h1>
+											<p class="desc">{{ page.usp-sub-title }}</p>
+											<a class="more">Find Out More</a>
+										</div>
+									</header>
+							<!--
 								<div class="row no-collapse-1 home-video">
-						<div class="video-wrapper">
-						<div class="video-container">
-							<img id="videoImg" src="/assets/images/video-plain.jpg">
-							<iframe id="videoPlayer" width="560" height="315" src="{{ page.home-video-url }}" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-
-
-					</div>
+										<div class="video-wrapper">
+											<div class="video-container">
+											<img id="videoImg" src="/assets/images/video-plain.jpg">
+											<iframe id="videoPlayer" width="560" height="315" src="{{ page.home-video-url }}" frameborder="0" allowfullscreen></iframe>
+											</div>
+										</div>
+								</div>
+							-->
 
 
 								</section>
-							</div>
 						</div>
 
 				</div>
+															
+
 			</div>
 
+
+<div class="container text-center">
+			<h2 class="intro">Want to learn how to grow organically?</h2>
+	<div class="text-block-wrap">
+		<div class="text-block">
+		
+		<h1 >bestpractice.farm helps independent farmers effective and efficient methods to manage their crops in an organic and sustainable way.</h1>
+
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+	</div>
+</div>
+</div>
 		<!-- Featured -->
 
 			<!-- Main -->
@@ -48,49 +59,45 @@ layout: default
 				<div class="wrapper style1 center">
 					<section class="container">
 						<header class="major">
-							<h2>{{ page.home-triple-title }}</h2>
+							<h2 class="intro">{{ page.home-triple-title }}</h2>
 							</header>
 							<div class="row">
-										<section class="12u cat">
-
-											<div class=" image">
-												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-1.jpg" alt=""></a>
-											</div>
-											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point1-title }}</div>
-												<p>{{ page.home-triple-point1 }}
-												</p>
-												<p>
-												<strong class="subline">{{ page.home-triple-point1-b }}</strong>
-												</p>
-												<ul class="downloads">
-													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
-												</ul>
-												<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="6u cat">
+											<div class="inner">
+												<div class=" image">
+													<a href="/biomass-management" class="image feature">
+													<img src="{{ site.baseurl }}/assets/images/cat-1.jpg" alt="">
+												</a>
+												</div>
+												<div class=" description">
+													<div class="cat-title">{{ page.home-triple-point1-title }}</div>
+													<p>{{ page.home-triple-point1 }}
+													</p>
+													
+													<div class="cta-wrapper">
+														<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
+												</div>
 											</div>
 										</section>
-										<section class="12u cat">
-
-											<div class=" image">
-												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-2.jpg" alt=""></a>
-											</div>
-											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point2-title }}</div>
-												<p>{{ page.home-triple-point2 }}
-												</p>
-												<p>
-												<strong class="subline">{{ page.home-triple-point2-b }}</strong>
-												</p>
-												<ul class="downloads">
-													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
-												</ul>
-												<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+										<section class="6u cat">
+											<div class="inner">
+												<div class=" image">
+													<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-2.jpg" alt=""></a>
+												</div>
+												<div class=" description">
+													<div class="cat-title">{{ page.home-triple-point2-title }}</div>
+													<p>{{ page.home-triple-point2 }}
+													</p>
+													
+													<div class="cta-wrapper">
+														<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
+												</div>
 											</div>
 										</section>
-										<section class="12u cat">
-
+							</div>
+							<div class="row">
+										<section class="6u cat">
+											<div class="inner">
 											<div class=" image">
 												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-3.jpg" alt=""></a>
 											</div>
@@ -98,18 +105,15 @@ layout: default
 												<div class="cat-title">{{ page.home-triple-point3-title }}</div>
 												<p>{{ page.home-triple-point3 }}
 												</p>
-												<p>
-												<strong class="subline">{{ page.home-triple-point3-b }}</strong>
-												</p>
-												<ul class="downloads">
-													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
-												</ul>
-												<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+												
+												
+												<div class="cta-wrapper">
+													<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
 											</div>
+										</div>
 										</section>
-										<section class="12u cat">
-
+										<section class="6u cat">
+											<div class="inner">
 											<div class=" image">
 												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-5.jpg" alt=""></a>
 											</div>
@@ -117,17 +121,15 @@ layout: default
 												<div class="cat-title">{{ page.home-triple-point4-title }}</div>
 												<p>{{ page.home-triple-point4 }}
 												</p>
-												<p>
-												<strong class="subline">{{ page.home-triple-point4-b }}</strong>
-												</p>
-												<ul class="downloads">
-													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
-												</ul>
-												<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+																								<div class="cta-wrapper">
+													<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
 											</div>
+										</div>
 										</section>
-										<section class="12u cat">
+										</div>
+							<div class="row">
+										<section class="6u cat">
+											<div class="inner">
 
 											<div class=" image">
 												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-4.jpg" alt=""></a>
@@ -136,15 +138,29 @@ layout: default
 												<div class="cat-title">{{ page.home-triple-point5-title }}</div>
 												<p>{{ page.home-triple-point5 }}
 												</p>
-												<p>
-												<strong class="subline">{{ page.home-triple-point5-b }}</strong>
-												</p>
-												<ul class="downloads">
-													<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-													<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
-												</ul>
-												<div class="cta-wrapper"><a href="/biomass-management" class="button alt">{{ page.home-cta-title }}</a></div>
+												
+												
+												<div class="cta-wrapper">
+													<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
 											</div>
+										</div>
+										</section>
+										<section class="6u cat">
+											<div class="inner">
+
+											<div class=" image">
+												<a href="/biomass-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-4.jpg" alt=""></a>
+											</div>
+											<div class=" description">
+												<div class="cat-title">{{ page.home-triple-point6-title }}</div>
+												<p>{{ page.home-triple-point6 }}
+												</p>
+												
+												
+												<div class="cta-wrapper">
+													<a href="/biomass-management" class="more">{{ page.home-cta-title }}</a></div>
+											</div>
+										</div>
 										</section>
 
 
@@ -152,52 +168,6 @@ layout: default
 			</section>
 		</div>
 
-				<div id="main" class="wrapper style1">
-
-					<section class="container">
-						<header class="major">
-							<h2>{{ page.home-title }}</h2>
-							<span class="byline">{{ page.home-description }}</span>
-						</header>
-						<div class="row">
-
-							<!-- Content -->
-								<div class="6u">
-									<section>
-										<ul class="style">
-											<li>
-												<span class="fa fa-wrench"></span>
-												<h3>{{ page.usp-sub-point1-title}}</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
-											</li>
-											<li>
-												<span class="fa fa-cloud"></span>
-												<h3>{{ page.usp-sub-point2-title}}</h3>
-												<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-											</li>
-										</ul>
-									</section>
-								</div>
-								<div class="6u">
-									<section>
-										<ul class="style">
-											<li>
-												<span class="fa fa-cogs"></span>
-												<h3>{{ page.usp-sub-point3-title}}</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
-											</li>
-											<li>
-												<span class="fa fa-leaf"></span>
-												<h3>{{ page.usp-sub-point4-title}}</h3>
-												<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-											</li>
-										</ul>
-									</section>
-								</div>
-
-						</div>
-					</section>
-				</div>
 
 
 	{{ content }}
@@ -223,7 +193,6 @@ $('#videoPlayer').trigger('play')
 			var bannerHeight = $('#banner').height();
 			var offset = headerHeight/2 - (bannerHeight) + 'px';
 			$('#banner').css('margin-top', offset);
-			}
 		}
 		bannerOffset();
 		$(window).resize(function(){
