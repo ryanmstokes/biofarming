@@ -10,7 +10,7 @@ home-video-description: the <a href="">facts are clear</a>, it pays to grow biol
   and sustainably!
 home-video-sub-description: Still don't beleive us?
 home-video-cta-title: find out more
-home-triple-title: Agricultural courses
+home-triple-title: Agricultural Themes
 home-triple-point1-title: Biomass Management and composting
 home-triple-point1: Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.
 home-triple-point1-b: Sed vel tellus. Curabitur sem urna, consequat vel!
