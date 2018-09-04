@@ -36,7 +36,7 @@
 				<a href="">Courses</a>
 				<ul>
 					<li><a href="/biomass-management">Biomass Management</a></li>
-					<li><a href="/cover-crops">Cover Crops</a></li>
+					<li><a href="/cover-crops-and-mulch-management">Cover Crops</a></li>
 					<li><a href="/beneficial-microbes">Beneficial Microbes</a></li>
 					<li>
 						<a href="/erosion-control">Erosion Control</a>
@@ -59,12 +59,13 @@
 	</nav>
 </div><!-- Nav -->
 
-			<div class="topic">
+			<div class="user-content">
+<div class="topic">
 <div class="container">
 			<header class="major">
 							<h2>Biomass Management</h2>
 						</header>
-			<img src="/assets/images/crop-rotation-and-tillage.jpg"/>
+			<img src="/assets/images/biomass-management-banner.jpg"/>
 			<header class="major">
 					<span class="byline">Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.</span>
 			</header>
@@ -84,7 +85,6 @@
 						<p class="sub-title">See here an excellent animated video about proper biomass management and composting and learn about the benefits and on how to do it. cat videourl</p>
 						<br/>
 						<div class="video-wrapper">
-						<label>Video 1</label>
 						<div class="video-container">
 							
 								<iframe width="560" height="315" controls=0 src="https://player.vimeo.com/video/288217116" frameborder="0" allowfullscreen></iframe>
@@ -95,7 +95,6 @@
 						<p class="sub-title">See here a real-life farm video on how to build a good compost pile and how to use the biomass available on a farm.</p>
 						<br/>
 						<div class="video-wrapper">
-						<label>Video 2</label>
 						<div class="video-container">
 
 								<iframe width="560" height="315" controls=0 src="https://player.vimeo.com/video/288217116" frameborder="0" allowfullscreen></iframe>
@@ -113,23 +112,72 @@
 			</div>
 		</div>
 	</div>
-
-	<section>
-						<p>The following poster shows all relevant facts in detail. Have a look at it:</p>
-						<iframe src="Annex-5.b_Poster_Composting_DV04.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
-
-		
+<div class="container wrapper">
+	<strong><p class="strong">The following poster shows all relevant facts in detail. Have a look at it:</p></strong>
+	<br/>
+	<iframe src="/assets/posters/Annex-5.d_Poster_Compost-Starter_DV02.pdf" class="pdf-embed" frameborder="0"></iframe>
+</div>
+<div class="wrapper style1">
+	<section>													
 						<header class="major">
 							<h2>Downloadable Documents</h2>
 						</header>
 						<ul class="downloads">
-							<li><a href="/assets/AdobeIntroToScripting.pdf"><i class="fa fa-download"></i>Biomass Management Guidelines</a></li>
-							<li><a href="/assets/AdobeIntroToScripting.pdf"><i class="fa fa-download"></i>Biomass Management Course</a></li>
+							<li><a href="/assets/Annex-5.b_Poster_Composting_DV04.pdf"><i class="fa fa-download"></i>Composting</a></li>
+							<li><a href="/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"><i class="fa fa-download"></i>Composting Starter</a></li>			
+							
+							<li><a href="/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"><i class="fa fa-download"></i>Composting Starter 2</a></li>
+							
+
+
 						</ul>
 					</section>
-</div>
+	</div>
+
+	</div>
 
 </div>
+
+
+
+<div id="password-prompt">
+	<h1>Please Enter your password to view content</h1>
+	<from>
+	<input id="username" type="text" placeholder="enter username"/>
+	<input id="password"  type="password" placeholder="enter password"/>
+	<button id="submit-password" type="button"></button>
+	</from>
+</div>
+<script>
+	var loggedIn = localStorage.getItem('loggedIn');
+
+	if(loggedIn == 'true'){
+		$('.user-content').css('display', 'block');
+						$('#password-prompt').hide();
+	} else{
+		$('.footer').addClass('down');
+	}
+
+	$('#submit-password').click(function(){
+		var username = $('#username').val();
+		var password = $('#password').val();
+				console.log('username', username, 'password',password);
+
+		if(username == "x" && password == 'x'){
+			
+    
+			$('#password-prompt').fadeOut('slow', function(){
+				$('.user-content').fadeIn();
+				localStorage.setItem('loggedIn', 'true');
+				$('.footer').removeClass('down');
+			});
+			
+			
+		}
+	})
+</script>
+
+
 
 
 		<!-- Footer -->

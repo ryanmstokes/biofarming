@@ -1,15 +1,19 @@
 ---
 title: Biomass Management
 layout: page-layout
+banner-img: /assets/images/biomass-management-banner.jpg
 sub-title: Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.
 paragraph1: See here an excellent animated video about proper biomass management and composting and learn about the benefits and on how to do it. cat videourl
 cat-video-url: https://player.vimeo.com/video/288217116
 paragraph2: See here a real-life farm video on how to build a good compost pile and how to use the biomass available on a farm.
 cat-video-url2: https://player.vimeo.com/video/288217116
 paragraph3: 'The following poster shows all relevant facts in detail. Have a look at it:'
-cat-pdf1: "/assets/AdobeIntroToScripting.pdf"
-cat-pdf1-title: Biomass Management Guidelines
-cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
-cat-pdf2-title: Biomass Management Course
+cat-pdf1: "/assets/Annex-5.b_Poster_Composting_DV04.pdf"
+cat-pdf1-title: Composting
+cat-pdf2: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
+cat-pdf2-title: Composting Starter
+cat-pdf3: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
+cat-pdf3-title: Composting Starter 2
+poster: /assets/posters/Annex-5.d_Poster_Compost-Starter_DV02.pdf
 ---
 

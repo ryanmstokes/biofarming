@@ -1,12 +1,13 @@
 ---
 layout: main
 ---
+<div class="user-content">
 <div class="topic">
 <div class="container">
 			<header class="major">
 							<h2>{{page.title}}</h2>
 						</header>
-			<img src="/assets/images/crop-rotation-and-tillage.jpg"/>
+			<img src="{{page.banner-img}}"/>
 			<header class="major">
 					<span class="byline">{{page.sub-title}}</span>
 			</header>
@@ -26,7 +27,6 @@ layout: main
 						<p class="sub-title">{{page.paragraph1}}</p>
 						<br/>
 						<div class="video-wrapper">
-						<label>Video 1</label>
 						<div class="video-container">
 							
 								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url }}" frameborder="0" allowfullscreen></iframe>
@@ -37,7 +37,6 @@ layout: main
 						<p class="sub-title">{{page.paragraph2}}</p>
 						<br/>
 						<div class="video-wrapper">
-						<label>Video 2</label>
 						<div class="video-container">
 
 								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url2 }}" frameborder="0" allowfullscreen></iframe>
@@ -55,20 +54,69 @@ layout: main
 			</div>
 		</div>
 	</div>
-
-	<section>
-						<p>{{page.paragraph3}}</p>
-						<iframe src="Annex-5.b_Poster_Composting_DV04.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
-
-		
+<div class="container wrapper">
+	<strong><p class="strong">{{page.paragraph3}}</p></strong>
+	<br/>
+	<iframe src="{{page.poster}}" class="pdf-embed" frameborder="0"></iframe>
+</div>
+<div class="wrapper style1">
+	<section>													
 						<header class="major">
 							<h2>Downloadable Documents</h2>
 						</header>
 						<ul class="downloads">
 							<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>
+							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>			
+							{% if page.cat-pdf3 %}
+							<li><a href="{{page.cat-pdf3}}"><i class="fa fa-download"></i>{{page.cat-pdf3-title}}</a></li>
+							{% endif %}
+
+
 						</ul>
 					</section>
-</div>
+	</div>
+
+	</div>
 
 </div>
+
+
+
+<div id="password-prompt">
+	<h1>Please Enter your password to view content</h1>
+	<from>
+	<input id="username" type="text" placeholder="enter username"/>
+	<input id="password"  type="password" placeholder="enter password"/>
+	<button id="submit-password" type="button"></button>
+	</from>
+</div>
+<script>
+	var loggedIn = localStorage.getItem('loggedIn');
+
+	if(loggedIn == 'true'){
+		$('.user-content').css('display', 'block');
+						$('#password-prompt').hide();
+	} else{
+		$('.footer').addClass('down');
+	}
+
+	$('#submit-password').click(function(){
+		var username = $('#username').val();
+		var password = $('#password').val();
+				console.log('username', username, 'password',password);
+
+		if(username == "x" && password == 'x'){
+			
+    
+			$('#password-prompt').fadeOut('slow', function(){
+				$('.user-content').fadeIn();
+				localStorage.setItem('loggedIn', 'true');
+				$('.footer').removeClass('down');
+			});
+			
+			
+		}
+	})
+</script>
+
+
