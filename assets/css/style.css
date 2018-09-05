@@ -59,6 +59,9 @@ p.strong{
 	margin: 0 auto;
 	margin-top: 5rem;
 }
+#password-prompt input{
+	margin-bottom: 1rem;
+}
 #footer.down{
 	position: absolute;
 	bottom: 0;
