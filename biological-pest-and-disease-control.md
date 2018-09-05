@@ -13,5 +13,6 @@ cat-pdf1-title: Biological Pest and Disease Control Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Biological Pest and Disease Control Course
 poster: /assets/posters/Annex-5.d_Poster_Compost-Starter_DV02.pdf
+showJS: true
 ---
 

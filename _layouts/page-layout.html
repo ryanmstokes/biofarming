@@ -1,7 +1,7 @@
 ---
 layout: main
 ---
-<div class="user-content">
+<div class="user-content hide-user-content">
 <div class="topic">
 <div class="container">
 			<header class="major">
@@ -87,36 +87,14 @@ layout: main
 	<from>
 	<input id="username" type="text" placeholder="enter username"/>
 	<input id="password"  type="password" placeholder="enter password"/>
-	<button id="submit-password" type="button"></button>
+	<button id="submit-password" type="button">Login</button>
 	</from>
 </div>
 <script>
-	var loggedIn = localStorage.getItem('loggedIn');
 
-	if(loggedIn == 'true'){
-		$('.user-content').css('display', 'block');
-						$('#password-prompt').hide();
-	} else{
-		$('.footer').addClass('down');
-	}
+	
 
-	$('#submit-password').click(function(){
-		var username = $('#username').val();
-		var password = $('#password').val();
-				console.log('username', username, 'password',password);
 
-		if(username == "x" && password == 'x'){
-			
-    
-			$('#password-prompt').fadeOut('slow', function(){
-				$('.user-content').fadeIn();
-				localStorage.setItem('loggedIn', 'true');
-				$('.footer').removeClass('down');
-			});
-			
-			
-		}
-	})
 </script>
 
 

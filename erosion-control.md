@@ -13,5 +13,6 @@ cat-pdf1-title: Erosion Control Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Erosion Control Course
 poster: /assets/posters/Annex-2.j_Erosion_Summary_DV3.pdf
+showJS: true
 ---
 

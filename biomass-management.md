@@ -15,5 +15,6 @@ cat-pdf2-title: Composting Starter
 cat-pdf3: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
 cat-pdf3-title: Composting Starter 2
 poster: /assets/posters/Annex-5.d_Poster_Compost-Starter_DV02.pdf
+showJS: true
 ---
 

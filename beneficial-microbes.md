@@ -13,5 +13,6 @@ cat-pdf1-title: Beneficial Microbes Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Beneficial Microbes Course
 poster: /assets/posters/Annex-5.d_Poster_Compost-Starter_DV02.pdf
+showJS: true
 ---
 

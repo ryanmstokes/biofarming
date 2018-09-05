@@ -7,6 +7,8 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900");
 /* Basic */
 
+
+
 html, body, #skel-layers-wrapper{
 	height: 100%;
 }
@@ -50,6 +52,26 @@ p.strong{
 	font-size: 1.2rem;
 	line-height: 1.7rem
 }
+
+#password-prompt{
+	max-width: 550px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+#footer.down{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	margin: 0 auto;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+#skel-layers-inactiveWrapper{
+		display: none !important;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 500;
@@ -719,7 +741,7 @@ text-align:center;
 
 		.dropotron > li {
 			line-height: 2em;
-			padding: 0.6em; 1em;
+			padding: 0.6em 1em;
 			border-top:1px solid #f9f9f9;
 		}
 
@@ -809,7 +831,7 @@ text-align:center;
     	margin-top: 20px;
     	border: none;
     	width: 50px;
-    	position: absolute;;
+    	position: absolute;
     	bottom: 2%;
     	left: 50%;
 			-webkit-transform: translateX(-50%);
