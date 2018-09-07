@@ -24,15 +24,15 @@
 				</ul>
 			</li>
 			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">F.A.Q</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Partners</a></li>
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Contact Us</a></li>
+			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Contact</a></li>
 		</ul>
 		
 	</nav>
 	<nav class="main-nav">
 	<ul class="nav-right ">
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">EN | DE</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Login</a></li>
+			<li ><a href="{{ site.baseurl }}/blog">EN | DE</a></li>
+			<li id="login"><a href="{{ site.baseurl }}/biomass-management">Login</a></li>
+			<li id="logout"><a href="{{ site.baseurl }}/biomass-management">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->

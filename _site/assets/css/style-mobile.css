@@ -10,6 +10,13 @@
 		font-size: 10pt;
 	}
 
+	h2{
+	 margin-top: 3rem;
+    font-size: 1.9rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+	}
+
 	.button {
 		display: block;
 		width: 100%;
@@ -21,7 +28,12 @@
 	}
 
 /* Banner */
-
+#banner header.major{
+	display: none;
+}
+#header{
+	height: 60% !Important;
+}
 	#banner {
 		padding: 0;
 	}

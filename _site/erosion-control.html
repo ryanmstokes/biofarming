@@ -28,6 +28,8 @@ position: absolute;
 		<script src="/assets/js/skel.min.js"></script>
 		<script src="/assets/js/skel-layers.min.js"></script>
 		<script src="/assets/js/init.js"></script>
+		<script src="/assets/js/equalheights.min.js"></script>
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -58,15 +60,15 @@ position: absolute;
 				</ul>
 			</li>
 			<li ><a href="/blog">F.A.Q</a></li>
-			<li ><a href="/blog">Partners</a></li>
-			<li ><a href="/no-sidebar.html">Contact Us</a></li>
+			<li ><a href="/no-sidebar.html">Contact</a></li>
 		</ul>
 		
 	</nav>
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/blog">EN | DE</a></li>
-			<li ><a href="/blog">Login</a></li>
+			<li id="login"><a href="/biomass-management">Login</a></li>
+			<li id="logout"><a href="/biomass-management">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -214,6 +216,8 @@ position: absolute;
 	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
+		$('#login').css('display', 'none');
+		$('#logout').css('display', 'block');
 		console.log('true');
 		$('#password-prompt').hide();
 		$('.user-content').removeClass('hide-user-content');
@@ -225,6 +229,14 @@ position: absolute;
 		//console.log('trueeee');
 		$('.user-content').addClass('hide-user-content');
 	}
+
+	$('#logout a').click(function(event){
+	 event.preventDefault();
+       event.stopPropagation();
+
+	localStorage.setItem('loggedIn', 'false');
+	window.location.href = '/';
+});
 
 	$('#submit-password').click(function(){
 		var username = $('#username').val();
@@ -240,6 +252,8 @@ position: absolute;
 				$('.user-content').delay(1000).removeClass('hide-user-content');
 				$('.user-content').delay(1000).css('opacity', 1);
 				$('.user-content').fadeIn();	
+				$('#login').css('display', 'none');
+				$('#logout').css('display', 'block');
 			
 		}
 

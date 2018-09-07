@@ -28,6 +28,8 @@ position: absolute;
 		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/equalheights.min.js"></script>
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -52,6 +54,8 @@ position: absolute;
 	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
+		$('#login').css('display', 'none');
+		$('#logout').css('display', 'block');
 		console.log('true');
 		$('#password-prompt').hide();
 		$('.user-content').removeClass('hide-user-content');
@@ -63,6 +67,14 @@ position: absolute;
 		//console.log('trueeee');
 		$('.user-content').addClass('hide-user-content');
 	}
+
+	$('#logout a').click(function(event){
+	 event.preventDefault();
+       event.stopPropagation();
+
+	localStorage.setItem('loggedIn', 'false');
+	window.location.href = '/';
+});
 
 	$('#submit-password').click(function(){
 		var username = $('#username').val();
@@ -78,6 +90,8 @@ position: absolute;
 				$('.user-content').delay(1000).removeClass('hide-user-content');
 				$('.user-content').delay(1000).css('opacity', 1);
 				$('.user-content').fadeIn();	
+				$('#login').css('display', 'none');
+				$('#logout').css('display', 'block');
 			
 		}
 

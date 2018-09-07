@@ -28,6 +28,8 @@ position: absolute;
 		<script src="/assets/js/skel.min.js"></script>
 		<script src="/assets/js/skel-layers.min.js"></script>
 		<script src="/assets/js/init.js"></script>
+		<script src="/assets/js/equalheights.min.js"></script>
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -59,15 +61,15 @@ position: absolute;
 				</ul>
 			</li>
 			<li ><a href="/blog">F.A.Q</a></li>
-			<li ><a href="/blog">Partners</a></li>
-			<li ><a href="/no-sidebar.html">Contact Us</a></li>
+			<li ><a href="/no-sidebar.html">Contact</a></li>
 		</ul>
 		
 	</nav>
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/blog">EN | DE</a></li>
-			<li ><a href="/blog">Login</a></li>
+			<li id="login"><a href="/biomass-management">Login</a></li>
+			<li id="logout"><a href="/biomass-management">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -107,6 +109,7 @@ position: absolute;
 
 			</div>
 
+<div class=""></div>
 
 <div class="container text-center">
 			<h2 class="intro">Want to learn how to grow organically?</h2>
@@ -132,6 +135,40 @@ position: absolute;
 						<header class="major">
 							<h2 class="intro">Agricultural Themes</h2>
 							</header>
+							<div class="row">
+										<div class="6u cat">
+											<div class="inner">
+												<div class=" image">
+													<a href="/biomass-management" class="image feature">
+													<img src="/assets/images/cat-1.jpg" alt="">
+												</a>
+												</div>
+												<div class=" description">
+													<div class="cat-title">Biomass Management and composting</div>
+													<p>Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.
+													</p>
+													
+													<div class="cta-wrapper">
+														<a href="/biomass-management" class="more">get started</a></div>
+												</div>
+											</div>
+										</div>
+										<div class="6u cat">
+											<div class="inner">
+												<div class=" image">
+													<a href="/biomass-management" class="image feature"><img src="/assets/images/cat-2.jpg" alt=""></a>
+												</div>
+												<div class=" description">
+													<div class="cat-title">Cover crops and mulch management</div>
+													<p>Cover crops and mulch keep your soil covered and thus maintain it moist and fertile. They also avoid erosion and as leguminous cover crops they feed your soil with extra nitrogen.
+													</p>
+													
+													<div class="cta-wrapper">
+														<a href="/biomass-management" class="more">get started</a></div>
+												</div>
+											</div>
+										</div>
+							</div>
 							<div class="row">
 										<section class="6u cat">
 											<div class="inner">
@@ -245,12 +282,17 @@ position: absolute;
 
 
 	<script>
-
+$(function() {
+	$('.6u.cat .inner').matchHeight({
+		byRow: true,
+    	property: 'height'
+	});
+});
 	// replace image with video and autoplay //
 	$('#videoImg').click(function(){
 			$(this).toggle();
 	    $('#videoPlayer').toggle()
-$('#videoPlayer').trigger('play')
+		$('#videoPlayer').trigger('play')
 	});
 
 	// set banners height and position content with //
