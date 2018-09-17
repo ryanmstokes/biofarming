@@ -35,7 +35,7 @@ html, body, #skel-layers-wrapper{
 		}
 
 	strong, b {
-		font-weight: 700;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -972,7 +972,7 @@ text-align:center;
 
 .cat{
 	margin-bottom: 3em;
-    padding: 2% 0;
+    padding: 2%;
     margin: 0;
 	display: inline-block;
 }

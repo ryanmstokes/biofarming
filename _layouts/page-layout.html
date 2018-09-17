@@ -34,6 +34,7 @@ layout: main
 						</div>
 						<br/>
 						<br/>
+						{% if page.cat-video-url2 %}
 						<p class="sub-title">{{page.paragraph2}}</p>
 						<br/>
 						<div class="video-wrapper">
@@ -42,6 +43,7 @@ layout: main
 								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url2 }}" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
+						{% endif %}
 						<br/>
 						<br/>
 						
@@ -54,11 +56,13 @@ layout: main
 			</div>
 		</div>
 	</div>
-<div class="container wrapper">
+	{% if page.poster %}
+<div class="container wrapper narrower">
 	<strong><p class="strong">{{page.paragraph3}}</p></strong>
 	<br/>
 	<iframe src="{{page.poster}}" class="pdf-embed" frameborder="0"></iframe>
 </div>
+	{% endif %}
 <div class="wrapper style1">
 	<section>													
 						<header class="major">
