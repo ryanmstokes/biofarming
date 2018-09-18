@@ -11,7 +11,7 @@ home-video-description: the <a href="">facts are clear</a>, it pays to grow biol
 home-video-sub-description: Still don't beleive us?
 home-video-cta-title: find out more
 home-triple-title: Agricultural Themes
-home-triple-point1-title: Biomass Management and composting
+home-triple-point1-title: Composting and Biomass Management
 home-triple-point1: Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.
 home-triple-point1-b: Sed vel tellus. Curabitur sem urna, consequat vel!
 home-triple-point2-title: Cover crops and mulch management
@@ -29,9 +29,8 @@ home-triple-point5-b: Sed vel tellus. Curabitur sem urna, consequat vel!
 home-triple-point6-title: Crop rotation and tillage
 home-triple-point6: Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.
 home-triple-point6-b: Sed vel tellus. Curabitur sem urna, consequat vel!
-usp-title: Best practice knowhow for organic agriculture
-usp-sub-title: Improve your agricultural performance - Tailormade courses to help
-  you grow more!
+usp-title: Best practice knowhow for sustainable farming practices
+usp-sub-title: Improve your agricultural performance - Tailormade courses to help you grow more stable and successful!
 usp-sub-point1-title: Energy Efficient Technology
 usp-sub-point2-title: Cloudbased Software
 usp-sub-point3-title: Management Tools

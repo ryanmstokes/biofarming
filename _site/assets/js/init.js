@@ -68,6 +68,16 @@
 				offsetY: -15,
 				hoverDelay: 0
 			});
+				var checkFooter = function(){
+ var windowBottom = window.scrollY + window.innerHeight;
+ var footerBottom = $('#footer').offset().top + $('#footer').outerHeight()
+ if (footerBottom < windowBottom){
+    $('#footer').addClass('sticky');
+ }
+
+
+}
+checkFooter();
 
 	});
 

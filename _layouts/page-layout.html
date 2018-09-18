@@ -7,7 +7,7 @@ layout: main
 			<header class="major">
 							<h2>{{page.title}}</h2>
 						</header>
-			<img src="{{page.banner-img}}"/>
+			<img class="banner-image" src="{{page.banner-img}}"/>
 			<header class="major">
 					<span class="byline">{{page.sub-title}}</span>
 			</header>
@@ -34,6 +34,7 @@ layout: main
 						</div>
 						<br/>
 						<br/>
+						{% if page.cat-video-url2 %}
 						<p class="sub-title">{{page.paragraph2}}</p>
 						<br/>
 						<div class="video-wrapper">
@@ -44,6 +45,7 @@ layout: main
 						</div>
 						<br/>
 						<br/>
+						{% endif %}
 						
 
 					</section>
