@@ -26,7 +26,7 @@ home-triple-point4-b: Sed vel tellus. Curabitur sem urna, consequat vel!
 home-triple-point5-title: Pests & Diseases and biological control
 home-triple-point5: Pests & Diseases are present in most farms worldwide, but with simple measures and practices one can reduce them significantly.<br/><br/>
 home-triple-point5-b: Sed vel tellus. Curabitur sem urna, consequat vel!
-home-triple-point6-title: Crop rotation and tillage
+home-triple-point6-title: Crop Rotation and Tillage
 home-triple-point6: Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.
 home-triple-point6-b: Sed vel tellus. Curabitur sem urna, consequat vel!
 usp-title: Best practice knowhow for sustainable farming practices
