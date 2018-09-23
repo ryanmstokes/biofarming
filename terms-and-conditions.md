@@ -17,5 +17,9 @@ layout: main
 <p>Parts of our website may contain links to third party websites for your convenience and information. When you access a third party website through such link please understand that we do not control the content and are not responsible for the privacy practices of that site even where they may contain Soil & More Impacts B.V. or associated company logos. We suggest that you carefully review the privacy policies of those websites linked from our site. These sites may send their own cookies to users, collect data or solicit personal information.</p>
 <strong>4. Copyright</strong>
 <p>Copyright (c) 2018 Soil & More Impacts B.V. All rights reserved. All copyright and other intellectual property rights in all text, images, sound, software and other materials on this site are owned by Soil & More Impacts B.V or are included with the permission of the relevant owner. You are permitted to browse this site and to reproduce extracts by way of printing, downloading to a hard disk, and by distribution to other people, but in all cases for informational purposes only and provided that the above copyright notice appears in all such reproductions. No reproduction of any part of the site may be sold or distributed for commercial gain nor shall it be modified or incorporated in any other work or publication, whether in hard copy or electronic format, including posting to any other site. No other license or right is granted.</p>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 </div>

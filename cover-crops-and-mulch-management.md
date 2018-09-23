@@ -12,6 +12,7 @@ cat-pdf1: "/assets/posters/Annex-2.i_Cover crops_DV4.pdf"
 cat-pdf1-title: Cover Crops Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Cover Crops Course
-poster: /assets/posters/Annex-2.i_Cover crops_DV4.pdf
+poster: /assets/posters/Poster_Cover-crops-DV5.pdf
 showJS: true
+iframeClass: portrait
 ---

@@ -10,3 +10,12 @@
 		font-size: 12pt;
 		line-height: 1.5em;
 	}
+	.nav-wrap{
+	display: inline-block;
+    width: 100%;
+    background: rgba(255,255,255,1);
+    padding-left: 5%;
+    padding-top: 23px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #dddddd;
+}

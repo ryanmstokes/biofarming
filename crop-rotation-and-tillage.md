@@ -1,7 +1,7 @@
 ---
 title: Crop rotation and tillage
 layout: page-layout
-banner-img: '/assets/images/cover-crops.png'
+banner-img: '/assets/images/Crop_rotation.png'
 sub-title: 'Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.'
 paragraph1: 'See here an excellent animated video on how to select an adequate crop rotation and tillage method and what the benefits are:'
 cat-video-url: https://player.vimeo.com/video/290366032
@@ -14,4 +14,5 @@ cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: 'Cover Crops Course'
 poster: /assets/posters/Annex-2.i_Cover crops_DV4.pdf
 showJS: true
+iframeClass: portrait
 ---
