@@ -19,3 +19,10 @@
     padding-bottom: 11px;
     border-bottom: 1px solid #dddddd;
 }
+
+
+h2{
+	margin-top:4rem;
+	font-size: 2.1rem;
+	font-weight: 300;
+}

@@ -24,12 +24,21 @@
 		font-size: 1.1em;
 	}
 
+	h2{
+		font-size: 1.8rem;
+		 line-height: 2.2rem;
+		  margin-top: 2.2rem;
+	}
+
 /* Layers */
 
 	#titleBar {
 		background: #222833;
 		height: 44px;
 		line-height: 44px;
+	}
+	#titleBar a{
+		color: rgba(35, 57, 91, 0.95);
 	}
 
 		#titleBar .title {
@@ -161,6 +170,10 @@
 
 /* Header */
 
+#header{
+	background-position: center !important;
+	max-height: 400px;
+}
 	.no-sidebar #header, .left-sidebar #header, .right-sidebar #header {
 		display: none;
 	}
