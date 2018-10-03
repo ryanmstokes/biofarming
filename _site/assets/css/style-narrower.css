@@ -39,6 +39,7 @@
 	}
 	#titleBar a{
 		color: rgba(35, 57, 91, 0.95);
+		text-decoration: none;
 	}
 
 		#titleBar .title {

@@ -1,7 +1,7 @@
 ---
 title: Cover crops
 layout: page-layout
-banner-img: /assets/images/cover-crops.png
+banner-img: /assets/images/organic-pest-control.jpg
 sub-title: Cover crops and mulch keep your soil covered and thus maintain it moist and fertile. They also avoid erosion and as leguminous cover crops they feed your soil with extra nitrogen.
 paragraph1: See here an excellent animated video about cover crop and leguminous plant basics; learn about the benefits and on how to do it.
 cat-video-url: https://player.vimeo.com/video/290366167
