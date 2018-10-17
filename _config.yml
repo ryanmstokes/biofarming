@@ -1,6 +1,8 @@
 ---
 title: bio-farming
 timezone: UTC
+include:
+- _redirects
 collections:
   posts:
     title: Posts
@@ -48,10 +50,10 @@ langs:
       microbes-title: Beneificial Microbes
       pest-diseases: biologicial-pests-and-diseases
       pest-diseases-title: Bioological Pest + Disease Control
-      composting: composting-and-biomass-management
-      composting-title: Composting + Biomass Management
-      cover-crops: cover-crops-and-mulch-management
-      cover-crops-title: Cover Crops and Mulch Management
+      composting: gestion-de-biomasa-y-compostaje
+      composting-title: Gestión de biomasa y compostaje
+      cover-crops: cultivos-de-cobertura-y-manejo-de-mantenillo
+      cover-crops-title: Cultivos de cobertura y manejo de mantillo 
       crop-rotation: crop-rotation-and-tillage
       crop-rotation-title: Crop Rotation and Tillage
       erosion-control: erosion-control
