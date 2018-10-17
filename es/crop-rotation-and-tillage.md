@@ -1,5 +1,6 @@
 ---
 title: Crop rotation and tillage
+language: es
 layout: page-layout
 banner-img: '/assets/images/Crop_rotation.png'
 sub-title: 'Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.'

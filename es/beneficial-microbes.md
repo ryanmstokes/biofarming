@@ -1,5 +1,6 @@
 ---
 title: Beneficial Microbes
+language: es
 layout: page-layout
 banner-img: /assets/images/beneficial-microbes.jpg
 sub-title: "The use of Beneficial Microbes and the production of compost starter and compost tea are important practices for a healthy soil life and a good soil fertility."

@@ -1,5 +1,6 @@
 ---
 title: Composting and Biomass Management
+language: en
 layout: page-layout
 banner-img: /assets/images/biomass-management-banner.jpg
 sub-title: Composting and biomass management of crop residues and/or manure are fundamental for nutrient and water-holding capacity and a healthy soil life.

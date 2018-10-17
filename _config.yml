@@ -12,3 +12,51 @@ name: Horizons
 description: Horizons template for Jekyll
 paginate: 10
 baseurl: 
+sass:
+  style: compressed
+url: https://www.tomorrow.one
+langs:
+  en:
+    lang-fragment: en
+    courses-title: Courses
+    contact-title: Contact Us
+    login-title: Login
+    link:
+      microbes: beneficial-microbes
+      microbes-title: Beneificial Microbes
+      pest-diseases: biologicial-pests-and-diseases
+      pest-diseases-title: Bioological Pest + Disease Control
+      composting: composting-and-biomass-management
+      composting-title: Composting + Biomass Management
+      cover-crops: cover-crops-and-mulch-management
+      cover-crops-title: Cover Crops and Mulch Management
+      crop-rotation: crop-rotation-and-tillage
+      crop-rotation-title: Crop Rotation and Tillage
+      erosion-control: erosion-control
+      erosion-control-title: Erosion Control
+      impressum: impressum
+      impressum-title: Impressum
+      terms-and-conditions: terms-and-conditions
+      terms-and-conditions-title: Terms and Conditions
+  es:
+    lang-fragment: es
+    courses-title: Cursos
+    contact-title: Contactanos
+    login: iniciar sesión
+    link:
+      microbes: beneficial-microbes
+      microbes-title: Beneificial Microbes
+      pest-diseases: biologicial-pests-and-diseases
+      pest-diseases-title: Bioological Pest + Disease Control
+      composting: composting-and-biomass-management
+      composting-title: Composting + Biomass Management
+      cover-crops: cover-crops-and-mulch-management
+      cover-crops-title: Cover Crops and Mulch Management
+      crop-rotation: crop-rotation-and-tillage
+      crop-rotation-title: Crop Rotation and Tillage
+      erosion-control: erosion-control
+      erosion-control-title: Erosion Control
+      impressum: impressum
+      impressum-title: Impressum
+      terms-and-conditions: terms-and-conditions
+      terms-and-conditions-title: Terms and Conditions

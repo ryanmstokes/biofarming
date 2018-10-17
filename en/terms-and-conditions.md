@@ -1,5 +1,6 @@
 ---
 title: Terms and Conditions
+language: en
 layout: main
 ---
 <div class="container">

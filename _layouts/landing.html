@@ -43,13 +43,13 @@ layout: default
 <div class=""></div>
 
 <div class="container text-center">
-			<h2 class="intro">Want to learn how to grow sustainable and succesful?</h2>
+			<h2 class="intro">{{page.intro-title}}</h2>
 	<div class="text-block-wrap">
 		<div class="text-block">
 		
-		<h1 >bestpractice.farm helps all farmers using effective and efficient methods to manage their crops in an organic and sustainable way</h1>
+		<h1>{{page.intro-description}}</h1>
 
-		<p>Sign up for 6 agricultural courses and themes about sustainable farming management and benefit from explaining videos, demonstrations of real farmers, posters and many more on how to use sustainable practices on your farm!</p>
+		<p>{{page.intro-desc2}}</p>
 		<br/>
 		<br/>
 		<br/>
@@ -64,19 +64,19 @@ layout: default
 				<div class="wrapper style1 center">
 					<section class="container courses">
 						<header class="major">
-							<h2 class="intro">{{ page.home-triple-title }}</h2>
+							<h2 class="intro">{{ page.agricultural-themes-title }}</h2>
 							</header>
 							<div class="row">
 										<div class="6u cat">
 											<div class="inner">
 												<div class=" image">
 													<a href="/composting-and-biomass-management" class="image feature">
-													<img src="{{ site.baseurl }}/assets/images/biomass-management-banner-small.jpg" alt="">
+													<img src="/assets/images/{{page.agricultural-image-1}}" alt="">
 												</a>
 												</div>
 												<div class=" description">
-													<div class="cat-title">{{ page.home-triple-point1-title }}</div>
-													<p>{{ page.home-triple-point1 }}
+													<div class="cat-title">{{ page.agricultural-theme-1-title }}</div>
+													<p>{{ page.agricultural-theme-1-description }}
 													</p>
 													
 													<div class="cta-wrapper">
@@ -87,15 +87,16 @@ layout: default
 										<div class="6u cat">
 											<div class="inner">
 												<div class=" image">
-													<a href="/cover-crops-and-mulch-management" class="image feature"><img src="{{ site.baseurl }}/assets/images/organic-pest-control-small.jpg" alt=""></a>
+													<a href="/cover-crops-and-mulch-management" class="image feature">
+													<img src="/assets/images/{{page.agricultural-image-2}}" alt=""></a>
 												</div>
 												<div class=" description">
-													<div class="cat-title">{{ page.home-triple-point2-title }}</div>
-													<p>{{ page.home-triple-point2 }}
+													<div class="cat-title">{{ page.agricultural-theme-2-title }}</div>
+													<p>{{ page.agricultural-theme-2-description }}
 													</p>
 													
 													<div class="cta-wrapper">
-														<a href="/cover-crops-and-mulch-management" class="more">{{ page.home-cta-title }}</a></div>
+													<a href="/cover-crops-and-mulch-management" class="more">{{ page.home-cta-title }}</a></div>
 												</div>
 											</div>
 										</div>
@@ -104,11 +105,12 @@ layout: default
 										<section class="6u cat">
 											<div class="inner">
 											<div class=" image">
-												<a href="/beneficial-microbes" class="image feature"><img src="{{ site.baseurl }}/assets/images/cat-3.jpg" alt=""></a>
+												<a href="/beneficial-microbes" class="image feature">
+												<img src="/assets/images/{{page.agricultural-image-3}}" alt=""></a>
 											</div>
 											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point3-title }}</div>
-												<p>{{ page.home-triple-point3 }}
+												<div class="cat-title">{{ page.agricultural-theme-3-title }}</div>
+												<p>{{ page.agricultural-theme-3-description }}
 												</p>
 												
 												
@@ -120,11 +122,13 @@ layout: default
 										<section class="6u cat">
 											<div class="inner">
 											<div class=" image">
-												<a href="/erosion-control" class="image feature"><img src="{{ site.baseurl }}/assets/images/erosion-control-small.jpg" alt=""></a>
+												<a href="/erosion-control" class="image feature">
+												<img src="/assets/images/{{page.agricultural-image-4}}" alt="">
+											</a>
 											</div>
 											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point4-title }}</div>
-												<p>{{ page.home-triple-point4 }}
+												<div class="cat-title">{{ page.agricultural-theme-4-title }}</div>
+												<p>{{ page.agricultural-theme-4-description }}
 												</p>
 																								<div class="cta-wrapper">
 													<a href="/erosion-control" class="more">{{ page.home-cta-title }}</a></div>
@@ -137,11 +141,12 @@ layout: default
 											<div class="inner">
 
 											<div class=" image">
-												<a href="/biological-pest-and-disease-control" class="image feature"><img src="{{ site.baseurl }}/assets/images/pests-and-diseases-small.jpg" alt=""></a>
+												<a href="/biological-pest-and-disease-control" class="image feature">
+												<img src="/assets/images/{{page.agricultural-image-5}}" alt=""></a>
 											</div>
 											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point5-title }}</div>
-												<p>{{ page.home-triple-point5 }}
+												<div class="cat-title">{{ page.agricultural-theme-5-title }}</div>
+												<p>{{ page.agricultural-theme-5-description }}
 												</p>
 												
 												
@@ -154,11 +159,12 @@ layout: default
 											<div class="inner">
 
 											<div class=" image">
-												<a href="/crop-rotation-and-tileage" class="image feature"><img src="{{ site.baseurl }}/assets/images/crop-rotation-and-tillage-small.jpg" alt=""></a>
+												<a href="/crop-rotation-and-tileage" class="image feature">
+												<img src="/assets/images/{{page.agricultural-image-6}}" alt=""></a>
 											</div>
 											<div class=" description">
-												<div class="cat-title">{{ page.home-triple-point6-title }}</div>
-												<p>{{ page.home-triple-point6 }}
+												<div class="cat-title">{{ page.agricultural-theme-6-title }}</div>
+												<p>{{ page.agricultural-theme-6-description }}
 												</p>
 												
 												

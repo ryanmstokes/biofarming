@@ -1,5 +1,6 @@
 ---
 title: Impressum
+language: es
 layout: main
 ---
 <div class="container">

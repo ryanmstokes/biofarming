@@ -1,5 +1,6 @@
 ---
 title: Cover crops
+language: en
 layout: page-layout
 banner-img: /assets/images/organic-pest-control.jpg
 sub-title: Cover crops and mulch keep your soil covered and thus maintain it moist and fertile. They also avoid erosion and as leguminous cover crops they feed your soil with extra nitrogen.

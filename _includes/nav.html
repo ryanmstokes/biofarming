@@ -11,29 +11,51 @@
 			<!--<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a class="home-btn" href="{{ site.baseurl }}/index.html"><i class="fa fa-home"></i></a></li>-->
 			<!--<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">About Us</a></li>-->
 			<li>
-				<a href="">Courses</a>
+				<a href="">{{site.langs[page.language].courses-title}}</a>
 				<ul>
-					<li><a href="{{ site.baseurl }}/composting-and-biomass-management">Composting + Biomass Management</a></li>
-					<li><a href="{{ site.baseurl }}/cover-crops-and-mulch-management">Cover Crops</a></li>
-					<li><a href="{{ site.baseurl }}/beneficial-microbes">Beneficial Microbes</a></li>
 					<li>
-						<a href="{{ site.baseurl }}/erosion-control">Erosion Control</a>
-
+						<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.composting}}">			{{site.langs[page.language].link.composting-title}}
+						</a>
 					</li>
-					<li><a href="{{ site.baseurl }}/biological-pest-and-disease-control">Bioological pest + disease control</a></li>
-					<li><a href="{{ site.baseurl }}/crop-rotation-and-tillage">Crop Rotation and Tillage</a></li>
+					<li>
+						<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.cover-crops}}">
+							{{site.langs[page.language].link.cover-crops-title}}
+						</a>
+					</li>
+					<li><a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.microbes}}">
+						{{site.langs[page.language].link.microbes-title}}
+						</a>
+					</li>
+					<li>
+						<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.erosion-control}}">	{{site.langs[page.language].link.erosion-control-title}}
+						</a>
+					</li>
+					<li>
+						<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.pest-diseases}}">{{site.langs[page.language].link.pest-diseases-title}}
+						</a>
+					</li>
+					<li>
+						<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.crop-rotation}}">
+							{{site.langs[page.language].link.crop-rotation-title}}
+						</a>
+					</li>
 
 				</ul>
 			</li>
 			<!--<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">F.A.Q</a></li>-->
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/contact-us.html">Contact</a></li>
+			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}>
+				<a href="{{ site.baseurl }}/contact-us.html">
+					{{site.langs[page.language].contact-title}}
+				</a>
+			</li>
 		</ul>
 		
 	</nav>
 	<nav class="main-nav">
 	<ul class="nav-right ">
-			<!--<li ><a href="{{ site.baseurl }}/blog">EN | DE</a></li>-->
-			<li id="login"><a href="{{ site.baseurl }}/composting-and-biomass-management">Login</a></li>
+			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
+			<li id="login"><a href="{{ site.baseurl }}/composting-and-biomass-management">
+			{{site.langs[page.language].login-title}}</a></li>
 			<li id="logout"><a href="{{ site.baseurl }}/">Logout</a></li>
 		</ul>
 	</nav>
