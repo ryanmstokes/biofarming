@@ -1,7 +1,7 @@
 <div class="nav-wrap">
 					<!-- Logo -->
 						<h1 class="logo">
-						<a href="/" id="logo">bestpractice<span class="highlight">.farm</span></a>
+						<a href="/{{site.langs[page.language].lang-fragment}}" id="logo">bestpractice<span class="highlight">.farm</span></a>
 						</h1>
 						
 				
@@ -44,7 +44,7 @@
 			</li>
 			<!--<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">F.A.Q</a></li>-->
 			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}>
-				<a href="{{ site.baseurl }}/contact-us.html">
+				<a href="/{{site.langs[page.language].lang-fragment}}/contact-us.html">
 					{{site.langs[page.language].contact-title}}
 				</a>
 			</li>

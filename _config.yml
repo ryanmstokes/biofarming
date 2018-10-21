@@ -46,18 +46,18 @@ langs:
     contact-title: Contactanos
     login: iniciar sesión
     link:
-      microbes: beneficial-microbes
-      microbes-title: Beneificial Microbes
-      pest-diseases: biologicial-pests-and-diseases
-      pest-diseases-title: Bioological Pest + Disease Control
+      microbes: microbios-beneficiosos
+      microbes-title: Microbios beneficiosos
+      pest-diseases: plagas-y-enfermedades-y-control-biologico
+      pest-diseases-title: Plagas y enfermedades y control biológico
       composting: gestion-de-biomasa-y-compostaje
       composting-title: Gestión de biomasa y compostaje
       cover-crops: cultivos-de-cobertura-y-manejo-de-mantenillo
       cover-crops-title: Cultivos de cobertura y manejo de mantillo 
-      crop-rotation: crop-rotation-and-tillage
-      crop-rotation-title: Crop Rotation and Tillage
-      erosion-control: erosion-control
-      erosion-control-title: Erosion Control
+      crop-rotation: rotatacion-de-cultivos-y-labranza-de-conservacion
+      crop-rotation-title: Rotación de cultivos y labranza de conservación
+      erosion-control: control-de-erosion
+      erosion-control-title: Control de la erosión
       impressum: impressum
       impressum-title: Impressum
       terms-and-conditions: terms-and-conditions
