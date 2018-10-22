@@ -1,15 +1,15 @@
 ---
-title: Biological Pest and Disease Control
+title: Plagas y enfermedades y control biológico
 language: es
 layout: page-layout
-banner-img: /assets/images/pests-and-diseases.jpg
-sub-title: Pests & Diseases are present in most farms worldwide, but with simple measures and practices one can reduce them significantly.  
-paragraph1: "See here an excellent animated video on how to detect pests & diseases and also different options to control pests & diseases without using pesticides:"
+banner-img: /assets/images/agricultural-themes/image5.jpg
+sub-title: Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente. 
+paragraph1: "Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente."
 cat-video-url: https://player.vimeo.com/video/290380684
-paragraph2: "See here a real-life farm video on how a real farmer protects his crop from pests & diseases using various organic possibilities:" 
+paragraph2: "Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente." 
 cat-video-url2:
-paragraph3: "The following poster shows all relevant facts in detail. Have a look at it:"
-cat-pdf1: "/assets/posters/Poster_Pest-control-DV6_FV.pdf"
+paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
+cat-pdf1: /assets/posters/Poster_Pest-control-DV6_FV.pdf
 cat-pdf1-title: Pest Control
 cat-pdf2: "/assets/posters/Pruning-DV2.pdf"
 cat-pdf2-title: Pruning Course

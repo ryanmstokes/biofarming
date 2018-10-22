@@ -56,11 +56,14 @@ layout: main
 			</div>
 		</div>
 	</div>
+{% if page.poster %}
 <div class="container wrapper">
 	<strong><p class="strong">{{page.paragraph3}}</p></strong>
 	<br/>
 	<iframe src="{{page.poster}}" class="pdf-embed {{page.iframeClass}}" frameborder="0"></iframe>
 </div>
+{% endif %}
+{% if page.cat-pdf1} %}
 <div class="wrapper style1">
 	<section>													
 						<header class="major">
@@ -79,7 +82,7 @@ layout: main
 	</div>
 
 	</div>
-
+{% endif %}
 </div>
 
 

@@ -1,15 +1,15 @@
 ---
-title: Cover crops
+title: Cultivos de cobertura y manejo de mantillo
 language: es
 layout: page-layout
-banner-img: /assets/images/organic-pest-control.jpg
-sub-title: Cover crops and mulch keep your soil covered and thus maintain it moist and fertile. They also avoid erosion and as leguminous cover crops they feed your soil with extra nitrogen.
-paragraph1: See here an excellent animated video about cover crop and leguminous plant basics; learn about the benefits and on how to do it.
+banner-img: /assets/images/agricultural-themes/image2.jpg
+sub-title: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y, por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
+paragraph1: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y, por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
 cat-video-url: https://player.vimeo.com/video/290366167
-paragraph2: See here a real-life farm video on how a real farmer uses cover crops and mulch management to improve the soil fertility and protection of his farmland.
+paragraph2: Véase aquí un video sobre cómo un agricultor real utiliza los cultivos de cobertura y el manejo de mantillo para mejorar la fertilidad del suelo y la protección de sus tierras de cultivo.
 cat-video-url2: 
-paragraph3: See here a real-life farm video on how a real farmer uses cover crops and mulch management to improve the soil fertility and protection of his farmland.
-cat-pdf1: "/assets/posters/Annex-2.i_Cover crops_DV4.pdf"
+paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
+cat-pdf1: /assets/posters/Annex-2.i_Cover crops_DV4.pdf
 cat-pdf1-title: Cover Crops Guidelines
 cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
 cat-pdf2-title: Cover Crops Course
