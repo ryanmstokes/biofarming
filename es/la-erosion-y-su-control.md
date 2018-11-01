@@ -9,11 +9,11 @@ cat-video-url: https://player.vimeo.com/video/290365920
 paragraph2: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua:"
 cat-video-url2:
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
-cat-pdf1: /assets/posters/Poster_Erosion-DV3.pdf
-cat-pdf1-title: Erosion Control Guidelines
-cat-pdf2: "/assets/posters/Annex-2.j_Erosion_Summary_DV3.pdf"
-cat-pdf2-title: Erosion Summary
-poster: /assets/posters/Poster_Erosion-DV3.pdf
+cat-pdf1: /assets/posters/es/Poster_Erosion-DV3.pdf
+cat-pdf1-title: Poster Erosion
+cat-pdf2: 
+cat-pdf2-title: 
+poster: /assets/posters/es/Poster_Erosion_ES_FV.pdf
 showJS: true
 iframeClass: portrait
 ---
