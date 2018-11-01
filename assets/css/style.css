@@ -809,6 +809,10 @@ text-align:center;
 .downloads   i{
 	margin-right:10px;
 }
+.downloads a{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
 /* Banner */
 
 	#banner {
