@@ -20,7 +20,7 @@ agricultural-theme-2-title: Cover crops and mulch management
 agricultural-theme-2-description: Cover crops and mulch keep your soil covered and thus maintain it moist and fertile. They also avoid erosion and as leguminous cover crops they feed your soil with extra nitrogen.
 agricultural-theme-3-link: beneficial-microbes
 agricultural-image-3: image3.jpg
-agricultural-theme-3-title: Beneficial microbes
+agricultural-theme-3-title: Production of compost tea, beneficial microbes
 agricultural-theme-3-description: The use of Beneficial Microbes and the production of compost starter and compost tea are important practices for a healthy soil life and a good soil fertility.
 agricultural-theme-4-link: erosion-control
 agricultural-image-4: image4.jpg

@@ -40,6 +40,8 @@ langs:
       impressum-title: Impressum
       terms-and-conditions: terms-and-conditions
       terms-and-conditions-title: Terms and Conditions
+      privacy: privacy-policy.pdf
+      privacy-title: Privacy
   es:
     lang-fragment: es
     courses-title: Cursos
@@ -60,5 +62,7 @@ langs:
       erosion-control-title: Control de la erosión
       impressum: impressum
       impressum-title: Impressum
-      terms-and-conditions: terms-and-conditions
-      terms-and-conditions-title: Terms and Conditions
+      terms-and-conditions: terminos-y-conditiones
+      terms-and-conditions-title: Términos y Condiciones
+      privacy: politica-de-privacidad.pdf
+      privacy-title: Política de Privacidad
