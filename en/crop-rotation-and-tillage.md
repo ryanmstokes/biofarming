@@ -1,5 +1,5 @@
 ---
-title: Crop rotation and tillage
+title: Crop Rotation and Tillage
 language: en
 layout: page-layout
 banner-img: '/assets/images/agricultural-themes/image6.jpg'

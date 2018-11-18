@@ -1,5 +1,5 @@
 ---
-title: Cultivos de cobertura y manejo de mantillo
+title: Cultivos de Cobertura y Manejo de Mantillo
 language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image2.jpg
@@ -9,11 +9,11 @@ cat-video-url: https://player.vimeo.com/video/295478447
 paragraph2: Véase aquí un video sobre cómo un agricultor real utiliza los cultivos de cobertura y el manejo de mantillo para mejorar la fertilidad del suelo y la protección de sus tierras de cultivo.
 cat-video-url2: 
 paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
-cat-pdf1: /assets/posters/Annex-2.i_Cover crops_DV4.pdf
+cat-pdf1: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
 cat-pdf1-title: Cover Crops Guidelines
-cat-pdf2: "/assets/AdobeIntroToScripting.pdf"
-cat-pdf2-title: Cover Crops Course
-poster: /assets/posters/es/Poster_Cover-crops-DV5.pdf
+cat-pdf2: 
+cat-pdf2-title: 
+poster: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
 showJS: true
 iframeClass: portrait
 ---

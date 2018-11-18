@@ -72,7 +72,7 @@
  var windowBottom = window.scrollY + window.innerHeight;
  var footerBottom = $('#footer').offset().top + $('#footer').outerHeight()
  if (footerBottom < windowBottom){
-    $('#footer').addClass('sticky');
+    //$('#footer').addClass('sticky');
  }
 
 

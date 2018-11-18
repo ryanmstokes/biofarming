@@ -1,5 +1,5 @@
 ---
-title: Plagas y enfermedades y control biológico
+title: Plagas y Enfermedades y Control Biológico
 language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image5.jpg

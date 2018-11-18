@@ -1,5 +1,5 @@
 ---
-title: Rotación de cultivos y labranza de conservación
+title: Rotación de Cultivos y Labranza de Conservación
 language: es
 layout: page-layout
 banner-img: '/assets/images/Crop_rotation.png'

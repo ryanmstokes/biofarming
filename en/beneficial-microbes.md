@@ -1,5 +1,5 @@
 ---
-title: Production of compost tea, beneficial microbes
+title: Production of Compost Tea, Beneficial Microbes
 language: en
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image3.jpg

@@ -1,5 +1,5 @@
 ---
-title: Cover crops
+title: Cover Crops
 language: en
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image2.jpg
