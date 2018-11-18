@@ -17,7 +17,7 @@ layout: default
 										<div class="byline hero">
 											<h1 class="hero-title">{{page.usp-title}}</h1>
 											<p class="desc">{{ page.usp-sub-title }}</p>
-											<a class="more">Find Out More</a>
+											<a href="#more-info" class="more">Find Out More</a>
 										</div>
 									</header>
 							<!--
@@ -60,7 +60,7 @@ layout: default
 
 			<!-- Main -->
 			<!-- Featured -->
-				<div class="wrapper style1 center">
+				<div id="more-info" class="wrapper style1 center">
 					<section class="container courses">
 						<header class="major">
 							<h2 class="intro">{{ page.agricultural-themes-title }}</h2>
@@ -195,7 +195,7 @@ $(function() {
 		byRow: true,
     	property: 'height'
 	});
-	
+
 });
 	// replace image with video and autoplay //
 	$('#videoImg').click(function(){
