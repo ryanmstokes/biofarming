@@ -13,7 +13,7 @@ cat-pdf1: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
 cat-pdf1-title: Compostaje Starter
 cat-pdf2: "/assets/posters/es/1-Pager_Compost-Tea_ES_FV.pdf"
 cat-pdf2-title: Te de compostaje
-poster: /assets/posters/Poster_Disease-control-DV4.pdf
+poster: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
 showJS: true
 iframeClass: portrait
 ---
