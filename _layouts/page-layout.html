@@ -71,7 +71,10 @@ layout: main
 						</header>
 						<ul class="downloads">
 							<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
-							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>{{page.cat-pdf2-title}}</a></li>			
+							{% if page.cat-pdf2 %}
+							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>
+							{{page.cat-pdf2-title}}</a></li>	
+							{% endif %}		
 							{% if page.cat-pdf3 %}
 							<li><a href="{{page.cat-pdf3}}"><i class="fa fa-download"></i>{{page.cat-pdf3-title}}</a></li>
 							{% endif %}
