@@ -39,7 +39,7 @@
 							{{site.langs[page.language].link.crop-rotation-title}}
 						</a>
 					</li>
-
+					<li ><div class="languages"><a href="/en">EN</a> | <a href="/es">ES</a></div></li>
 				</ul>
 			</li>
 			<!--<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">F.A.Q</a></li>-->
@@ -54,9 +54,9 @@
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login"><a href="{{ site.baseurl }}/composting-and-biomass-management">
+			<li id="login"><a href="/{{site.langs[page.language].lang-fragment}}/composting-and-biomass-management">
 			{{site.langs[page.language].login-title}}</a></li>
-			<li id="logout"><a href="{{ site.baseurl }}/">Logout</a></li>
+			<li id="logout"><a href="/">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->

@@ -4,9 +4,9 @@ language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image4.jpg
 sub-title: La erosión del suelo a través del viento o del agua degrada fuertemente la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que uno puede hacer al respecto.
-paragraph1: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua:"
+paragraph1: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua."
 cat-video-url: https://player.vimeo.com/video/301492468
-paragraph2: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua:"
+paragraph2: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua."
 cat-video-url2:
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/Poster_Erosion-DV3.pdf

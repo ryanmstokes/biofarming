@@ -61,3 +61,10 @@
 	#footer .major h2 {
 		font-size: 1.5em;
 	}
+
+
+
+	.downloads a{
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+}

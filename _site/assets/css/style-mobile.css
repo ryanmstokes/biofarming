@@ -15,6 +15,8 @@
     font-size: 1.9rem;
     font-weight: 300;
     line-height: 2.2rem;
+    width: 80%;
+    margin-left: 10%;
 	}
 
 	.button {
@@ -27,9 +29,16 @@
 		height: 2.75em;
 	}
 
+.downloads a{
+    font-size: 1.2rem;
+    margin-bottom: 0.6em;
+}
 /* Banner */
 #banner header.major{
 	display: none;
+}
+.banner-image{
+margin-top: 0.3em;
 }
 #header{
 	height: 60% !Important;
@@ -57,6 +66,7 @@
 .topic header .byline{
 	padding-top: 0;
 	margin-top: 0.5rem;
+	text-align:left;
 }
 
 .topic #main{
@@ -64,9 +74,10 @@
 }
 
 .topic .sub-title{
-	    line-height: 1.9rem;
-	        font-weight: 400;
+	line-height: 1.9rem;
+	font-weight: 400;
     font-size: 1.1rem;
+    text-align: left;
 }
 
 
@@ -75,9 +86,11 @@
 	height: 400px;
 }
 
-.wrapper{
-	margin: 1rem 0;
+.pdf-embed.portrait{
+	width: 100%;
+	height: 600px;
 }
+
 
 #password-prompt{
 	width: 85%;

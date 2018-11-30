@@ -11,7 +11,7 @@ cat-video-url2:
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/Poster_Pest_control_ES_FV.pdf
 cat-pdf1-title: Pest Control
-cat-pdf2: "/assets/posters/es/Poster_Disease_control_ES_FV.pdf
+cat-pdf2: /assets/posters/es/Poster_Disease_control_ES_FV.pdf
 cat-pdf2-title: Disease Control
 cat-pdf3: /assets/posters/es/Poster_Pruning_ES_FV.pdf
 cat-pdf3-title: Pruning
