@@ -985,6 +985,12 @@ h2{
 	line-height: 2.5rem;
 }
 
+
+/* Quiz */
+.quiz-title{
+    position: relative;
+    z-index: 99;
+}
 /* Category Page Banner */
 
 

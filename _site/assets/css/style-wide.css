@@ -72,3 +72,12 @@ max-width: 750px;
     display: block;
     margin: 0 auto;
 }
+
+.typeform-widget{
+	width:80%;
+	display: block;
+	margin: 0 auto;
+	maxwidth:950px;
+	position: relative;
+	overflow: hidden;
+}
