@@ -36,7 +36,7 @@ layout: main
 						<br/>
 						{% if page.cat-video-url2 %}
 
-						<p class="sub-title">{{page.paragraph2}}</p>
+						<p class="strong">{{page.paragraph2}}</p>
 						<br/>
 						<div class="video-wrapper">
 						<div class="video-container">
@@ -47,6 +47,10 @@ layout: main
 						<br/>
 						<br/>
 						{% endif %}
+						{% if  page.cat-video-url2 == empty  %}
+						<img src="/assets/images/placeholder.jpg"/>
+						{% endif %}
+
 						
 
 					</section>

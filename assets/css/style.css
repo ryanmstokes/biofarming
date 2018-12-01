@@ -235,14 +235,10 @@ p.strong{
 				width: 100%;
 			}
 
-		.image.feature {
-			display: block;
-			margin: 0 0 2em 0;
-		}
+		
 
 			.image.feature img {
-				width: 100%;
-    max-width: 320px;
+				
     display: inline-block;
     border-radius: 100%;
 			}
