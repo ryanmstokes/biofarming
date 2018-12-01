@@ -510,6 +510,14 @@ a.more::after {
 		background: #f9f9f9;
 	}
 
+.inline-block{
+display: inline-block;
+	}
+
+.centerit{
+	display: block;
+	margin: 0 auto;
+}
 	
 
 .wrapper.style1.center {
@@ -992,7 +1000,12 @@ h2{
     z-index: 99;
 }
 /* Category Page Banner */
-
+div[data-qa="popup-mode-popup"]{
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
 /* Main */
 
