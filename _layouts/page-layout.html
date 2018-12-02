@@ -46,9 +46,10 @@ layout: main
 						</div>
 						<br/>
 						<br/>
-						{% endif %}
-						{% if  page.cat-video-url2 == empty  %}
-						<img src="/assets/images/placeholder.jpg"/>
+						{% else %}
+						<p class="strong">{{site.placeholder-title}}</p>
+						<br/>
+						<img class="video-wrapper" src="/assets/images/placeholder.jpg"/>
 						{% endif %}
 
 						

@@ -17,6 +17,7 @@ baseurl:
 sass:
   style: compressed
 url: https://www.tomorrow.one
+placeholder-title: placeholder
 langs:
   en:
     lang-fragment: en
