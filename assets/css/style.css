@@ -519,6 +519,9 @@ display: inline-block;
 	margin: 0 auto;
 }
 	
+	iframe .form{
+		display: inline !important;
+	}
 
 .wrapper.style1.center {
 text-align:center;

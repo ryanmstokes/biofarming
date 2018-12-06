@@ -1,5 +1,5 @@
 ---
-title: Microbios Beneficiosos
+title: Producción de té de compost, microbios beneficiosos
 language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image3.jpg

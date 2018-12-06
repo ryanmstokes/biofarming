@@ -9,15 +9,15 @@ intro-title: ¿Quieres aprender a cultivar de forma sostenible y exitosa?
 intro-desc: bestpractice.farm ayuda a todos los agricultores a usar métodos efectivos y eficientes para administrar sus cultivos de una manera orgánica y sostenible.
 intro-desc2: ¡Inscríbase en 6 cursos y temas agrícolas sobre gestión agrícola sostenible y benefíciese de videos explicativos, demostraciones de agricultores reales, pósteres y mucho más sobre cómo usar prácticas sostenibles en su granja!
 agricultural-themes-title: Temas Agricolas
-agricultural-theme-1-link: gestion-de-biomasa-y-compostajes
+agricultural-theme-1-link: compostaje-y-manejo-de-la-biomasa
 agricultural-image-1: image1.jpg
-agricultural-theme-1-title: Gestión de Biomasa y Compostajes
+agricultural-theme-1-title: Compostajes y Manejo de la biomasa
 agricultural-theme-1-description: El compostaje y el manejo de la biomasa de residuos de cultivos y/o estiércol son fundamentales para la capacidad de retención de nutrientes y agua y para una vida saludable en el suelo.
 agricultural-theme-2-link: cultivos-de-cobertura-y-manejo-de-mantillo
 agricultural-theme-2-title: Cultivos de Cobertura y Manejo de Mantillo 
 agricultural-image-2: image2.jpg
 agricultural-theme-2-description: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y, por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
-agricultural-theme-3-title: Microbios Beneficiosos.
+agricultural-theme-3-title: Producción de té de compost, microbios beneficiosos
 agricultural-theme-3-link: microbios-beneficiosos
 agricultural-image-3: image3.jpg
 agricultural-theme-3-description: El uso de microbios beneficiosos y la producción de compost starter y de té de compost son prácticas importantes para una vida saludable en el suelo y una buena fertilidad del suelo.
