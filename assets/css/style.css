@@ -65,7 +65,7 @@ p.strong{
 #footer.down{
 	position: absolute;
 	bottom: 0;
-	display: block;
+	
 	margin: 0 auto;
 	left: 50%;
 	transform: translate(-50%);

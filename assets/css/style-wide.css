@@ -20,7 +20,9 @@
     border-bottom: 1px solid #dddddd;
 }
 
-
+#footer.down{
+	display: block;
+}
 h2{
 	margin-top:4rem;
 	font-size: 2.1rem;
