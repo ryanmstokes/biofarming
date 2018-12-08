@@ -20,6 +20,10 @@
     padding-bottom: 5px;
 }
 
+.footer-wrap{
+	width:100%;
+}
+
 #footer.down{
 	display: block;
 }
@@ -85,7 +89,7 @@ max-width: 750px;
 	width:80%;
 	display: block;
 	margin: 0 auto;
-	maxwidth:950px;
+	max-width:950px;
 	position: relative;
 	overflow: hidden;
 }

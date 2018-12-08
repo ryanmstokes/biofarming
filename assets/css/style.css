@@ -74,7 +74,10 @@ p.strong{
 	transform: translate(-50%);
 }
 
-
+.typeform-widget{
+	height: 115% !important;
+	margin-top: -10%;
+}
 #skel-layers-inactiveWrapper{
 		display: none !important;
 	}
@@ -662,7 +665,10 @@ text-align:center;
 .dropotron .languages{
 	display: none;
 }
-
+.nav{
+	    position: relative;
+    z-index: 99999;
+}
 .nav-right{
 	float:right;
 	margin-right: 7%;
