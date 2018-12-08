@@ -30,7 +30,11 @@ p{
 		line-height: 2.75em;
 		height: 2.75em;
 	}
+#header{
+			background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
 
+background-size: cover;
+}
 .downloads a{
     font-size: 1.2rem;
     margin-bottom: 0.6em;

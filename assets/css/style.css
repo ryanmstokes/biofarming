@@ -552,9 +552,8 @@ text-align:center;
 
 
 	#header {
-		background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8fc800+0,8fc800+100;Green+Flat+%232 */
-		background-size: cover;
+		
 		color: black;
 		padding: 3em 0 2em 0;
 		text-align: center;
@@ -817,7 +816,6 @@ text-align:center;
 		padding:0;
 		position: absolute;
     	bottom: 9%;
-    	left: 3%;
 	}
 	#videoPlayer{
 		display:none;
