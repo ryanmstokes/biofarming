@@ -16,6 +16,7 @@ cat-pdf2-title: Pruning Course
 cat-pdf3: /assets/posters/Poster_Disease-control-DV4.pdf
 cat-pdf3-title: Disease Control
 poster: /assets/posters/Poster_Pest-control-DV6_FV.pdf
+quiz-url: /quiz-composting-and-biomass-management
 showJS: true
 iframeClass: portrait
 ---

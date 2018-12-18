@@ -103,8 +103,8 @@ layout: main
 						</header>
 
 
-		{% if page.typeform %}
-		<a class="typeform-share button" href="/{{site.langs[page.language].lang-fragment}}/quiz" >Start Quiz</a> 
+		{% if page.quiz-url %}
+		<a class="typeform-share button" href="/{{site.langs[page.language].lang-fragment}}/{{page.quiz-url}}" >Start Quiz</a> 
 		{% else %}
 		Coming Soon
 		{% endif %}
