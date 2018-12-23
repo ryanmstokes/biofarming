@@ -93,3 +93,9 @@ max-width: 750px;
 	position: relative;
 	overflow: hidden;
 }
+
+#quiz{
+	margin: 0 auto;
+	display: block;
+	margin-top: -4rem;
+}
