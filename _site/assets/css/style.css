@@ -1009,6 +1009,12 @@ h2{
 
 
 /* Quiz */
+
+#quiz{
+	margin: 0 auto;
+	display: block;
+	margin-top: -4rem;
+}
 .quiz-title{
     position: relative;
     z-index: 99;
