@@ -666,7 +666,8 @@ text-align:center;
 	display: none;
 }
 .nav{
-	    position: relative;
+	background: white;
+	position: relative;
     z-index: 99999;
 }
 .nav-right{
