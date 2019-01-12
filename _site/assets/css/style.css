@@ -565,7 +565,6 @@ text-align:center;
 		padding: 3em 0 2em 0;
 		text-align: center;
 		position: relative;
-		height:79% !important;
 
 	
 	}
@@ -666,9 +665,9 @@ text-align:center;
 	display: none;
 }
 .nav{
-	background: white;
 	position: relative;
-    z-index: 99999;
+	z-index: 99999;
+	background: white;
 }
 .nav-right{
 	float:right;
@@ -977,7 +976,7 @@ text-align:center;
 }
 .cat-title{
 	font-size: 18pt;
-	font-weight:600;
+	font-weight:400;
 	margin-bottom:0.6em;
 	line-height: 2.2rem;
 }
@@ -1010,12 +1009,6 @@ h2{
 
 
 /* Quiz */
-
-#quiz{
-	margin: 0 auto;
-	display: block;
-	margin-top: -4rem;
-}
 .quiz-title{
     position: relative;
     z-index: 99;

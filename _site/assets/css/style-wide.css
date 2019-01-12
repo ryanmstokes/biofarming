@@ -33,10 +33,9 @@ h2{
 	font-weight: 300;
 }
 #header{
-		background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
-
+	background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
 	background-size: 100% auto;
-    background-position: 0 30%;
+    background-position: 0 37%;
 }
 
 .intro{
@@ -98,4 +97,10 @@ max-width: 750px;
 	margin: 0 auto;
 	display: block;
 	margin-top: -4rem;
+	height: 1000px;
+	overflow: hidden;
+}
+
+#header{
+	height:90% !important;
 }
