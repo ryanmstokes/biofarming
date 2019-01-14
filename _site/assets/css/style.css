@@ -565,8 +565,6 @@ text-align:center;
 		padding: 3em 0 2em 0;
 		text-align: center;
 		position: relative;
-
-	
 	}
 
 	#header.home{
@@ -679,6 +677,7 @@ text-align:center;
 	margin-left:20px;
 }
 
+
 #login{
 	display: block;
 }
@@ -727,9 +726,7 @@ text-align:center;
 
 			
 
-			.main-nav > ul > li.active {
-				background: #3ac984;
-			}
+		
 
 				
 
@@ -747,26 +744,30 @@ text-align:center;
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: #ffffff;
 		border-radius: 0;
 		color: white;
 		min-width: 12em;
 		padding: 1em 1em;
+		border:1px solid #ddd;
+		border-top:0;
 	}
 
 		.dropotron > li {
 			line-height: 2em;
 			padding: 0.6em 1em;
-			border-top:1px solid #f9f9f9;
+			border-top:1px solid #ddd;
 		}
 
 			.dropotron > li > a {
-				color: #FFF;
 				text-decoration: none;
+				color:#969696;
+			}
+			.dropotron > li > a:hover {
+				color:#5f5e5e;
 			}
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #FFF;
 			}
 
 		.dropotron.level-0 {

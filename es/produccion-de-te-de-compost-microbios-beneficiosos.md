@@ -14,6 +14,7 @@ cat-pdf1-title: Compostaje Starter
 cat-pdf2: "/assets/posters/es/1-Pager_Compost-Tea_ES_FV.pdf"
 cat-pdf2-title: Te de compostaje
 poster: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
+quiz-url: examen-te-de-compost-y-microbios-beneficiosos
 showJS: true
 iframeClass: portrait
 ---

@@ -16,6 +16,7 @@ cat-pdf2-title: Compostaja 2
 cat-pdf3:
 cat-pdf3-title:
 poster: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
+quiz-url: examen-compost
 showJS: true
 ---
 

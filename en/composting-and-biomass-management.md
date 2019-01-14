@@ -17,7 +17,7 @@ cat-pdf3:
 cat-pdf3-title:
 poster: /assets/posters/Annex-5.b_Poster_Composting_DV04.pdf
 showJS: true
-quiz-url: /quiz-composting-and-biomass-management
+quiz-url: /exam-composting-and-biomass-management
 typeform: https://bestpractice1.typeform.com/to/o6G1if
 ---
 
