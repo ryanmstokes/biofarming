@@ -17,11 +17,11 @@ agricultural-theme-2-link: cultivos-de-cobertura-y-manejo-de-mantillo
 agricultural-theme-2-title: Cultivos de Cobertura<br>y Manejo de Mantillo 
 agricultural-image-2: image2.jpg
 agricultural-theme-2-description: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y, por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
-agricultural-theme-3-title: Producción de té de<br>compost, microbios<br>beneficiosos
+agricultural-theme-3-title: Producción de té de<br>compost, microbios beneficiosos
 agricultural-theme-3-link: microbios-beneficiosos
 agricultural-image-3: image3.jpg
 agricultural-theme-3-description: El uso de microbios beneficiosos y la producción de compost starter y de té de compost son prácticas importantes para una vida saludable en el suelo y una buena fertilidad del suelo.
-agricultural-theme-4-title: Control de la<br>Erosión
+agricultural-theme-4-title: Control de la Erosión
 agricultural-theme-4-link: la-erosion-y-su-control
 agricultural-image-4: image4.jpg
 agricultural-theme-4-description: La erosión del suelo a través del viento o el agua degrada fuertemente la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que uno puede hacer al respecto.
@@ -29,7 +29,7 @@ agricultural-theme-5-title: Plagas y Enfermedades<br>y Control Biológico<br/><b
 agricultural-theme-5-link: plagas-y-enfermedades-y-control-biologico
 agricultural-image-5: image5.jpg
 agricultural-theme-5-description: Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente.<br/>
-agricultural-theme-6-title: Rotación de Cultivos<br>y Labranza de<br>Conservación
+agricultural-theme-6-title: Rotación de Cultivos<br>y Labranza de Conservación
 agricultural-theme-6-link: rotacion-de-cultivos-y-labaranza-de-conservacion
 agricultural-image-6: image6.jpg
 agricultural-theme-6-description: Los monocultivos desestabilizan su rendimiento y lixivia su suelo. Aprende sobre la elección correcta de la rotación de cultivos y cómo cultivar el suelo usando prácticas de labranza de conservación.
