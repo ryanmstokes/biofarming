@@ -17,3 +17,7 @@ background-position: center;
 #header{
 	height:90%;
 }
+
+.nav{
+	border-bottom: 0;
+}

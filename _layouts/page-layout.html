@@ -86,6 +86,9 @@ layout: main
 							{% if page.cat-pdf3 %}
 							<li><a href="{{page.cat-pdf3}}"><i class="fa fa-download"></i>{{page.cat-pdf3-title}}</a></li>
 							{% endif %}
+							{% if page.cat-pdf4 %}
+							<li><a href="{{page.cat-pdf3}}"><i class="fa fa-download"></i>{{page.cat-pdf4-title}}</a></li>
+							{% endif %}
 
 						</ul>
 					</section>
@@ -93,6 +96,8 @@ layout: main
 
 	</div>
 {% endif %}
+
+{% if page.quiz-url %}
 <div class="wrapper">
 	<section>	
 	<div class="text-center">
@@ -103,13 +108,12 @@ layout: main
 						</header>
 
 
-		{% if page.quiz-url %}
 		<a class="typeform-share button" href="/{{site.langs[page.language].lang-fragment}}/{{page.quiz-url}}" >Start Quiz</a> 
-		{% else %}
-		Coming Soon
-		{% endif %}
+	
+	
 	</div>
 </div>
+{% endif %}
 </section>
 </div>
 </div>

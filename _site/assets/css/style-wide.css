@@ -104,3 +104,7 @@ max-width: 750px;
 #header{
 	height:90% !important;
 }
+
+.nav{
+	border-bottom: 1px solid #dddddd;
+}

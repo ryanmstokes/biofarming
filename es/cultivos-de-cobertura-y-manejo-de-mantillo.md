@@ -10,9 +10,9 @@ paragraph2: Véase aquí un video sobre cómo un agricultor real utiliza los cul
 cat-video-url2: https://player.vimeo.com/video/303892331
 paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
 cat-pdf1: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
-cat-pdf1-title: Poster - Cover Crops
-cat-pdf2: 
-cat-pdf2-title: 
+cat-pdf1-title: Poster - Cultivos de Cobertura
+cat-pdf2: /assets/posters/es/Summary_Cover_crops_DV4_Spanish_Latin_America_Updated.pdf
+cat-pdf2-title: Summary - Cultivos de Cobertura
 poster: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
 showJS: true
 iframeClass: portrait

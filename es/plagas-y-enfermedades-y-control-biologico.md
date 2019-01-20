@@ -15,6 +15,8 @@ cat-pdf2: /assets/posters/es/Poster_Disease_control_ES_FV.pdf
 cat-pdf2-title: Poster - Disease Control
 cat-pdf3: /assets/posters/es/Poster_Pruning_ES_FV.pdf
 cat-pdf3-title: Poster - Pruning
+cat-pdf4: /assets/posters/es/Summary_PDC_DV10_Spanish_Latin_America_Updated.pdf
+cat-pdf4-title: Summary - Plagas y Enfermedadedes
 poster: /assets/posters/es/Poster_Pest_control_ES_FV.pdf
 showJS: true
 iframeClass: portrait
