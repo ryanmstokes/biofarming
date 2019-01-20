@@ -102,7 +102,9 @@ margin-top: 0.3em;
 	height: 600px;
 }
 
-
+#header.home{
+	margin-bottom: 2.7rem;
+}
 #password-prompt{
 	width: 85%;
 }
@@ -112,13 +114,10 @@ margin-top: 0.3em;
 			margin: 1.2rem 0 1em 0;
 		}
 
-		.image.feature img{
-			width:60%;
-		}
-
+	
 		.intro{
-			text-align: left;
-			margin: 2.6rem 0 0.5rem;
+			margin-top: 0;
+    		margin-bottom: 2rem;
 		}
 
 		.typeform-widget{

@@ -247,7 +247,7 @@ p.strong{
 			.image.feature img {
 				
     display: inline-block;
-    border-radius: 100%;
+ 
 			}
 
 /* Icon */
@@ -860,8 +860,8 @@ text-align:center;
 
 
 .hero-title{
-	font-size:2.2em;
-	line-height:1em;
+	font-size: 2.2em;
+    line-height: 1.13em;
 	margin-bottom:0.3em;
 	display: inline-block;
 	font-weight: 300;
@@ -981,6 +981,7 @@ text-align:center;
 }
 .description p{
 	margin-bottom: 0.7rem;
+	text-align: center;
 }
 
 .cat{
@@ -1096,9 +1097,7 @@ div[data-qa="popup-mode-popup"]{
 		    body {
 		        font-size:12pt
 		    }
-				.image.feature img {
-					max-width: 320px;
-				}
+			
 		}
 		@media screen and (min-width: 650px) {
 			.cat .description{
@@ -1106,7 +1105,7 @@ div[data-qa="popup-mode-popup"]{
 				max-width:650px;
 			}
 		.cat .image{
-			width:45%;
+			width:100%;
 			display: block;
 			margin: 1rem auto 2rem auto;
 		}
