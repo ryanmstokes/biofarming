@@ -10,7 +10,7 @@ paragraph2: Véase aquí un video sobre cómo un agricultor real utiliza los cul
 cat-video-url2: https://player.vimeo.com/video/303892331
 paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
 cat-pdf1: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
-cat-pdf1-title: Cover Crops Guidelines
+cat-pdf1-title: Poster - Cover Crops
 cat-pdf2: 
 cat-pdf2-title: 
 poster: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf

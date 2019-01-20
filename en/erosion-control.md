@@ -10,7 +10,7 @@ paragraph2: "See here a real-life farm video on how a real farmer uses cover cro
 cat-video-url2:
 paragraph3: "The following poster shows all relevant facts in detail. Have a look at it."
 cat-pdf1: /assets/posters/Poster_Erosion-DV3.pdf
-cat-pdf1-title: Erosion Control Guidelines
+cat-pdf1-title: Poster - Erosion Control
 cat-pdf2: "/assets/posters/Annex-2.j_Erosion_Summary_DV3.pdf"
 cat-pdf2-title: Erosion Summary
 poster: /assets/posters/Poster_Erosion-DV3.pdf

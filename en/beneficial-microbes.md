@@ -10,9 +10,9 @@ paragraph2: See here a real-life farm video on how a real farmer produces his ow
 cat-video-url2: https://player.vimeo.com/video/293135917
 paragraph3: "The following poster shows all relevant facts in detail. Have a look at it:"
 cat-pdf1: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
-cat-pdf1-title: Beneficial Microbes Guidelines
+cat-pdf1-title: 1 Pager - Compost Starter
 cat-pdf2: "/assets/posters/Annex-5.e_1-Pager_Compost-Tea_DV03.pdf"
-cat-pdf2-title: Beneficial Microbes Course
+cat-pdf2-title: 1 Pager - Compost Tea
 poster: /assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf
 quiz-url: /exam-beneficial-microbes
 showJS: true

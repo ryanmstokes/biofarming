@@ -10,11 +10,11 @@ paragraph2: "Las plagas y enfermedades están presentes en la mayoría de las gr
 cat-video-url2: https://player.vimeo.com/video/311801042
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/Poster_Pest_control_ES_FV.pdf
-cat-pdf1-title: Pest Control
+cat-pdf1-title: Poster - Pest Control
 cat-pdf2: /assets/posters/es/Poster_Disease_control_ES_FV.pdf
-cat-pdf2-title: Disease Control
+cat-pdf2-title: Poster - Disease Control
 cat-pdf3: /assets/posters/es/Poster_Pruning_ES_FV.pdf
-cat-pdf3-title: Pruning
+cat-pdf3-title: Poster - Pruning
 poster: /assets/posters/es/Poster_Pest_control_ES_FV.pdf
 showJS: true
 iframeClass: portrait

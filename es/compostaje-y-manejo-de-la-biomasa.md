@@ -10,9 +10,9 @@ paragraph2: Véase aquí un video de la granja sobre cómo construir una buena p
 cat-video-url2: 
 paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
 cat-pdf1: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
-cat-pdf1-title: Compastaje 1
+cat-pdf1-title: Poster - Compastaje
 cat-pdf2:  /assets/posters/es/Poster_Composting_ES_FV.pdf
-cat-pdf2-title: Compostaja 2
+cat-pdf2-title: Poster Compostaja
 cat-pdf3:
 cat-pdf3-title:
 poster: /assets/posters/es/1-Pager_Composting_ES_FV.pdf

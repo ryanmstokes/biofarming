@@ -10,9 +10,9 @@ paragraph2: See here a real-life farm video on how a real farmer uses cover crop
 cat-video-url2: https://player.vimeo.com/video/311805716
 paragraph3: 'The following poster shows all relevant facts in detail. Have a look at it.'
 cat-pdf1: /assets/posters/Poster_Cover_crops_EN_FV.pdf
-cat-pdf1-title: Cover Crops Guidelines
+cat-pdf1-title: Poster - Cover Crops
 cat-pdf2: "/assets/posters/Summary_Cover_crops_DV4.pdf"
-cat-pdf2-title: Cover Crops Course
+cat-pdf2-title: Summary - Cover Crops
 poster: /assets/posters/Summary_Cover_crops_DV4.pdf
 showJS: true
 iframeClass: portrait
