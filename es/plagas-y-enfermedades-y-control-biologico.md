@@ -7,7 +7,7 @@ sub-title: Las plagas y enfermedades están presentes en la mayoría de las gran
 paragraph1: "Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente."
 cat-video-url: https://player.vimeo.com/video/295479167
 paragraph2: "Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente." 
-cat-video-url2:
+cat-video-url2: https://player.vimeo.com/video/311801042
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/Poster_Pest_control_ES_FV.pdf
 cat-pdf1-title: Pest Control
