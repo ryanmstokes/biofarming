@@ -904,8 +904,12 @@ text-align:center;
 
 
 
-		.cta-wrapper a {
+		.cta-wrapper a
+		 {
 			text-transform: uppercase;
+    		width: 100%;
+    		background: #c5c5c5;
+			
 		}
 
 .title-cta-wrap{
@@ -978,10 +982,11 @@ text-align:center;
 	font-weight:400;
 	margin-bottom:0.6em;
 	line-height: 2.2rem;
+	text-align: left;
 }
 .description p{
 	margin-bottom: 0.7rem;
-	text-align: center;
+	text-align: left;
 }
 
 .cat{
@@ -1107,7 +1112,7 @@ div[data-qa="popup-mode-popup"]{
 		.cat .image{
 			width:100%;
 			display: block;
-			margin: 1rem auto 2rem auto;
+			margin: 0 auto 1rem auto;
 		}
 
 		}

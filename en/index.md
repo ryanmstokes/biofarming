@@ -24,7 +24,7 @@ agricultural-theme-3-title: Production of Compost <br class="desktop"/>Tea, Bene
 agricultural-theme-3-description: The use of Beneficial Microbes and the production of compost starter and compost tea are important practices for a healthy soil life and a good soil fertility.
 agricultural-theme-4-link: erosion-control
 agricultural-image-4: image4.jpg
-agricultural-theme-4-title: Erosion and <br class="desktop"/>its Control
+agricultural-theme-4-title: Erosion and its Control<br class="desktop"><br class="desktop">
 agricultural-theme-4-description: Soil erosion through wind or water strongly degrades soil fertility and thus the soil’s value. Learn here what one can do about it.<br/><br/>
 agricultural-theme-5-link: biological-pest-and-disease-control
 agricultural-image-5: image5.jpg
@@ -32,7 +32,7 @@ agricultural-theme-5-title: Pests & Diseases <br class="desktop"/>and Biological
 agricultural-theme-5-description: Pests & Diseases are present in most farms worldwide, but with simple measures and practices one can reduce them significantly.<br/><br/>
 agricultural-theme-6-link: crop-rotation-and-tillage
 agricultural-image-6: image6.jpg
-agricultural-theme-6-title: Crop Rotation <br class="desktop"/>and Conservation Tillage
+agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation Tillage
 agricultural-theme-6-description: Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.
 usp-title: Best practice knowhow for sustainable farming practices
 usp-sub-title: Improve your agricultural performance - Tailormade courses to help you grow more stable and successful!

@@ -11,6 +11,8 @@
 	}
 p{
 	text-align:left;
+	font-size:1.2rem;
+	line-height: 1.8rem;
 }
 	h2{
 	 margin-top: 3rem;
@@ -38,6 +40,9 @@ background-size: cover;
 .downloads a{
     font-size: 1.2rem;
     margin-bottom: 0.6em;
+}
+.desktop{
+	display: none !important;
 }
 /* Banner */
 #banner header.major{
@@ -102,9 +107,7 @@ margin-top: 0.3em;
 	height: 600px;
 }
 
-#header.home{
-	margin-bottom: 2.7rem;
-}
+
 #password-prompt{
 	width: 85%;
 }
@@ -114,10 +117,11 @@ margin-top: 0.3em;
 			margin: 1.2rem 0 1em 0;
 		}
 
-	
+		
+
 		.intro{
-			margin-top: 0;
-    		margin-bottom: 2rem;
+			text-align: left;
+			margin: 2.6rem 0 1.2rem;
 		}
 
 		.typeform-widget{
