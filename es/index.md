@@ -1,5 +1,5 @@
 ---
-title: BioFarming
+title: Best Practice
 language: es
 home-video-cta-title: Saber más
 home-cta-title: get started
