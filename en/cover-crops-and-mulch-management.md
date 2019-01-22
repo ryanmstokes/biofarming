@@ -1,5 +1,5 @@
 ---
-title: Cover Crops
+title: Cover crops and mulch management
 language: en
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image2.jpg
