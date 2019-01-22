@@ -14,6 +14,7 @@ cat-pdf1-title:
 cat-pdf2: 
 cat-pdf2-title: 
 poster: 
+hidePLaceholder: true
 showJS: true
 iframeClass: portrait
 ---

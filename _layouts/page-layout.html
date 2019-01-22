@@ -47,9 +47,11 @@ layout: main
 						<br/>
 						<br/>
 						{% else %}
+						{% if !hidePlaceholder   %}
 						<p class="strong">{{site.placeholder-title}}</p>
 						<br/>
 						<img class="video-wrapper" src="/assets/images/placeholder.jpg"/>
+						{% endif %}
 						{% endif %}
 
 						
