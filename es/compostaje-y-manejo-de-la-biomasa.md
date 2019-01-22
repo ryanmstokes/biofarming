@@ -1,5 +1,5 @@
 ---
-title: Gestión de Biomasa y Compostaje
+title: Compostaje y manejo de la biomasa
 language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image1.jpg
