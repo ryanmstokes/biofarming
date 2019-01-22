@@ -7,7 +7,7 @@ sub-title: Soil erosion through wind or water strongly degrades soil fertility a
 paragraph1: "See here an excellent animated video about erosion risks, problems and how to control wind and water erosion."
 cat-video-url: https://player.vimeo.com/video/290365920
 paragraph2: "See here a real-life farm video on how a real farmer uses cover crops and mulch management to control erosion."
-cat-video-url2:
+cat-video-url2: https://player.vimeo.com/video/311805716
 paragraph3: "The following poster shows all relevant facts in detail. Have a look at it."
 cat-pdf1: /assets/posters/Poster_Erosion-DV3.pdf
 cat-pdf1-title: Poster - Erosion Control

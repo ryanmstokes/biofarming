@@ -21,7 +21,7 @@ agricultural-theme-3-title: Producción de té de compost,<br>microbios benefici
 agricultural-theme-3-link: microbios-beneficiosos
 agricultural-image-3: image3.jpg
 agricultural-theme-3-description: El uso de microbios beneficiosos y la producción de compost starter y de té de compost son prácticas importantes para una vida saludable en el suelo y una buena fertilidad del suelo.<br class="desktop"><br class="desktop">
-agricultural-theme-4-title: Control de la Erosión<br class="desktop"><br class="desktop">
+agricultural-theme-4-title: La erosión y su control<br class="desktop"><br class="desktop">
 agricultural-theme-4-link: la-erosion-y-su-control
 agricultural-image-4: image4.jpg
 agricultural-theme-4-description: La erosión del suelo a través del viento o el agua degrada fuertemente la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que uno puede hacer al respecto.<br class="desktop"><br class="desktop">

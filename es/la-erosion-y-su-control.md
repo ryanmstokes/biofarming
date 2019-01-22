@@ -1,5 +1,5 @@
 ---
-title: Control de la Erosión
+title: La erosión y su control
 language: es
 layout: page-layout
 banner-img: /assets/images/agricultural-themes/image4.jpg
