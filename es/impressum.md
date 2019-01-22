@@ -37,7 +37,7 @@ Tobias Bandel, Niels Dijkman.
 
 <br>
 <br>
-<p>Responsible for the content of this website is Soil & More Impacts B.V., Niels Dijkman, Kraanspoor 26, 1033SE Amsterdam</p>
+<p>Responsable del contenido de este sitio web es Soil & More Impacts B.V., Niels Dijkman, Kraanspoor 26, 1033SE Amsterdam</p>
 
  
 
