@@ -18,7 +18,7 @@ agricultural-theme-2-title: Cultivos de Cobertura<br>y Manejo de Mantillo
 agricultural-image-2: image2.jpg
 agricultural-theme-2-description: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y, por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
 agricultural-theme-3-title: Producción de té de compost,<br>microbios beneficiosos
-agricultural-theme-3-link: microbios-beneficiosos
+agricultural-theme-3-link: produccion-de-te-de-compost-microbios-beneficiosos
 agricultural-image-3: image3.jpg
 agricultural-theme-3-description: El uso de microbios beneficiosos y la producción de compost starter y de té de compost son prácticas importantes para una vida saludable en el suelo y una buena fertilidad del suelo.<br class="desktop"><br class="desktop">
 agricultural-theme-4-title: La erosión y su control<br class="desktop"><br class="desktop">
