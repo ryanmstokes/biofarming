@@ -7,7 +7,7 @@ sub-title: La erosión del suelo a través del viento o del agua degrada fuertem
 paragraph1: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua."
 cat-video-url: https://player.vimeo.com/video/301492468
 paragraph2: "Véase aquí un excelente video animado sobre riesgos de erosión, problemas y cómo controlar la erosión por viento y agua."
-cat-video-url2:
+cat-video-url2: https://player.vimeo.com/video/313059354
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/Poster_Erosion-DV3.pdf
 cat-pdf1-title: Poster Erosion

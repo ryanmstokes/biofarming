@@ -9,7 +9,7 @@ intro-title: Want to learn how to grow sustainably and successfully?
 intro-desc: bestpractice.farm helps all farmers using effective and efficient methods to manage their crops in an organic and sustainable way
 intro-desc2: Sign up for 6 agricultural courses and themes about sustainable farming management and benefit from explaining videos, demonstrations of real farmers, posters and many more on how to use sustainable practices on your farm!
 home-video-cta-title: find out more
-agricultural-themes-title: Agricultural Themes
+agricultural-themes-title: Best Practice Courses
 agricultural-theme-1-link: composting-and-biomass-management
 agricultural-image-1: image1.jpg
 agricultural-theme-1-title: Composting and <br class="desktop"/> Biomass Management
