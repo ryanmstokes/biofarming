@@ -1,5 +1,5 @@
 ---
-title: Best Practice
+title: bestpractice.farm
 language: en
 home-title: Helping you prepare!
 home-description: A platform to provide you with the information to make your farming

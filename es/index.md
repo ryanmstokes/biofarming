@@ -1,5 +1,5 @@
 ---
-title: Best Practice
+title: bestpractice.farm
 language: es
 home-video-cta-title: Saber más
 home-cta-title: get started
