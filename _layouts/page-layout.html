@@ -46,12 +46,28 @@ layout: main
 						</div>
 						<br/>
 						<br/>
+						
 						{% else %}
+
 						{% if !hidePlaceholder   %}
 						<p class="strong">{{site.placeholder-title}}</p>
 						<br/>
 						<img class="video-wrapper" src="/assets/images/placeholder.jpg"/>
 						{% endif %}
+
+						{% endif %}
+						{% if page.cat-video-url3 %}
+
+						<p class="strong">{{page.paragraph3}}</p>
+						<br/>
+						<div class="video-wrapper">
+						<div class="video-container">
+
+								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url3 }}" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+						<br/>
+						<br/>
 						{% endif %}
 
 						
