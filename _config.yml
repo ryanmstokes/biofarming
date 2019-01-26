@@ -44,7 +44,9 @@ langs:
       privacy: privacy-policy.pdf
       privacy-title: Privacy
     quiz-start-title: Start the Exam
+    quiz-btn-title: Start Quiz
     quiz-start-desc: Once you have read all the material carefully start the exam.
+    downloads-title: Downloadable Documents
   es:
     lang-fragment: es
     courses-title: Cursos
@@ -70,4 +72,6 @@ langs:
       privacy: politica-de-privacidad.pdf
       privacy-title: Política de Privacidad
     quiz-start-title: Empezar el Examen
+    quiz-btn-title: Comenzar el examen
     quiz-start-desc: Cuando has leido todo bien empieza el examen.
+    downloads-title: Documentos descargables

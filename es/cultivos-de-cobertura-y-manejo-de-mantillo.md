@@ -13,7 +13,7 @@ paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle
 cat-pdf1: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
 cat-pdf1-title: Poster - Cultivos de Cobertura
 cat-pdf2: /assets/posters/es/Summary_Cover_crops_DV4_Spanish_Latin_America_Updated.pdf
-cat-pdf2-title: Summary - Cultivos de Cobertura
+cat-pdf2-title: Resumen - Cultivos de Cobertura
 poster: /assets/posters/es/Poster_Cover_crops_ES_FV.pdf
 showJS: true
 iframeClass: portrait

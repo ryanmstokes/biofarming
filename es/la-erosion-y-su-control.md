@@ -12,7 +12,7 @@ paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle
 cat-pdf1: /assets/posters/es/Poster_Erosion-DV3.pdf
 cat-pdf1-title: Poster Erosion
 cat-pdf2: /assets/posters/es/Summary_Erosion_DV4_Spanish_Latin_America.pdf
-cat-pdf2-title: Summary - Erosion
+cat-pdf2-title: Resumen - Erosion
 poster: /assets/posters/es/Poster_Erosion_ES_FV.pdf
 showJS: true
 iframeClass: portrait

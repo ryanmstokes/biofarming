@@ -14,7 +14,7 @@ cat-pdf1-title: Poster - Compastaje
 cat-pdf2:  /assets/posters/es/Poster_Composting_ES_FV.pdf
 cat-pdf2-title: Poster - Compostaja
 cat-pdf3: /assets/posters/es/Summary_Compost_DV5_Spanish_Latin_America.pdf
-cat-pdf3-title: Summary - Compostaje
+cat-pdf3-title: Resumen - Compostaje
 poster: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
 quiz-url: examen-compost
 showJS: true

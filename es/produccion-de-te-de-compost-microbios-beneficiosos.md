@@ -10,9 +10,9 @@ paragraph2: "Véase aquí un video sobre cómo un agricultor real produce su pro
 cat-video-url2: https://player.vimeo.com/video/313051257
 paragraph3: "El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:"
 cat-pdf1: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
-cat-pdf1-title: 1 Pager - Compostaje Starter
+cat-pdf1-title: Resumen corto - Compostaje Starter
 cat-pdf2: "/assets/posters/es/1-Pager_Compost-Tea_ES_FV.pdf"
-cat-pdf2-title: 1 Pager - Te de compostaje
+cat-pdf2-title: Resumen corto - Te de compostaje
 poster: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
 quiz-url: examen-te-de-compost-y-microbios-beneficiosos
 showJS: true
