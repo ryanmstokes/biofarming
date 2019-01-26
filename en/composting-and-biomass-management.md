@@ -12,7 +12,7 @@ paragraph3: 'The following poster shows all relevant facts in detail. Have a loo
 cat-pdf1: /assets/posters/Annex-5.b_Poster_Composting_DV04.pdf
 cat-pdf1-title: Poster - Composting
 cat-pdf2: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
-cat-pdf2-title: 1 Pager - Composting Starter
+cat-pdf2-title: 1 Pager - Compost Starter
 cat-pdf3:
 cat-pdf3-title:
 poster: /assets/posters/Annex-5.b_Poster_Composting_DV04.pdf
