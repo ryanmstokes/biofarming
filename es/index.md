@@ -2,7 +2,7 @@
 title: bestpractice.farm
 language: es
 home-video-cta-title: Saber más
-home-cta-title: get started
+home-cta-title: Empezar
 usp-title: Conocimiento de las mejores prácticas agrícolas sostenibles.
 usp-sub-title: "Mejore su rendimiento agrícola: ¡cursos personalizados para ayudarlo a crecer más estable y exitoso!"
 intro-title: ¿Quieres aprender a cultivar de forma sostenible y exitosa?
