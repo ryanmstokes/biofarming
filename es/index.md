@@ -24,7 +24,7 @@ agricultural-theme-3-description: El uso de microbios beneficiosos y la producci
 agricultural-theme-4-title: La erosión y su control<br class="desktop"><br class="desktop">
 agricultural-theme-4-link: la-erosion-y-su-control
 agricultural-image-4: image4.jpg
-agricultural-theme-4-description: La erosión del suelo a través del viento o el agua degrada fuertemente la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que uno puede hacer al respecto.<br class="desktop"><br class="desktop">
+agricultural-theme-4-description: La erosión del suelo a través del viento o el agua degrada fuertemente la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que se puede hacer al respecto.<br class="desktop"><br class="desktop">
 agricultural-theme-5-title: Plagas y Enfermedades<br>y Control Biológico
 agricultural-theme-5-link: plagas-y-enfermedades-y-control-biologico
 agricultural-image-5: image5.jpg
