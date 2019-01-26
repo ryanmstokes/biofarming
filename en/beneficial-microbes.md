@@ -8,7 +8,7 @@ paragraph1: "See here an excellent animated video about beneficial microbes, how
 cat-video-url: https://player.vimeo.com/video/288731580
 paragraph2: See here a real-life farm video on how a real farmer produces his own compost tea and what benefits he gets from it.
 cat-video-url2: https://player.vimeo.com/video/313483752
-paragraph3: "The following poster shows all relevant facts in detail. Have a look at it:"
+paragraph-3: "The following poster shows all relevant facts in detail. Have a look at it:"
 cat-pdf1: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
 cat-pdf1-title: 1 Pager - Compost Starter
 cat-pdf2: "/assets/posters/Annex-5.e_1-Pager_Compost-Tea_DV03.pdf"

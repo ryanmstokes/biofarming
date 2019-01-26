@@ -8,7 +8,7 @@ paragraph1: Véase aquí un excelente video animado sobre la gestión adecuada d
 cat-video-url: https://player.vimeo.com/video/295478646
 paragraph2: Véase aquí un video de la granja sobre cómo construir una buena pila de compost y cómo utilizar la biomasa disponible en una granja.
 cat-video-url2: 
-paragraph3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
+paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
 cat-pdf1: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
 cat-pdf1-title: Poster - Compastaje
 cat-pdf2:  /assets/posters/es/Poster_Composting_ES_FV.pdf
