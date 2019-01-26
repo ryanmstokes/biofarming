@@ -10,11 +10,11 @@ paragraph2: Véase aquí un video de la granja sobre cómo construir una buena p
 cat-video-url2: 
 paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:'
 cat-pdf1: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
-cat-pdf1-title: Poster - Compastaje
+cat-pdf1-title: Poster - Compostaje y manejo de la biomasa
 cat-pdf2:  /assets/posters/es/Poster_Composting_ES_FV.pdf
-cat-pdf2-title: Poster - Compostaja
+cat-pdf2-title: Poster - Compostaje y manejo de la biomasa
 cat-pdf3: /assets/posters/es/Summary_Compost_DV5_Spanish_Latin_America.pdf
-cat-pdf3-title: Resumen - Compostaje
+cat-pdf3-title: Resumen - Compostaje y manejo de la biomasa
 poster: /assets/posters/es/1-Pager_Composting_ES_FV.pdf
 quiz-url: examen-compost
 showJS: true
