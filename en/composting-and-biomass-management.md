@@ -8,11 +8,11 @@ paragraph1: See here an excellent animated video about proper biomass management
 cat-video-url: https://player.vimeo.com/video/290369072
 paragraph2: See here a real-life farm video on how to build a good compost pile and how to use the biomass available on a farm.
 cat-video-url2: https://player.vimeo.com/video/290386849
-paragraph-3: 'The following poster shows all relevant facts in detail. Have a look at it.'
+paragraph3: 'The following poster shows all relevant facts in detail. Have a look at it.'
 cat-pdf1: /assets/posters/Annex-5.b_Poster_Composting_DV04.pdf
 cat-pdf1-title: Poster - Composting
 cat-pdf2: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
-cat-pdf2-title: 1 Pager - Compost Starter
+cat-pdf2-title: 1 Pager - Composting Starter
 cat-pdf3:
 cat-pdf3-title:
 poster: /assets/posters/Annex-5.b_Poster_Composting_DV04.pdf

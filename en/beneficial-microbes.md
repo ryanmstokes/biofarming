@@ -9,11 +9,17 @@ cat-video-url: https://player.vimeo.com/video/288731580
 paragraph2: See here a real-life farm video on how a real farmer produces his own compost tea and what benefits he gets from it.
 cat-video-url2: https://player.vimeo.com/video/313483752
 paragraph-3: "The following poster shows all relevant facts in detail. Have a look at it:"
-cat-pdf1: "/assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf"
-cat-pdf1-title: 1 Pager - Compost Starter
-cat-pdf2: "/assets/posters/Annex-5.e_1-Pager_Compost-Tea_DV03.pdf"
-cat-pdf2-title: 1 Pager - Compost Tea
-poster: /assets/posters/Annex-5.c_1-Pager_Compost-Starter_DV02.pdf
+cat-pdf1: "/assets/posters/Poster_Compost_Starter.pdf"
+cat-pdf1-title: Poster - Compost Starter
+cat-pdf2: "/assets/posters/Poster_Compost_Tea.pdf"
+cat-pdf2-title: Poster - Compost Tea
+cat-pdf3: "/assets/posters/1-Pager_Compost-Starter.pdf"
+cat-pdf3-title: 1 Pager - Compost Starter
+cat-pdf4: "/assets/posters/1-Pager_Compost-Tea.pdf"
+cat-pdf4-title: 1 Pager - Compost Tea
+cat-pdf5: "/assets/posters/Summary_Beneficial_Microbes.pdf"
+cat-pdf5-title: Summary - Beneficial Microbes 
+poster: /assets/posters/Poster_Compost_Tea.pdf
 quiz-url: /exam-beneficial-microbes
 showJS: true
 iframeClass: portrait
