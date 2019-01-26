@@ -19,8 +19,9 @@ cat-pdf4: "/assets/posters/1-Pager_Compost-Tea.pdf"
 cat-pdf4-title: 1 Pager - Compost Tea
 cat-pdf5: "/assets/posters/Summary_Beneficial_Microbes.pdf"
 cat-pdf5-title: Summary - Beneficial Microbes 
-poster: /assets/posters/Poster_Compost_Tea.pdf
+poster: /assets/posters/Poster_Compost_Starter.pdf
+poster2: /assets/posters/Poster_Compost_Tea.pdf
 quiz-url: /exam-beneficial-microbes
 showJS: true
-iframeClass: portrait
+iframeClass: landscape
 ---

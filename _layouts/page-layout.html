@@ -85,10 +85,16 @@ layout: main
 	<p class="strong">{{page.paragraph-3}}</p>
 	<br/>
 	<object data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-  <embed src="{{page.poster}} type="application/pdf" />
-</object>
+  	<embed src="{{page.poster}} type="application/pdf" />
+	</object>
+	{% if page.poster2 %}
+	<object data="{{page.poster2}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
+		<embed src="{{page.poster2}} type="application/pdf" />
+	  </object>
+	{% endif %}
 </div>
 {% endif %}
+
 {% if page.cat-pdf1 %}
 <div class="wrapper style1">
 	<section>													
