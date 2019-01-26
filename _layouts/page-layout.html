@@ -80,17 +80,31 @@ layout: main
 			</div>
 		</div>
 	</div>
+	
+
 {% if page.poster %}
+
+
 <div class="container wrapper">
-	<p class="strong">{{page.paragraph-3}}</p>
-	<br/>
+	
+		{% if page.paragraph-3 %}
+		<div class="container
+		<p class="strong">{{page.paragraph-3}}</p>
+		<br/>
+		</div>
+			{% endif %}
+	<div>
 	<object data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
   	<embed src="{{page.poster}} type="application/pdf" />
 	</object>
 	{% if page.poster2 %}
+	<br/>
+	<br/>
+	
 	<object data="{{page.poster2}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
 		<embed src="{{page.poster2}} type="application/pdf" />
-	  </object>
+	</object>
+	</div>
 	{% endif %}
 </div>
 {% endif %}
@@ -155,7 +169,9 @@ layout: main
 	</from>
 </div>
 <script>
-var blah = $('.pdf-embed');var parent = $('.pdf-embed').parent(); var parentWidth = $(parent).width(); $(blah).attr('width', parentWidth); $('.pdf-embed').remove(); $(parent).html(blah);
+var blah = $('.pdf-embed');var parent = $('.pdf-embed').parent(); 
+var parentWidth = $(parent).width(); $(blah).attr('width', parentWidth); 
+$('.pdf-embed').remove(); $(parent).html(blah);
 </script>
 
 
