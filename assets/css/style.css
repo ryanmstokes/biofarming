@@ -131,11 +131,7 @@ p.strong{
 		text-align: center;
 	}
 
-	#header{
-		background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
-		background-size: 127%% auto;
-		background-position: 0% 77%;
-	}
+	
 
 	header h2 {
 		margin-top: 0;
@@ -1035,6 +1031,20 @@ div[data-qa="popup-mode-popup"]{
     height: 100%;
     top: 0;
     left: 0;
+}
+
+
+
+
+h2{
+	margin-top:4rem;
+	font-size: 2.1rem;
+	font-weight: 300;
+}
+#header{
+	background: #333333 url("../images/organic-farming-banner.jpg") no-repeat;
+	background-size: 105% auto;
+	background-position: 0% 77%;
 }
 
 /* Main */
