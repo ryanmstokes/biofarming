@@ -9,11 +9,11 @@ cat-video-url: https://player.vimeo.com/video/290366167
 paragraph2: See here a real-life farm video on how a real farmer uses cover crops and mulch management to improve the soil fertility and protection of his farmland.
 cat-video-url2: https://player.vimeo.com/video/311805716
 paragraph-3: 'The following poster shows all relevant facts in detail. Have a look at it.'
-cat-pdf1: /assets/posters/Poster_Cover_crops_EN_FV.pdf
-cat-pdf1-title: Poster - Cover Crops
+cat-pdf1: /assets/posters/Poster_Cover_Crops.pdf
+cat-pdf1-title: Poster - Cover crops and mulch management
 cat-pdf2: "/assets/posters/Summary_Cover_crops_DV4.pdf"
-cat-pdf2-title: Summary - Cover Crops
-poster: /assets/posters/Summary_Cover_crops_DV4.pdf
+cat-pdf2-title: Summary - Cover crops and mulch management
+poster: /assets/posters/Poster_Cover_Crops.pdf
 showJS: true
 iframeClass: portrait
 ---
