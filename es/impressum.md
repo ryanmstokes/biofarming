@@ -6,7 +6,7 @@ layout: main
 <div class="container">
 <h2 class="intro">Impressum</h2>
 <br>
-<strong>Soil & More Impacts B.V.</strong>
+<strong>Soil & More Impacts B.V. en nombre de Eosta B.V. / Nature & More</strong>
 <br>
 Kraanspoor 26
 <br>
@@ -37,7 +37,7 @@ Tobias Bandel, Niels Dijkman.
 
 <br>
 <br>
-<p>Responsable del contenido de este sitio web es Soil & More Impacts B.V., Niels Dijkman, Kraanspoor 26, 1033SE Amsterdam</p>
+<p>Responsable del contenido de este sitio web es Soil & More Impacts B.V. en nombre de Eosta B.V. / Nature & More, Niels Dijkman, Kraanspoor 26, 1033SE Amsterdam</p>
 
  
 
