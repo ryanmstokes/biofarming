@@ -64,6 +64,9 @@ p.strong{
 }
 #password-prompt input{
 	margin-bottom: 1rem;
+	margin-bottom: 1rem;
+    max-width: 420px;
+    border-radius: 6px;
 }
 #footer.down{
 	position: absolute;
@@ -250,7 +253,8 @@ p.strong{
 
 			.image.feature img {
 				
-    display: inline-block;
+	display: inline-block;
+	border-radius: 6px;
  
 			}
 
@@ -910,7 +914,12 @@ text-align:center;
 	color: white;
 }
 
-
+#submit-password{
+	color: white;
+    padding: 0.4rem 1.1rem;
+    border-radius: 1rem;
+    background: rgba(35, 57, 91, 0.95);
+}
 		.narrow{
 			/*max-width:550px;*/
 		}
@@ -925,7 +934,11 @@ text-align:center;
 		 {
 			text-transform: uppercase;
     		width: 100%;
-    		background: #c5c5c5;
+			background: #f5f5f5;
+			border-radius: 6px;
+			-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
 			
 		}
 
@@ -984,6 +997,16 @@ text-align:center;
 }
 .cat .image a{
 	width:100%;
+}
+.cat .inner{
+	border: 1px solid #ddd;
+    display: inline-block;
+	padding: 5%;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
+	border-radius: 6px;
+	background: white;
 }
 .cat .description{
 	width:100%;

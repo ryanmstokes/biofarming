@@ -17,7 +17,8 @@ cat-pdf3: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
 cat-pdf3-title: Resumen corto - Compost starter
 cat-pdf4: "/assets/posters/es/1-Pager_Compost-Tea_ES_FV.pdf"
 cat-pdf4-title: Resumen corto - Té de compost
-poster: /assets/posters/es/1-Pager_Compost-Starter_ES_FV.pdf
+poster: /assets/posters/es/Poster_Compost-Starter.pdf
+poster2:  /assets/posters/es/Poster_Compost-Tea.pdf
 quiz-url: examen-te-de-compost-y-microbios-beneficiosos
 showJS: true
 iframeClass: portrait

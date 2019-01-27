@@ -9,7 +9,7 @@
 		reset: 'full',
 		breakpoints: {
 			global:		{ range: '*', href: '/assets/css/style.css', containers: 1400, grid: { gutters: 50 } },
-			wide:		{ range: '-1680', href: '/assets/css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
+			wide:		{ range: '-2680', href: '/assets/css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
 			normal:		{ range: '-1280', href: '/assets/css/style-normal.css', containers: 960, lockViewport: true },
 			narrow:		{ range: '-980', href: '/assets/css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
 			narrower:	{ range: '-840', href: '/assets/css/style-narrower.css', grid: { collapse: 1 } },
