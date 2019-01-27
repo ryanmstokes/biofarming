@@ -53,9 +53,8 @@ position: absolute;
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
 	
+console.log('yalla', loggedIn);
 
-
-	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -65,7 +64,7 @@ position: absolute;
 		$('.user-content').removeClass('hide-user-content');
 		$('.user-content').css('opacity', 1);
 	}
-	if(loggedIn  === null){
+	if(loggedIn  === 'false'){
 		console.log('footer')
 		$('#footer').addClass('down');
 		//console.log('trueeee');
@@ -105,6 +104,6 @@ position: absolute;
 intiateLoggeInArea();
 			</script>
 			{% endif %}
-
+		
 	</body>
 </html>

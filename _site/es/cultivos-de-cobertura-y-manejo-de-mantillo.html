@@ -95,9 +95,11 @@ position: absolute;
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login"><a href="/es/composting-and-biomass-management">
-			Login</a></li>
-			<li id="logout"><a href="/">Logout</a></li>
+			<li id="login" class="login">
+			<a href="/es/compostaje-y-manejo-de-la-biomasa">
+			Login</a>
+			</li>
+			<li id="logout" class="login"><a href="/">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -183,7 +185,7 @@ position: absolute;
 <div class="container wrapper">
 	
 		
-		<div class="container
+		<div class="container">
 		<p class="strong">El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:</p>
 		<br/>
 		</div>
@@ -193,6 +195,7 @@ position: absolute;
   	<embed src="/assets/posters/es/Poster_Cover_crops_ES_FV.pdf type="application/pdf" />
 	</object>
 	
+</div>
 </div>
 
 
@@ -241,6 +244,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 
 
 
+			
 
 	<div class="footer-wrap">
 		<!-- Footer -->
@@ -286,9 +290,8 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
 	
+console.log('yalla', loggedIn);
 
-
-	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -298,7 +301,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 		$('.user-content').removeClass('hide-user-content');
 		$('.user-content').css('opacity', 1);
 	}
-	if(loggedIn  === null){
+	if(loggedIn  === 'false'){
 		console.log('footer')
 		$('#footer').addClass('down');
 		//console.log('trueeee');
@@ -338,6 +341,6 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 intiateLoggeInArea();
 			</script>
 			
-
+		
 	</body>
 </html>

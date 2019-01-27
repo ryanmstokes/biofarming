@@ -55,16 +55,16 @@ position: absolute;
 				<a href="">Courses</a>
 				<ul>
 					<li>
-						<a href="/en/composting-and-biomass-management">			Composting + Biomass Management
+						<a href="/en/composting-and-biomass-management">			Composting & Biomass Management
 						</a>
 					</li>
 					<li>
 						<a href="/en/cover-crops-and-mulch-management">
-							Cover Crops and Mulch Management
+							Cover Crops & Mulch Management
 						</a>
 					</li>
 					<li><a href="/en/beneficial-microbes">
-						Production of compost tea, beneficial microbes
+						Production of Compost Tea, Beneficial Microbes
 						</a>
 					</li>
 					<li>
@@ -72,12 +72,12 @@ position: absolute;
 						</a>
 					</li>
 					<li>
-						<a href="/en/biological-pest-and-disease-control">Pests & Diseases and Biological Control
+						<a href="/en/biological-pest-and-disease-control">Pests & Diseases & Biological Control
 						</a>
 					</li>
 					<li>
 						<a href="/en/crop-rotation-and-tillage">
-							Crop Rotation and Tillage
+							Crop Rotation & Tillage
 						</a>
 					</li>
 					<li ><div class="languages"><a href="/en">EN</a> | <a href="/es">ES</a></div></li>
@@ -95,9 +95,11 @@ position: absolute;
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login"><a href="/en/composting-and-biomass-management">
-			Login</a></li>
-			<li id="logout"><a href="/">Logout</a></li>
+			<li id="login" class="login">
+			<a href="/en/composting-and-biomass-management">
+			Login</a>
+			</li>
+			<li id="logout" class="login"><a href="/">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -171,7 +173,7 @@ position: absolute;
 <div class="container wrapper">
 	
 		
-		<div class="container
+		<div class="container">
 		<p class="strong">The following poster shows all relevant facts in detail. Have a look at it</p>
 		<br/>
 		</div>
@@ -181,6 +183,7 @@ position: absolute;
   	<embed src="/assets/posters/Poster_Composting.pdf type="application/pdf" />
 	</object>
 	
+</div>
 </div>
 
 
@@ -216,7 +219,7 @@ position: absolute;
 	<div class="inline-block">										
 						<header class="major">
 							<h2>Start the Exam </h2>
-							<p>Once you have read all the material carefully start the exam.</p>
+							<p class="strong">Once you have read all the material carefully start the exam.</p>
 						</header>
 
 
@@ -247,6 +250,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 
 
 
+			
 
 	<div class="footer-wrap">
 		<!-- Footer -->
@@ -264,7 +268,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 				<a href="">Privacy</a>
 			</li>-->
 					<!--<li><a href="/biomass-management">Privacy</a></li>-->
-					<li><a href="/en/terms-and-conditions">Terms and Conditions</a></li>
+					<li><a href="/en/terms-and-conditions">Terms & Conditions</a></li>
 					<li><a href="/en/impressum">Impressum</a></li>
 					<li><a href="/en/legal/privacy-policy.pdf">Privacy</a></li>
 
@@ -292,9 +296,8 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
 	
+console.log('yalla', loggedIn);
 
-
-	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -304,7 +307,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 		$('.user-content').removeClass('hide-user-content');
 		$('.user-content').css('opacity', 1);
 	}
-	if(loggedIn  === null){
+	if(loggedIn  === 'false'){
 		console.log('footer')
 		$('#footer').addClass('down');
 		//console.log('trueeee');
@@ -344,6 +347,6 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 intiateLoggeInArea();
 			</script>
 			
-
+		
 	</body>
 </html>

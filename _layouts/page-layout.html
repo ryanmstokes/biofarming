@@ -88,7 +88,7 @@ layout: main
 <div class="container wrapper">
 	
 		{% if page.paragraph-3 %}
-		<div class="container
+		<div class="container">
 		<p class="strong">{{page.paragraph-3}}</p>
 		<br/>
 		</div>
@@ -104,8 +104,8 @@ layout: main
 	<object data="{{page.poster2}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
 		<embed src="{{page.poster2}} type="application/pdf" />
 	</object>
-	</div>
 	{% endif %}
+</div>
 </div>
 {% endif %}
 
@@ -145,7 +145,7 @@ layout: main
 	<div class="inline-block">										
 						<header class="major">
 							<h2>{{site.langs[page.language].quiz-start-title}} </h2>
-							<p>{{site.langs[page.language].quiz-start-desc}}</p>
+							<p class="strong">{{site.langs[page.language].quiz-start-desc}}</p>
 						</header>
 
 

@@ -95,9 +95,11 @@ position: absolute;
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login"><a href="/es/composting-and-biomass-management">
-			Login</a></li>
-			<li id="logout"><a href="/">Logout</a></li>
+			<li id="login" class="login">
+			<a href="/es/compostaje-y-manejo-de-la-biomasa">
+			Login</a>
+			</li>
+			<li id="logout" class="login"><a href="/">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -177,6 +179,7 @@ position: absolute;
 	</object>
 	
 </div>
+</div>
 
 
 
@@ -215,7 +218,7 @@ position: absolute;
 	<div class="inline-block">										
 						<header class="major">
 							<h2>Empezar el Examen </h2>
-							<p>Después de leer todo, comienza el examen.</p>
+							<p class="strong">Después de leer todo, comienza el examen.</p>
 						</header>
 
 
@@ -246,6 +249,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 
 
 
+			
 
 	<div class="footer-wrap">
 		<!-- Footer -->
@@ -291,9 +295,8 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
 	
+console.log('yalla', loggedIn);
 
-
-	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -303,7 +306,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 		$('.user-content').removeClass('hide-user-content');
 		$('.user-content').css('opacity', 1);
 	}
-	if(loggedIn  === null){
+	if(loggedIn  === 'false'){
 		console.log('footer')
 		$('#footer').addClass('down');
 		//console.log('trueeee');
@@ -343,6 +346,6 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 intiateLoggeInArea();
 			</script>
 			
-
+		
 	</body>
 </html>

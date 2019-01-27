@@ -95,9 +95,11 @@ position: absolute;
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login"><a href="/es/composting-and-biomass-management">
-			Login</a></li>
-			<li id="logout"><a href="/">Logout</a></li>
+			<li id="login" class="login">
+			<a href="/es/compostaje-y-manejo-de-la-biomasa">
+			Login</a>
+			</li>
+			<li id="logout" class="login"><a href="/">Logout</a></li>
 		</ul>
 	</nav>
 </div><!-- Nav -->
@@ -127,7 +129,7 @@ position: absolute;
 				<!-- Content -->
 				<div id="content" class="12u skel-cell-important">
 					<section class="narrower">
-						<p class="strong">Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente.</p>
+						<p class="strong">Véase aquí un excelente video animado sobre cómo detectar plagas y enfermedades y también diferentes opciones para controlar las plagas y enfermedades sin usar pesticidas:</p>
 						<br/>
 						<div class="video-wrapper">
 						<div class="video-container">
@@ -139,7 +141,7 @@ position: absolute;
 						<br/>
 						
 
-						<p class="strong">Las plagas y enfermedades están presentes en la mayoría de las granjas en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente.</p>
+						<p class="strong">Véase aquí un video sobre cómo un agricultor real protege su cultivo de plagas y enfermedades utilizando diversas posibilidades orgánicas:</p>
 						<br/>
 						<div class="video-wrapper">
 						<div class="video-container">
@@ -171,7 +173,7 @@ position: absolute;
 <div class="container wrapper">
 	
 		
-		<div class="container
+		<div class="container">
 		<p class="strong">El siguiente póster muestra todos los hechos relevantes en detalle. Véase aquí:</p>
 		<br/>
 		</div>
@@ -182,6 +184,7 @@ position: absolute;
 	</object>
 	
 </div>
+</div>
 
 
 
@@ -191,16 +194,16 @@ position: absolute;
 							<h2>Documentos descargables</h2>
 						</header>
 						<ul class="downloads">
-							<li><a href="/assets/posters/es/Poster_Pest_control_ES_FV.pdf"><i class="fa fa-download"></i>Poster - Pest Control</a></li>
+							<li><a href="/assets/posters/es/Poster_Pest_control_ES_FV.pdf"><i class="fa fa-download"></i>Poster - Control de plagas</a></li>
 							
 							<li><a href="/assets/posters/es/Poster_Disease_control_ES_FV.pdf"><i class="fa fa-download"></i>
-							Poster - Disease Control</a></li>	
+							Poster - Control de enfermedades</a></li>	
 									
 							
-							<li><a href="/assets/posters/es/Poster_Pruning_ES_FV.pdf"><i class="fa fa-download"></i>Poster - Pruning</a></li>
+							<li><a href="/assets/posters/es/Poster_Pruning_ES_FV.pdf"><i class="fa fa-download"></i>Poster - Poda</a></li>
 							
 							
-							<li><a href="/assets/posters/es/Summary_PDC_DV10_Spanish_Latin_America_Updated.pdf"><i class="fa fa-download"></i>Resumen - Plagas y Enfermedadedes</a></li>
+							<li><a href="/assets/posters/es/Resumen_Plagas_y_Enfermedades.pdf"><i class="fa fa-download"></i>Resumen -  Plagas y enfermedades</a></li>
 							
 							
 							<li><a href=""><i class="fa fa-download"></i></a></li>
@@ -235,6 +238,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 
 
 
+			
 
 	<div class="footer-wrap">
 		<!-- Footer -->
@@ -280,9 +284,8 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
 	
+console.log('yalla', loggedIn);
 
-
-	console.log($('.user-content'),"alksdjlskajdlk");
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -292,7 +295,7 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 		$('.user-content').removeClass('hide-user-content');
 		$('.user-content').css('opacity', 1);
 	}
-	if(loggedIn  === null){
+	if(loggedIn  === 'false'){
 		console.log('footer')
 		$('#footer').addClass('down');
 		//console.log('trueeee');
@@ -332,6 +335,6 @@ $('.pdf-embed').remove(); $(parent).html(blah);
 intiateLoggeInArea();
 			</script>
 			
-
+		
 	</body>
 </html>
