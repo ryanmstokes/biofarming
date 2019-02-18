@@ -94,13 +94,9 @@ layout: main
 		</div>
 			{% endif %}
 	<div>
-			<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
-
-			<object data="{{page.poster}}" type="application/pdf" class=" {{page.iframeClass}}" >
-				<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
-			</object>
-	<object data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-		<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
+			
+	<object id="pdftoconvert" data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
+		<iframe src="https://docs.google.com/viewer?url=https://bestpractice.farm/assets/posters/{{page.poster}}&embedded=true"></iframe>
 	</object>
 	{% if page.poster2 %}
 	<br/>
@@ -179,6 +175,31 @@ layout: main
 var blah = $('.pdf-embed');var parent = $('.pdf-embed').parent(); 
 var parentWidth = $(parent).width(); $(blah).attr('width', parentWidth); 
 $('.pdf-embed').remove(); $(parent).html(blah);
+
+
+
+function convertToBase64() {
+        //Read File
+        var selectedFile = document.getElementById("pdftoconvert").files;
+        //Check File is not Empty
+        if (selectedFile.length > 0) {
+            // Select the very first file from list
+            var fileToLoad = selectedFile[0];
+            // FileReader function for read the file.
+            var fileReader = new FileReader();
+            var base64;
+            // Onload of file read the file content
+            fileReader.onload = function(fileLoadedEvent) {
+                base64 = fileLoadedEvent.target.result;
+                // Print data in console
+                console.log(base64);
+				$('pdfiframe').attr('src', base64);
+				$('pdfembed').attr('src', base64);
+            };
+            // Convert data to base64
+            fileReader.readAsDataURL(fileToLoad);
+        }
+    }
 </script>
 
 
