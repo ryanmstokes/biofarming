@@ -94,7 +94,11 @@ layout: main
 		</div>
 			{% endif %}
 	<div>
-			
+			<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
+
+			<object data="{{page.poster}}" type="application/pdf" class=" {{page.iframeClass}}" >
+				<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
+			</object>
 	<object data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
 		<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
 	</object>
