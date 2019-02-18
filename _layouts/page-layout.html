@@ -94,8 +94,9 @@ layout: main
 		</div>
 			{% endif %}
 	<div>
+			
 	<object data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-  	<embed src="{{page.poster}} type="application/pdf" />
+		<iframe src="https://docs.google.com/viewer?url={{page.poster}}&embedded=true"></iframe>
 	</object>
 	{% if page.poster2 %}
 	<br/>
@@ -116,7 +117,9 @@ layout: main
 							<h2>{{site.langs[page.language].downloads-title}}</h2>
 						</header>
 						<ul class="downloads">
-							<li><a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a></li>
+							<li>
+								<a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a>
+							</li>
 							{% if page.cat-pdf2 %}
 							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>
 							{{page.cat-pdf2-title}}</a></li>	
