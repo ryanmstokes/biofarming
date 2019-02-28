@@ -6,7 +6,7 @@ usp-sub-title: Improve your agricultural performance - Tailormade courses to hel
 home-title: Helping you prepare!
 home-description: A platform to provide you with the information to make your farming
   system fit for the future, to resist climate change.
-home-cta-title: get started
+home-cta-title: get started x
 video-title: Sustainability is profitable!
 home-video-url: https://www.youtube.com/embed/KRcRuj8T9oI
 home-video-description: the <a href="">facts are clear</a>, it pays to grow biologically
