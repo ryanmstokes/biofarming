@@ -1,8 +1,6 @@
 ---
 title: bio-farming
 timezone: UTC
-include:
-- _redirects
 collections:
   posts:
     title: Posts
@@ -10,6 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+include:
+- _redirects
 name: Horizons
 description: Horizons template for Jekyll
 paginate: 10
@@ -60,7 +60,7 @@ langs:
       composting: compostaje-y-manejo-de-la-biomasa
       composting-title: Compostaje y manejo de la biomasa
       cover-crops: cultivos-de-cobertura-y-manejo-de-mantillo
-      cover-crops-title: Cultivos de cobertura y manejo de mantillo 
+      cover-crops-title: Cultivos de cobertura y manejo de mantillo
       crop-rotation: rotacion-de-cultivos-y-labaranza-de-conservacion
       crop-rotation-title: Rotación de cultivos y labranza de conservación
       erosion-control: la-erosion-y-su-control

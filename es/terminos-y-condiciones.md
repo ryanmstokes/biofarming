@@ -4,6 +4,7 @@ language: es
 layout: main
 meta-title: Términos y Condiciones de Uso del Sitio Web
 ---
+
 <div class="container">
 <h2 class="intro">Términos y Condiciones</h2>
 
