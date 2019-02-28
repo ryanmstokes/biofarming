@@ -1,14 +1,11 @@
 ---
 title: bestpractice.farm
 language: en
-home-title: Helping you prepare!
-home-description: A platform to provide you with the information to make your farming
-  system fit for the future, to resist climate change.
+usp-title: Best practice know how for sustainable farming practices
+usp-sub-title: Improve your agricultural performance - Tailor-made courses to help you grow more stable and successful!
 home-cta-title: get started
 intro-title: Want to learn how to grow sustainably and successfully?
-intro-desc: bestpractice.farm helps all farmers using effective and efficient methods to manage their crops in an organic and sustainable way
 intro-desc2: Sign up for 6 agricultural courses and themes about sustainable farming management and benefit from explaining videos, demonstrations of real farmers, posters and many more on how to use sustainable practices on your farm!
-home-video-cta-title: find out more
 agricultural-themes-title: Best Practice Courses
 agricultural-theme-1-link: composting-and-biomass-management
 agricultural-image-1: image1.jpg
@@ -34,8 +31,6 @@ agricultural-theme-6-link: crop-rotation-and-tillage
 agricultural-image-6: image6.jpg
 agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation Tillage
 agricultural-theme-6-description: Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.
-usp-title: Best practice know how for sustainable farming practices
-usp-sub-title: Improve your agricultural performance - Tailor-made courses to help you grow more stable and successful!
 Field name: 
 layout: landing
 showJS: false
