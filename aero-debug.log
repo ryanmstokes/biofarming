@@ -1,0 +1,5 @@
+{"level":"error","message":"Error response from api: %j"}
+{"level":"error","message":"Error response from api: %j"}
+{"level":"error","message":"Error response from api: %j"}
+{"level":"error","message":"Error response from api: %j"}
+{"message":"Unexpected version status: timedOut","stack":["Error: Unexpected version status: timedOut","    at promiseUntil (/usr/local/lib/node_modules/aerobatic-cli/commands/deploy.js:402:17)","    at loop (/usr/local/lib/node_modules/aerobatic-cli/node_modules/promise-until/dist/index.js:15:10)"],"level":"error"}
