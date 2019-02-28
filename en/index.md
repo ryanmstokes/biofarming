@@ -48,11 +48,11 @@ agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation 
 agricultural-theme-6-description: Monocultures destabilize your yield and leach your
   soil out. Learn about the right choice of crop rotation and how to till the soil
   using conservation tillage practices.
-usp-title: Best practice know how for sustainable farming practices
+usp-title: Best practice know how for sustainable farming practices yyyy
 usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
   you grow more stable and successful!
 Field name: 
-layout: landing
 showJS: false
+layout: landing
 ---
 
