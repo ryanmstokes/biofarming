@@ -1,6 +1,6 @@
 ---
 title: BioFarming
-usp-title: Best practice knowhow for sustainable farming practices x
+usp-title: Best practice knowhow for sustainable farming practices x xxx
 usp-sub-title: Improve your agricultural performance - Tailormade courses to help
   you grow more stable and successful!
 home-title: Helping you prepare!
