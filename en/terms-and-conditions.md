@@ -3,6 +3,7 @@ title: Terms and Conditions
 language: en
 layout: main
 ---
+
 <div class="container">
 <h2 class="intro">Terms and Conditions</h2>
 
