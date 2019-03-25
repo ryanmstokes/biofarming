@@ -7,7 +7,6 @@ plugins:
     path: /edu
     options:
       password: techno83
-      loginPage: /
       maxFailures: 5
       failureWindow: 600
       lockoutDuration: 600
