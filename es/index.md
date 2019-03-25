@@ -2,10 +2,8 @@
 title: bestpractice.farm
 language: es
 home-cta-title: Empezar
-<<<<<<< HEAD
 intro-title: ¿Quieres aprender a cultivar de forma sostenible y exitosa?
 intro-desc2: ¡Inscríbase en 6 cursos y temas agrícolas sobre gestión agrícola sostenible y benefíciese de videos explicativos, demostraciones de agricultores reales, pósteres y mucho más sobre cómo usar prácticas sostenibles en su granja!
-=======
 usp-title: Conocimiento de las mejores prácticas agrícolas sostenibles.
 usp-sub-title: 'Mejore su rendimiento agrícola: ¡cursos personalizados para ayudarlo
   a crecer más estable y exitoso!'
@@ -15,7 +13,6 @@ intro-desc: bestpractice.farm ayuda a todos los agricultores a usar métodos efe
 intro-desc2: "¡Inscríbase en 6 cursos y temas agrícolas sobre gestión agrícola sostenible
   y benefíciese de videos explicativos, demostraciones de agricultores reales, pósteres
   y mucho más sobre cómo usar prácticas sostenibles en su granja!"
->>>>>>> 7ee846ecad4b2d7afc095325ac0f3c4c28543e70
 agricultural-themes-title: Cursos de mejores practicas
 agricultural-theme-1-link: compostaje-y-manejo-de-la-biomasa
 agricultural-image-1: image1.jpg

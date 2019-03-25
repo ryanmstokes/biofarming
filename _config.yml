@@ -25,17 +25,17 @@ langs:
     contact-title: Contact Us
     login-title: Login
     link:
-      microbes: beneficial-microbes
+      microbes: edu/courses/beneficial-microbes
       microbes-title: Production of Compost Tea, Beneficial Microbes
-      pest-diseases: biological-pest-and-disease-control
+      pest-diseases: edu/courses/biological-pest-and-disease-control
       pest-diseases-title: Pests & Diseases & Biological Control
-      composting: composting-and-biomass-management
+      composting: edu/courses/composting-and-biomass-management
       composting-title: Composting & Biomass Management
-      cover-crops: cover-crops-and-mulch-management
+      cover-crops: edu/courses/cover-crops-and-mulch-management
       cover-crops-title: Cover Crops & Mulch Management
-      crop-rotation: crop-rotation-and-tillage
+      crop-rotation: edu/courses/crop-rotation-and-tillage
       crop-rotation-title: Crop Rotation & Tillage
-      erosion-control: erosion-control
+      erosion-control: edu/courses/erosion-control
       erosion-control-title: Erosion and its control
       impressum: impressum
       impressum-title: Impressum
@@ -53,17 +53,17 @@ langs:
     contact-title: Contáctanos
     login: iniciar sesión
     link:
-      microbes: produccion-de-te-de-compost-microbios-beneficiosos
+      microbes: edu/cursos/produccion-de-te-de-compost-microbios-beneficiosos
       microbes-title: Producción de té de compost, microbios beneficiosos
-      pest-diseases: plagas-y-enfermedades-y-control-biologico
+      pest-diseases: edu/cursos/plagas-y-enfermedades-y-control-biologico
       pest-diseases-title: Plagas y enfermedades y control biológico
-      composting: compostaje-y-manejo-de-la-biomasa
+      composting: edu/cursos/compostaje-y-manejo-de-la-biomasa
       composting-title: Compostaje y manejo de la biomasa
-      cover-crops: cultivos-de-cobertura-y-manejo-de-mantillo
+      cover-crops: edu/cursos/cultivos-de-cobertura-y-manejo-de-mantillo
       cover-crops-title: Cultivos de cobertura y manejo de mantillo
-      crop-rotation: rotacion-de-cultivos-y-labaranza-de-conservacion
+      crop-rotation: edu/cursos/rotacion-de-cultivos-y-labaranza-de-conservacion
       crop-rotation-title: Rotación de cultivos y labranza de conservación
-      erosion-control: la-erosion-y-su-control
+      erosion-control: edu/cursos/la-erosion-y-su-control
       erosion-control-title: La erosión y su control
       impressum: impressum
       impressum-title: Impressum
