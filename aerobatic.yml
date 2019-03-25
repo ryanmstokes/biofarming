@@ -18,5 +18,5 @@ plugins:
           password: pass2
   - name: redirect
     options:
-      /: /en
+      "/": "/en"
 
