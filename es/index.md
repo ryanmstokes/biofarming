@@ -1,6 +1,7 @@
 ---
 title: bestpractice.farm
 language: es
+hero-banner-image: /assets/images/organic-farming-banner.jpg
 home-cta-title: Empezar
 intro-title: "¿Quieres aprender a cultivar de forma sostenible y exitosa?"
 intro-desc2: "¡Inscríbase en 6 cursos y temas agrícolas sobre gestión agrícola sostenible
