@@ -39,10 +39,9 @@ agricultural-theme-5-description: Pests & Diseases are present in most farms wor
 agricultural-theme-6-link: crop-rotation-and-tillage
 agricultural-image-6: image6.jpg
 agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation Tillage
-<<<<<<< HEAD
 agricultural-theme-6-description: Monocultures destabilize your yield and leach your soil out. Learn about the right choice of crop rotation and how to till the soil using conservation tillage practices.
 Field name: 
-layout: landing
 showJS: false
+layout: landing
 ---
 
