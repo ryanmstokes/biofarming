@@ -2,6 +2,7 @@
 title: Plagas y Enfermedades y Control Biológico
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image5.jpg"
 sub-title: Las plagas y enfermedades están presentes en la mayoría de las granjas
   en todo el mundo, pero con medidas y prácticas simples se pueden reducir significativamente.

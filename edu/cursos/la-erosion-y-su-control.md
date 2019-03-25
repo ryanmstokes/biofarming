@@ -2,6 +2,7 @@
 title: La erosión y su control
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image4.jpg"
 sub-title: La erosión del suelo a través del viento o del agua degrada fuertemente
   la fertilidad del suelo y por lo tanto el valor del suelo. Aprende aquí lo que uno

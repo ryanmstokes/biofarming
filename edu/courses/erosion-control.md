@@ -2,6 +2,7 @@
 title: Erosion and its Control
 language: en
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image4.jpg"
 sub-title: Soil erosion through wind or water strongly degrades soil fertility and
   thus the soil’s value. Learn here what one can do about it.

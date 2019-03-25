@@ -2,6 +2,7 @@
 title: Cover crops and mulch management
 language: en
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image2.jpg"
 sub-title: Cover crops and mulch keep your soil covered and thus maintain it moist
   and fertile. They also avoid erosion and as leguminous cover crops they feed your

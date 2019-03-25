@@ -2,6 +2,7 @@
 title: Pests & Diseases and Biological Control
 language: en
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image5.jpg"
 sub-title: Pests & Diseases are present in most farms worldwide, but with simple measures
   and practices one can reduce them significantly.
