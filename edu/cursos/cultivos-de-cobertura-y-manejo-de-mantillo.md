@@ -3,7 +3,7 @@ title: Cultivos de Cobertura y Manejo de Mantillo
 language: es
 layout: page-layout
 protected: true
-banner-img: "/assets/images/agricultural-themes/image2.jpg"
+banner-image: "/assets/images/agricultural-themes/image2.jpg"
 sub-title: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y,
   por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos
   de cobertura leguminosos alimentan su suelo con nitrógeno adicional.
@@ -17,11 +17,11 @@ cat-video-url2: https://player.vimeo.com/video/303892331
 cat-video-url3: 
 paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle.
   Véase aquí:'
-cat-pdf1: "/assets/posters/es/Poster_Cover_crops_ES_FV.pdf"
-cat-pdf1-title: Poster - Cultivos de Cobertura
-cat-pdf2: "/assets/posters/es/Summary_Cover_crops_DV4_Spanish_Latin_America_Updated.pdf"
-cat-pdf2-title: Resumen - Cultivos de Cobertura
-poster: "/assets/posters/es/Poster_Cover_crops_ES_FV.pdf"
+cat-pdf1-file: "/assets/posters/es/Poster_Cover_crops_ES_FV.pdf"
+cat-pdf1-file-title: Poster - Cultivos de Cobertura
+cat-pdf2-file: "/assets/posters/es/Summary_Cover_crops_DV4_Spanish_Latin_America_Updated.pdf"
+cat-pdf2-file-title: Resumen - Cultivos de Cobertura
+poster-file: "/assets/posters/es/Poster_Cover_crops_ES_FV.pdf"
 showJS: true
 iframeClass: portrait
 ---

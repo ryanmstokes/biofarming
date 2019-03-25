@@ -42,8 +42,8 @@ usp-sub-point1-title: Energy Efficient Technology
 usp-sub-point2-title: Cloudbased Software
 usp-sub-point3-title: Management Tools
 usp-sub-point4-title: Bio Management
-cat-pdf1-title: some document title
-cat-pdf2-title: some document title 2
+cat-pdf1-file-title: some document title
+cat-pdf2-file-title: some document title 2
 Field name: 
 showJS: false
 layout: landing

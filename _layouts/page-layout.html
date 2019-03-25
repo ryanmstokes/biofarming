@@ -8,7 +8,7 @@ layout: main
 			<header class="major">
 							<h2>{{page.title}}</h2>
 						</header>
-			<img class="banner-image" src="{{page.banner-img}}"/>
+			<img class="banner-image" src="{{page.banner-image}}"/>
 			<header class="major">
 					<span class="byline">{{page.sub-title}}</span>
 			</header>
@@ -96,22 +96,22 @@ layout: main
 			{% endif %}
 	<div>
 			
-	<object id="pdftoconvert" data="{{page.poster}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-		<iframe src="https://docs.google.com/viewer?url=https://bestpractice.farm/assets/posters/{{page.poster}}&embedded=true"></iframe>
+	<object id="pdftoconvert" data="{{page.poster-file}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
+		<iframe src="https://docs.google.com/viewer?url=https://bestpractice.farm/assets/posters/{{page.poster-file}}&embedded=true"></iframe>
 	</object>
 	{% if page.poster2 %}
 	<br/>
 	<br/>
 	
-	<object data="{{page.poster2}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-		<embed src="{{page.poster2}} type="application/pdf" />
+	<object data="{{page.poster2-file}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
+		<embed src="{{page.poster2-file}} type="application/pdf" />
 	</object>
 	{% endif %}
 </div>
 </div>
 {% endif %}
 
-{% if page.cat-pdf1 %}
+{% if page.cat-pdf1-file %}
 <div class="wrapper style1">
 	<section>													
 						<header class="major">
@@ -119,20 +119,20 @@ layout: main
 						</header>
 						<ul class="downloads">
 							<li>
-								<a href="{{page.cat-pdf1}}"><i class="fa fa-download"></i>{{page.cat-pdf1-title}}</a>
+								<a href="{{page.cat-pdf1-file}}"><i class="fa fa-download"></i>{{page.cat-pdf1-file-title}}</a>
 							</li>
-							{% if page.cat-pdf2 %}
-							<li><a href="{{page.cat-pdf2}}"><i class="fa fa-download"></i>
-							{{page.cat-pdf2-title}}</a></li>	
+							{% if page.cat-pdf2-file %}
+							<li><a href="{{page.cat-pdf2-file}}"><i class="fa fa-download"></i>
+							{{page.cat-pdf2-file-title}}</a></li>	
 							{% endif %}		
-							{% if page.cat-pdf3 %}
-							<li><a href="{{page.cat-pdf3}}"><i class="fa fa-download"></i>{{page.cat-pdf3-title}}</a></li>
+							{% if page.cat-pdf3-file %}
+							<li><a href="{{page.cat-pdf3-file}}"><i class="fa fa-download"></i>{{page.cat-pdf3-file-title}}</a></li>
 							{% endif %}
-							{% if page.cat-pdf4 %}
-							<li><a href="{{page.cat-pdf4}}"><i class="fa fa-download"></i>{{page.cat-pdf4-title}}</a></li>
+							{% if page.cat-pdf4-file %}
+							<li><a href="{{page.cat-pdf4-file}}"><i class="fa fa-download"></i>{{page.cat-pdf4-file-title}}</a></li>
 							{% endif %}
-							{% if page.cat-pdf4 %}
-							<li><a href="{{page.cat-pdf5}}"><i class="fa fa-download"></i>{{page.cat-pdf5-title}}</a></li>
+							{% if page.cat-pdf4-file %}
+							<li><a href="{{page.cat-pdf5-file}}"><i class="fa fa-download"></i>{{page.cat-pdf5-file-title}}</a></li>
 							{% endif %}
 
 						</ul>

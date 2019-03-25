@@ -25,6 +25,7 @@ langs:
     contact-title: Contact Us
     login-title: Login
     link:
+      courses: courses
       microbes: edu/courses/beneficial-microbes
       microbes-title: Production of Compost Tea, Beneficial Microbes
       pest-diseases: edu/courses/biological-pest-and-disease-control
@@ -53,6 +54,7 @@ langs:
     contact-title: Contáctanos
     login: iniciar sesión
     link:
+      courses: cursos
       microbes: edu/cursos/produccion-de-te-de-compost-microbios-beneficiosos
       microbes-title: Producción de té de compost, microbios beneficiosos
       pest-diseases: edu/cursos/plagas-y-enfermedades-y-control-biologico
