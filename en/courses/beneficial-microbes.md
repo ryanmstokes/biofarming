@@ -2,7 +2,6 @@
 title: Production of Compost Tea, Beneficial Microbes
 language: en
 layout: page-layout
-protected: true
 banner-image: "/assets/images/agricultural-themes/image3.jpg"
 sub-title: The use of Beneficial Microbes and the production of compost starter and
   compost tea are important practices for a healthy soil life and a good soil fertility.
@@ -26,7 +25,7 @@ cat-pdf5-file: "/assets/posters/Summary_Beneficial_Microbes.pdf"
 cat-pdf5-file-title: Summary - Beneficial Microbes
 poster-file: "/assets/posters/Poster_Compost_Starter.pdf"
 poster2-file: "/assets/posters/Poster_Compost_Tea.pdf"
-quiz-url: "/edu/courses/exam-beneficial-microbes"
+quiz-url: "/exam-beneficial-microbes"
 showJS: true
 iframeClass: landscape
 ---
