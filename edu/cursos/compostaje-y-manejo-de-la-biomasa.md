@@ -2,6 +2,7 @@
 title: Compostaje y manejo de la biomasa
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image1.jpg"
 sub-title: El compostaje y el manejo de la biomasa de residuos de cultivos y/o estiércol
   son fundamentales para la capacidad de retención de nutrientes y agua y para una

@@ -57,8 +57,11 @@
 	<nav class="main-nav">
 	<ul class="nav-right ">
 			<li ><a href="/en">EN</a> | <a href="/es">ES</a></li>
-			<li id="login" class="login">
-			<a href="/?__logout=1">Log out</a>
+			
+			{% if page.protected %}<a href="/?__logout=1">Log out</a>
+			{% else %}
+			<li id="login" class="login"></li>
+			{% endif %}
 			<a href="/{{site.langs[page.language].lang-fragment}}/{{site.langs[page.language].link.composting}}">
 			Login</a>
 			</li>

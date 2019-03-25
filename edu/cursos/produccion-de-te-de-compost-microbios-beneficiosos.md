@@ -2,6 +2,7 @@
 title: Producción de té de compost, microbios beneficiosos
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image3.jpg"
 sub-title: El uso de microbios beneficiosos y la producción de compost starter y té
   de compost son prácticas importantes para una vida saludable en el suelo y una buena

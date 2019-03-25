@@ -2,6 +2,7 @@
 title: Cultivos de Cobertura y Manejo de Mantillo
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/agricultural-themes/image2.jpg"
 sub-title: Los cultivos de cobertura y el mantillo mantienen el suelo cubierto y,
   por lo tanto, lo mantienen húmedo y fértil. También evitan la erosión y como cultivos

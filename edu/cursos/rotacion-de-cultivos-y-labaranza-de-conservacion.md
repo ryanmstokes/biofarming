@@ -2,6 +2,7 @@
 title: Rotación de Cultivos y Labranza de Conservación
 language: es
 layout: page-layout
+protected: true
 banner-img: "/assets/images/Crop_rotation.png"
 sub-title: Los monocultivos desestabilizan su rendimiento y lixivia su suelo. Aprende
   sobre la elección correcta de la rotación de cultivos y cómo cultivar el suelo usando
