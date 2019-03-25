@@ -16,4 +16,7 @@ plugins:
           password: techno83
         - username: user2
           password: pass2
+  - name: redirect
+    options:
+      /: /en
 
