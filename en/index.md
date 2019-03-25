@@ -1,6 +1,10 @@
 ---
 title: bestpractice.farm
 language: en
+hero-banner-image: /assets/images/organic-farming-banner.jpg
+usp-title: Best practice know how for sustainable farming practices
+usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
+  you grow more stable and successful!
 home-title: Helping you prepare!
 home-description: A platform to provide you with the information to make your farming
   system fit for the future, to resist climate change.
@@ -48,9 +52,6 @@ agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation 
 agricultural-theme-6-description: Monocultures destabilize your yield and leach your
   soil out. Learn about the right choice of crop rotation and how to till the soil
   using conservation tillage practices.
-usp-title: Best practice know how for sustainable farming practices yyyy
-usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
-  you grow more stable and successful!
 Field name: 
 showJS: false
 layout: landing

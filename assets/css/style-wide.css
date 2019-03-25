@@ -76,7 +76,8 @@ margin-top: 0.7em;
 header .byline {
 max-width: 750px;
     display: block;
-    margin: 0 auto;
+	margin: 0 auto;
+	padding-right: 2rem;
 }
 .topic .strong{
 	max-width: 600px;
