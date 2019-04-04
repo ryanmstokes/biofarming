@@ -17,13 +17,16 @@ html, body, #skel-layers-wrapper{
 		background: #FFFFFF;
 	}
 
-	body, input, select, textarea {
-		color: #555555;
+	body, input, select, textarea, #main {
+		color: #333333;
 		font-family: 'Roboto', sans-serif;
 		font-size: 10pt;
 		font-weight: 300;
 		line-height: 1.75em;
+		background: url('/assets/images/natural-paper.png');
 	}
+
+	
 	iframe{
 		width: 100%;
 	}
@@ -167,7 +170,10 @@ p.strong{
 	text-align: center;
 }
 
-
+.border-top{
+	border-top: 1px solid #a9a5a5;
+	
+}
 .text-block-wrap{
 	max-width: 600px;
 	display: inline-block;
@@ -595,7 +601,7 @@ text-align:center;
 	    margin-bottom: 0;
 		font-size:0.8em;
 		background: rgba(35, 57, 91, 1);
-		border-bottom: 15px solid mediumseagreen;
+		border-bottom: 15px solid rgb(117,128,190);
 		box-shadow: 0 2px 20px;
 		border-radius: 6px;
 	}
@@ -619,6 +625,7 @@ text-align:center;
 	}
 	.topic #main{
 		margin-top: 4rem;
+		background: #e7fbe1;
 	}
 	.topic .sub-title{
 		line-height: 1.9rem;
@@ -655,10 +662,10 @@ text-align:center;
 
 	#logo {
 		font-size: 1.7em;
-    color: rgba(35, 57, 91, 0.95);
+    	color: rgba(79, 38, 130, 0.95);
 	}
 	.highlight{
-		color:mediumseagreen;
+		color: rgb(117,128,190);
 	}
 
 
@@ -699,7 +706,7 @@ text-align:center;
 	padding: 0.4rem 1.1rem;
     border-radius: 1rem;
     /* box-shadow: 0px 1px 0px rgba(0,0,0,0.45); */
-    background: rgba(35, 57, 91, 0.95);
+    background: rgb(79, 38, 130);
 }
 #logout{
 	display: none;
@@ -878,7 +885,16 @@ text-align:center;
 		width: 100%;
 	}
 
-
+.eosta-logo{
+	float: right;
+    width: 140px;
+    height: 38px;
+    margin-top: -0.4rem;
+}
+#footer a.eosta-logo {
+    float: left;
+    margin-top: 0.2rem;
+}
 .hero-title{
 	font-size: 2.2em;
     line-height: 1.03em;
@@ -1006,7 +1022,7 @@ text-align:center;
 	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35);
 	border-radius: 6px;
-	background: white;
+	background:rgba(255,255,255,0.3);
 }
 .cat .description{
 	width:100%;
