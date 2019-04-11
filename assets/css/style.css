@@ -677,7 +677,7 @@ text-align:center;
 
 	#logo {
 		font-size: 1.7em;
-    	color: rgba(79, 38, 130, 0.95);
+    	color: rgba(79, 38, 130, 0.95) !important;
 	}
 	.highlight{
 		color: rgb(117,128,190);
