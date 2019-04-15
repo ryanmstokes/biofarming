@@ -9,3 +9,4 @@
 {"level":"info","message":"Updating website %s to custom domain %s"}
 {"level":"error","message":"Error response from api: %j"}
 {"level":"error","message":"Error response from api: %j"}
+{"level":"error","message":"Error response from api: %j"}
