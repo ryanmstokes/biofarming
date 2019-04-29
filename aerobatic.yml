@@ -3,19 +3,6 @@ deploy:
   ignore: []
   directory: _site
 plugins:
-  - name: password-protect
-    path: /edu
-    options:
-      password: techno83
-      maxFailures: 5
-      failureWindow: 600
-      lockoutDuration: 600
-      username: ryanstokes
-      credentials:
-        - username: rogerrabbit
-          password: loonytunes
-        - username: jamesbond
-          password: thriller
   - name: redirect
     options:
       "/": "/en"
