@@ -1,8 +1,8 @@
 ---
-title: bestpractice.farm
+title: farmingandmore.com
 language: en
 hero-banner-image: /assets/images/organic-farming-banner.jpg
-usp-title: Best practice know how for sustainable farming practices
+usp-title: Sustainable farming practices & more
 usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
   you grow more stable and successful!
 home-title: Helping you prepare!
@@ -10,13 +10,13 @@ home-description: A platform to provide you with the information to make your fa
   system fit for the future, to resist climate change.
 home-cta-title: get started
 intro-title: Want to learn how to grow sustainably and successfully?
-intro-desc: bestpractice.farm helps all farmers using effective and efficient methods
+intro-desc: Farmingandmore helps all farmers using effective and efficient methods
   to manage their crops in an organic and sustainable way
 intro-desc2: Sign up for 6 agricultural courses and themes about sustainable farming
   management and benefit from explaining videos, demonstrations of real farmers, posters
   and many more on how to use sustainable practices on your farm!
 home-video-cta-title: find out more
-agricultural-themes-title: Best Practice Courses
+agricultural-themes-title: Farmingandmore Courses
 agricultural-theme-1-link: /edu/courses/composting-and-biomass-management
 agricultural-image-1: image1.jpg
 agricultural-theme-1-title: Composting and <br class="desktop"/> Biomass Management

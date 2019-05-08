@@ -1,5 +1,5 @@
 ---
-title: bestpractice.farm
+title: farmingandmore.com
 language: es
 hero-banner-image: /assets/images/organic-farming-banner.jpg
 home-cta-title: Empezar
@@ -10,7 +10,7 @@ intro-desc2: "¡Inscríbase en 6 cursos y temas agrícolas sobre gestión agríc
 usp-title: Conocimiento de las mejores prácticas agrícolas sostenibles.
 usp-sub-title: 'Mejore su rendimiento agrícola: ¡cursos personalizados para ayudarlo
   a crecer más estable y exitoso!'
-intro-desc: bestpractice.farm ayuda a todos los agricultores a usar métodos efectivos
+intro-desc: farmingandmore.com ayuda a todos los agricultores a usar métodos efectivos
   y eficientes para administrar sus cultivos de una manera orgánica y sostenible.
 agricultural-themes-title: Cursos de mejores practicas
 agricultural-theme-1-link: /edu/cursos/compostaje-y-manejo-de-la-biomasa

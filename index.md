@@ -1,5 +1,5 @@
 ---
-title: BioFarming
+title: Farming and More
 usp-title: Best practice knowhow for sustainable farming practices yyyyy
 usp-sub-title: Improve your agricultural performance - Tailormade courses to help
   you grow more stable and successful!
