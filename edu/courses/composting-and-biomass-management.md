@@ -24,7 +24,7 @@ cat-pdf3-file: "/assets/posters/Summary_Compost.pdf"
 cat-pdf3-file-title: Summary - Compost
 poster-file: "/assets/posters/Poster_Composting.pdf"
 showJS: true
-quiz-url: "//edu/courses/exam-composting-and-biomass-management"
+quiz-url: "/edu/courses/exam-composting-and-biomass-management"
 typeform: https://bestpractice1.typeform.com/to/o6G1if
 ---
 
