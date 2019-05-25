@@ -12,10 +12,10 @@ plugins:
       lockoutDuration: 600
       username: ryanstokes
       credentials:
-        - username: ryanstokes
-          password: techno83
-        - username: user2
-          password: pass2
+        - username: bestfarming
+          password: sustainableIndex
+        - username: bestfarmin2
+          password: sustainableIndex
   - name: redirect
     options:
       /: /en
