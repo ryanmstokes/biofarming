@@ -6,28 +6,17 @@ plugins:
   - name: password-protect
     path: /edu
     options:
-<<<<<<< HEAD
-      maxFailures: 5
-      failureWindow: 600
-      lockoutDuration: 600
-      credentials:
-        - username: org1X3
-          password: biofarmingforgood
-        - username: org1x2
-          password: biofarmingforgood2
-=======
       password: techno83
       maxFailures: 5
       failureWindow: 600
       lockoutDuration: 600
       username: ryanstokes
       credentials:
-        - username: rogerrabbit
-          password: loonytunes
-        - username: jamesbond
-          password: thriller
->>>>>>> f7e38e571c53c5bdddfc0bb6e54188fda2c305dd
+        - username: ryanstokes
+          password: techno83
+        - username: user2
+          password: pass2
   - name: redirect
     options:
-      "/": "/en"
+      /: /en
 
