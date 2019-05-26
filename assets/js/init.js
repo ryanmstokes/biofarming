@@ -36,7 +36,7 @@
 				titleBar: {
 					breakpoints: 'narrower',
 					height: 44,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><a href="/"><span class="title" data-action="copyHTML" data-args="logo"></span></a>',
+					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><a href="/"><span class="title" data-action="copyHTML" data-args="logo"></span></a><a href="https://www.natureandmore.com/en" class="eosta-logo"><img src="/assets/images/eosta.png"></a>',
 					position: 'top-left',
 					side: 'top',
 					width: '100%'

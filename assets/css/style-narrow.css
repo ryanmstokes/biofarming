@@ -26,3 +26,29 @@ background-position: center;
 	margin: 0.6rem 0 1.2rem;
 	text-align: left;
 }
+
+
+
+
+
+#footer .logo{
+	float:left;
+	margin-left: 1.5rem;
+	margin-bottom: 5rem;
+}
+		
+.eosta-logo {
+    float: right;
+    width: 142px;
+    height: 38px;
+	margin-top: -2.7rem;
+}
+.highlight{
+	display: inline-block;
+}
+.eosta-logo{
+	margin-top: -0.5rem;
+}
+.nav-right{
+	margin-right: 1%;
+}
