@@ -136,7 +136,7 @@ max-width: 750px;
 }
 
 .highlight{
-	display: none;
+	display: inline-block;
 }
 .nav-right{
 	float:right;
