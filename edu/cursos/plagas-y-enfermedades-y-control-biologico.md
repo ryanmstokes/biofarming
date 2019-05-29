@@ -9,10 +9,10 @@ sub-title: Las plagas y enfermedades están presentes en la mayoría de las gran
 paragraph1: 'Véase aquí un excelente video animado sobre cómo detectar plagas y enfermedades
   y también diferentes opciones para controlar las plagas y enfermedades sin usar
   pesticidas:'
-cat-video-url: https://player.vimeo.com/video/295479167
+cat-video-url: https://player.vimeo.com/video/334631000
 paragraph2: 'Véase aquí un video sobre cómo un agricultor real protege su cultivo
   de plagas y enfermedades utilizando diversas posibilidades orgánicas:'
-cat-video-url2: https://player.vimeo.com/video/311801042
+cat-video-url2: https://player.vimeo.com/video/333937834
 paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle.
   Véase aquí:'
 cat-pdf1-file: "/assets/posters/es/Poster_Pest_control_ES_FV.pdf"
@@ -27,4 +27,3 @@ poster-file: "/assets/posters/es/Poster_Pest_control_ES_FV.pdf"
 showJS: true
 iframeClass: portrait
 ---
-

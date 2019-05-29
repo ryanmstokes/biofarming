@@ -8,10 +8,10 @@ sub-title: The use of Beneficial Microbes and the production of compost starter 
   compost tea are important practices for a healthy soil life and a good soil fertility.
 paragraph1: See here an excellent animated video about beneficial microbes, how to
   produce compost starter and compost tea and what benefits farmers get.
-cat-video-url: https://player.vimeo.com/video/288731580
+cat-video-url: https://player.vimeo.com/video/333745624
 paragraph2: See here a real-life farm video on how a real farmer produces his own
   compost tea and what benefits he gets from it.
-cat-video-url2: https://player.vimeo.com/video/313483752
+cat-video-url2: https://player.vimeo.com/video/333740860
 paragraph-3: 'The following poster shows all relevant facts in detail. Have a look
   at it:'
 cat-pdf1-file: "/assets/posters/Poster_Compost_Starter.pdf"
@@ -30,4 +30,3 @@ quiz-url: "/edu/courses/exam-beneficial-microbes"
 showJS: true
 iframeClass: landscape
 ---
-

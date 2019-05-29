@@ -9,11 +9,11 @@ sub-title: La erosión del suelo a través del viento o del agua degrada fuertem
   puede hacer al respecto.
 paragraph1: Véase aquí un excelente video animado sobre riesgos de erosión, problemas
   y cómo controlar la erosión por viento y agua.
-cat-video-url: https://player.vimeo.com/video/301492468
+cat-video-url: https://player.vimeo.com/video/334630066
 paragraph2: Véase aquí un video sobre cómo un agricultor real utiliza los cultivos
   de cobertura y el manejo de mantillo para mejorar la fertilidad del suelo y la protección
   de sus tierras de cultivo.
-cat-video-url2: https://player.vimeo.com/video/313059354
+cat-video-url2: https://player.vimeo.com/video/333940570
 paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle.
   Véase aquí:'
 cat-pdf1-file: "/assets/posters/es/Poster_Erosion.pdf"
@@ -24,4 +24,3 @@ poster-file: "/assets/posters/es/Poster_Erosion.pdf"
 showJS: true
 iframeClass: portrait
 ---
-

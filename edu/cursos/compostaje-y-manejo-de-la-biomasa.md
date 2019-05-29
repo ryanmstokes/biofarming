@@ -9,10 +9,10 @@ sub-title: El compostaje y el manejo de la biomasa de residuos de cultivos y/o e
   vida saludable en el suelo.
 paragraph1: Véase aquí un excelente video animado sobre la gestión adecuada de la
   biomasa y el compostaje y aprende sobre los beneficios y sobre cómo hacerlo.
-cat-video-url: https://player.vimeo.com/video/295478646
+cat-video-url: https://player.vimeo.com/video/334630599
 paragraph2: Véase aquí un video de la granja sobre cómo construir una buena pila de
   compost y cómo utilizar la biomasa disponible en una granja.
-cat-video-url2: https://player.vimeo.com/video/317903816
+cat-video-url2: https://player.vimeo.com/video/333936362
 paragraph-3: 'El siguiente póster muestra todos los hechos relevantes en detalle.
   Véase aquí:'
 cat-pdf1-file: "/assets/posters/es/1-Pager_Composting_ES_FV.pdf"
@@ -25,4 +25,3 @@ poster-file: "/assets/posters/es/1-Pager_Composting_ES_FV.pdf"
 quiz-url: /edu/cursos/examen-compost
 showJS: true
 ---
-

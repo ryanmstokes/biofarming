@@ -8,7 +8,7 @@ sub-title: Los monocultivos desestabilizan su rendimiento y lixivia su suelo. Ap
   sobre la elección correcta de la rotación de cultivos y cómo cultivar el suelo usando
   prácticas de labranza de conservación.
 paragraph1: 
-cat-video-url: https://player.vimeo.com/video/295478170
+cat-video-url: https://player.vimeo.com/video/334631235
 paragraph2: Véase aquí un excelente video animado sobre cómo seleccionar un método
   adecuado de rotación de cultivos y labranza y cuáles son los beneficios.
 cat-video-url2: 
@@ -23,4 +23,3 @@ hidePLaceholder: true
 showJS: true
 iframeClass: portrait
 ---
-
