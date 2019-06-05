@@ -6,11 +6,9 @@ plugins:
   - name: password-protect
     path: /edu
     options:
-      password: techno83
       maxFailures: 5
       failureWindow: 600
       lockoutDuration: 600
-      username: ryanstokes
       credentials:
         - username: bestfarming
           password: sustainableIndex
