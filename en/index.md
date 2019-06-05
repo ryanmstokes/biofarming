@@ -1,7 +1,7 @@
 ---
 title: bestpractice.farm
 language: en
-hero-banner-image: /assets/images/organic-farming-banner.jpg
+hero-banner-image: "/assets/images/organic-farming-banner.jpg"
 usp-title: Best practice know how for sustainable farming practices
 usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
   you grow more stable and successful!
@@ -46,7 +46,6 @@ agricultural-image-5: image5.jpg
 agricultural-theme-5-title: Pests & Diseases <br class="desktop"/>and Biological Control
 agricultural-theme-5-description: Pests & Diseases are present in most farms worldwide,
   but with simple measures and practices one can reduce them significantly.<br/><br/>
-agricultural-theme-6-link: /edu/courses/crop-rotation-and-tillage
 agricultural-theme-6-link: "/edu/courses/crop-rotation-and-tillage"
 agricultural-image-6: image6.jpg
 agricultural-theme-6-title: Crop Rotation and <br class="desktop"/>Conservation Tillage

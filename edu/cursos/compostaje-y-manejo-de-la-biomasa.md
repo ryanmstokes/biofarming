@@ -22,7 +22,7 @@ cat-pdf2-file-title: Poster - Compostaje y manejo de la biomasa
 cat-pdf3-file: "/assets/posters/es/Summary_Compost_DV5_Spanish_Latin_America.pdf"
 cat-pdf3-file-title: Resumen - Compostaje y manejo de la biomasa
 poster-file: "/assets/posters/es/1-Pager_Composting_ES_FV.pdf"
-quiz-url: /edu/cursos/examen-compost
+quiz-url: "/edu/cursos/examen-compost"
 showJS: true
 ---
 
