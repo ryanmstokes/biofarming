@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://www.farminandmore.com/"
-  to = "https://www.farminandmore.com/en/"
-  status = 301
-  force = true
+from = "/"
+to = "/en/"
+status = 301
+force = false
