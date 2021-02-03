@@ -3,11 +3,6 @@ title: Impressum
 language: en
 layout: main
 ---
-Soil & More Impacts GmbH
-Buttstr. 3
-22767 Hamburg
-Deutschland
-info@soilandmore.com
 
 <div class="container">
 <h2 class="intro">Impressum</h2>
@@ -28,8 +23,5 @@ info@soilandmore.com
 <strong>Geschäftsführer:</strong> Tobias Bandel<br><br>
 
 Verantwortlich für den Inhalt dieser Website ist Soil & More Impacts GmbH, Tobias Bandel, Buttstr. 3, 22767 Hamburg, Deutschland
-
-
- 
 
 </div>
