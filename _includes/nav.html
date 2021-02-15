@@ -60,7 +60,10 @@
 			
 			{% if page.protected %}
 			<li id="login" class="login">
-			  <a href="/{{site.langs[page.language]}}?__logout=1">Log out</a>
+				<form method="GET">
+					<input type="hidden" name="__logout" value="1" />
+					<button class="button button-primary" role="button" type="submit">Log out</button>
+				  </form>
 		    </li>
 			{% else %}
 			<li id="login" class="login">

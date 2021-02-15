@@ -1,6 +1,7 @@
 ---
 title: bestpractice.farm
 language: es
+class: home
 hero-banner-image: "/assets/images/organic-farming-banner.jpg"
 home-cta-title: Empezar
 intro-title: "¿Quieres aprender a cultivar de forma sostenible y exitosa?"

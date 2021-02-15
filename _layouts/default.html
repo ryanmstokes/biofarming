@@ -1,64 +1,61 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Horizons by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="{{page.description}}" />
-		<!-- Google Analytics -->
-<script>
-	
-	</script>
-	<!-- End Google Analytics -->
-		<style>
-.user-content{
-	display: inline-block;
-	width: 100%;
-}
-.hide-user-content{
-position: absolute;
-    left: -100000px;
-    height: 0 !important;
-    overflow: hidden;
-}
+  <head>
+    <title>{{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="{{page.description}}" />
+    <!-- Google Analytics -->
+    <script></script>
+    <!-- End Google Analytics -->
+    <style>
+      .user-content {
+        display: inline-block;
+        width: 100%;
+      }
+      .hide-user-content {
+        position: absolute;
+        left: -100000px;
+        height: 0 !important;
+        overflow: hidden;
+      }
+    </style>
+    <!--[if lte IE 8
+      ]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script
+    ><![endif]-->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/init.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/equalheights.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+    <!--[if lte IE 8
+      ]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css"
+    /><![endif]-->
+  </head>
+  <body class="{{ page.class }}">
+    {{ content }}
+    <div class="footer-wrap">
+      <!-- Footer -->
+      <div id="footer">
+        <div class="container">
+          {% include footer-nav.html %}
+          <!-- Copyright -->
+        </div>
+      </div>
+    </div>
 
-	</style>
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
-		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/equalheights.min.js"></script>
-		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
-	{{ content }}
-	<div class="footer-wrap">
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container">
-				{% include footer-nav.html %}
-					<!-- Copyright -->
-				</div>
-			</div>
-	</div>
+    {% if page.showJS == true %}
 
-{% if page.showJS == true %}
-
-			<script>
-
-/*
+    <script>
+      /*
 	var intiateLoggeInArea = function(){
 	var loggedIn = localStorage.getItem('loggedIn');
-	
-console.log('yalla', loggedIn);
-
 
 	if(loggedIn == 'true'){
 		$('#login').css('display', 'none');
@@ -108,9 +105,8 @@ console.log('yalla', loggedIn);
 }
 intiateLoggeInArea();
 */
-			</script>
-			x
-			{% endif %}
-		<div style="display: none;">testing</div>
-	</body>
+    </script>
+    x {% endif %}
+    <div style="display: none">testing</div>
+  </body>
 </html>

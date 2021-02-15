@@ -19,7 +19,7 @@ cat-pdf1-file-title:
 cat-pdf2-file: 
 cat-pdf2-file-title: 
 poster-file: 
-hidePLaceholder: true
+hidePlaceholder: true
 showJS: true
 iframeClass: portrait
 ---

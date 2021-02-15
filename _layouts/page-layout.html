@@ -3,197 +3,211 @@ layout: main
 ---
 
 <div class="user-content">
-<div class="topic">
-<div class="container">
-			<header class="major">
-							<h2>{{page.title}}</h2>
-						</header>
-			<img class="banner-image" src="{{page.banner-image}}"/>
-			<header class="major">
-					<span class="byline">{{page.sub-title}}</span>
-			</header>
+  <div class="topic">
+    <div class="container">
+      <header class="major">
+        <h2>{{page.title}}</h2>
+      </header>
+      <img class="banner-image" src="{{page.banner-image}}" />
+      <header class="major">
+        <span class="byline">{{page.sub-title}}</span>
+      </header>
+    </div>
 
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <!-- Content -->
+          <div id="content" class="12u skel-cell-important">
+            <section class="narrower">
+              <p class="strong">{{page.paragraph1}}</p>
+              <br />
+              <div class="video-wrapper">
+                <div class="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    controls="0"
+                    src="{{ page.cat-video-url }}"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <br />
+              <br />
+              {% if page.cat-video-url2 %}
+
+              <p class="strong">{{page.paragraph2}}</p>
+              <br />
+              <div class="video-wrapper">
+                <div class="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    controls="0"
+                    src="{{ page.cat-video-url2 }}"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <br />
+              <br />
+
+              {% else %} {% if hidePlaceholder != true %}
+              <p class="strong">{{site.placeholder-title}}</p>
+              <br />
+              <img class="video-wrapper" src="/assets/images/placeholder.jpg" />
+              {% endif %} {% endif %} {% if page.cat-video-url3 %}
+
+              <p class="strong">{{page.paragraph-3}}</p>
+              <br />
+              <div class="video-wrapper">
+                <div class="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    controls="0"
+                    src="{{ page.cat-video-url3 }}"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <br />
+              <br />
+              {% endif %}
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% if page.poster %}
+
+    <div class="container wrapper">
+      {% if page.paragraph-3 %}
+      <div class="container">
+        <p class="strong">{{page.paragraph-3}}</p>
+        <br />
+      </div>
+      {% endif %}
+      <div>
+        <object
+          id="pdftoconvert"
+          data="{{page.poster-file}}"
+          type="application/pdf"
+          class="pdf-embed {{page.iframeClass}}"
+        >
+          <iframe
+            src="https://docs.google.com/viewer?url=https://bestpractice.farm/assets/posters/{{page.poster-file}}&embedded=true"
+          ></iframe>
+        </object>
+        {% if page.poster2 %}
+        <br />
+        <br />
+
+        <object
+          data="{{page.poster2-file}}"
+          type="application/pdf"
+          class="pdf-embed {{page.iframeClass}}"
+        >
+          <embed src="{{page.poster2-file}} type="application/pdf" />
+        </object>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %} {% if page.cat-pdf1-file %}
+    <div class="wrapper style1">
+      <section>
+        <header class="major">
+          <h2>{{site.langs[page.language].downloads-title}}</h2>
+        </header>
+        <ul class="downloads">
+          <li>
+            <a href="{{page.cat-pdf1-file}}"
+              ><i class="fa fa-download"></i>{{page.cat-pdf1-file-title}}</a
+            >
+          </li>
+          {% if page.cat-pdf2-file %}
+          <li>
+            <a href="{{page.cat-pdf2-file}}"
+              ><i class="fa fa-download"></i> {{page.cat-pdf2-file-title}}</a
+            >
+          </li>
+          {% endif %} {% if page.cat-pdf3-file %}
+          <li>
+            <a href="{{page.cat-pdf3-file}}"
+              ><i class="fa fa-download"></i>{{page.cat-pdf3-file-title}}</a
+            >
+          </li>
+          {% endif %} {% if page.cat-pdf4-file %}
+          <li>
+            <a href="{{page.cat-pdf4-file}}"
+              ><i class="fa fa-download"></i>{{page.cat-pdf4-file-title}}</a
+            >
+          </li>
+          {% endif %} {% if page.cat-pdf4-file %}
+          <li>
+            <a href="{{page.cat-pdf5-file}}"
+              ><i class="fa fa-download"></i>{{page.cat-pdf5-file-title}}</a
+            >
+          </li>
+          {% endif %}
+        </ul>
+      </section>
+    </div>
+  </div>
+  {% endif %} {% if page.quiz-url %}
+  <div class="wrapper">
+    <section>
+      <div class="text-center">
+        <div class="inline-block">
+          <header class="major">
+            <h2>{{site.langs[page.language].quiz-start-title}}</h2>
+            <p class="strong">{{site.langs[page.language].quiz-start-desc}}</p>
+          </header>
+
+          <a class="typeform-share button" href="{{page.quiz-url}}"
+            >{{site.langs[page.language].quiz-btn-title}}</a
+          >
+        </div>
+      </div>
+      {% endif %}
+    </section>
+  </div>
 </div>
-
-<!-- Main -->
-	<div id="main" class="wrapper style1">
-
-		<div class="container">
-
-			<div class="row">
-
-				<!-- Content -->
-				<div id="content" class="12u skel-cell-important">
-					<section class="narrower">
-						<p class="strong">{{page.paragraph1}}</p>
-						<br/>
-						<div class="video-wrapper">
-						<div class="video-container">
-							
-								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url }}" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-						<br/>
-						<br/>
-						{% if page.cat-video-url2 %}
-
-						<p class="strong">{{page.paragraph2}}</p>
-						<br/>
-						<div class="video-wrapper">
-						<div class="video-container">
-
-								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url2 }}" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-						<br/>
-						<br/>
-						
-						{% else %}
-
-						{% if !hidePlaceholder   %}
-						<p class="strong">{{site.placeholder-title}}</p>
-						<br/>
-						<img class="video-wrapper" src="/assets/images/placeholder.jpg"/>
-						{% endif %}
-
-						{% endif %}
-						{% if page.cat-video-url3 %}
-
-						<p class="strong">{{page.paragraph-3}}</p>
-						<br/>
-						<div class="video-wrapper">
-						<div class="video-container">
-
-								<iframe width="560" height="315" controls=0 src="{{ page.cat-video-url3 }}" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-						<br/>
-						<br/>
-						{% endif %}
-
-						
-
-					</section>
-
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-	
-
-{% if page.poster %}
-
-
-<div class="container wrapper">
-	
-		{% if page.paragraph-3 %}
-		<div class="container">
-		<p class="strong">{{page.paragraph-3}}</p>
-		<br/>
-		</div>
-			{% endif %}
-	<div>
-			
-	<object id="pdftoconvert" data="{{page.poster-file}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-		<iframe src="https://docs.google.com/viewer?url=https://bestpractice.farm/assets/posters/{{page.poster-file}}&embedded=true"></iframe>
-	</object>
-	{% if page.poster2 %}
-	<br/>
-	<br/>
-	
-	<object data="{{page.poster2-file}}" type="application/pdf" class="pdf-embed {{page.iframeClass}}" >
-		<embed src="{{page.poster2-file}} type="application/pdf" />
-	</object>
-	{% endif %}
-</div>
-</div>
-{% endif %}
-
-{% if page.cat-pdf1-file %}
-<div class="wrapper style1">
-	<section>													
-						<header class="major">
-							<h2>{{site.langs[page.language].downloads-title}}</h2>
-						</header>
-						<ul class="downloads">
-							<li>
-								<a href="{{page.cat-pdf1-file}}"><i class="fa fa-download"></i>{{page.cat-pdf1-file-title}}</a>
-							</li>
-							{% if page.cat-pdf2-file %}
-							<li><a href="{{page.cat-pdf2-file}}"><i class="fa fa-download"></i>
-							{{page.cat-pdf2-file-title}}</a></li>	
-							{% endif %}		
-							{% if page.cat-pdf3-file %}
-							<li><a href="{{page.cat-pdf3-file}}"><i class="fa fa-download"></i>{{page.cat-pdf3-file-title}}</a></li>
-							{% endif %}
-							{% if page.cat-pdf4-file %}
-							<li><a href="{{page.cat-pdf4-file}}"><i class="fa fa-download"></i>{{page.cat-pdf4-file-title}}</a></li>
-							{% endif %}
-							{% if page.cat-pdf4-file %}
-							<li><a href="{{page.cat-pdf5-file}}"><i class="fa fa-download"></i>{{page.cat-pdf5-file-title}}</a></li>
-							{% endif %}
-
-						</ul>
-					</section>
-	</div>
-
-	</div>
-{% endif %}
-
-{% if page.quiz-url %}
-<div class="wrapper">
-	<section>	
-	<div class="text-center">
-	<div class="inline-block">										
-						<header class="major">
-							<h2>{{site.langs[page.language].quiz-start-title}} </h2>
-							<p class="strong">{{site.langs[page.language].quiz-start-desc}}</p>
-						</header>
-
-
-		<a class="typeform-share button" href="{{page.quiz-url}}" >{{site.langs[page.language].quiz-btn-title}}</a> 
-	
-	
-	</div>
-</div>
-{% endif %}
-</section>
-</div>
-</div>
-
-
 
 <script>
-var blah = $('.pdf-embed');var parent = $('.pdf-embed').parent(); 
-var parentWidth = $(parent).width(); $(blah).attr('width', parentWidth); 
-$('.pdf-embed').remove(); $(parent).html(blah);
+  var blah = $(".pdf-embed");
+  var parent = $(".pdf-embed").parent();
+  var parentWidth = $(parent).width();
+  $(blah).attr("width", parentWidth);
+  $(".pdf-embed").remove();
+  $(parent).html(blah);
 
-
-
-function convertToBase64() {
-        //Read File
-        var selectedFile = document.getElementById("pdftoconvert").files;
-        //Check File is not Empty
-        if (selectedFile.length > 0) {
-            // Select the very first file from list
-            var fileToLoad = selectedFile[0];
-            // FileReader function for read the file.
-            var fileReader = new FileReader();
-            var base64;
-            // Onload of file read the file content
-            fileReader.onload = function(fileLoadedEvent) {
-                base64 = fileLoadedEvent.target.result;
-                // Print data in console
-                console.log(base64);
-				$('pdfiframe').attr('src', base64);
-				$('pdfembed').attr('src', base64);
-            };
-            // Convert data to base64
-            fileReader.readAsDataURL(fileToLoad);
-        }
+  function convertToBase64() {
+    //Read File
+    var selectedFile = document.getElementById("pdftoconvert").files;
+    //Check File is not Empty
+    if (selectedFile.length > 0) {
+      // Select the very first file from list
+      var fileToLoad = selectedFile[0];
+      // FileReader function for read the file.
+      var fileReader = new FileReader();
+      var base64;
+      // Onload of file read the file content
+      fileReader.onload = function (fileLoadedEvent) {
+        base64 = fileLoadedEvent.target.result;
+        // Print data in console
+        console.log(base64);
+        $("pdfiframe").attr("src", base64);
+        $("pdfembed").attr("src", base64);
+      };
+      // Convert data to base64
+      fileReader.readAsDataURL(fileToLoad);
     }
+  }
 </script>
-
-

@@ -1,6 +1,7 @@
 ---
 title: bestpractice.farm
 language: en
+class: home
 hero-banner-image: "/assets/images/organic-farming-banner.jpg"
 usp-title: Best practice know how for sustainable farming practices
 usp-sub-title: Improve your agricultural performance - Tailor-made courses to help
