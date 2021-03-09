@@ -7,39 +7,21 @@ layout: main
 <div class="container">
 <h2 class="intro">Impressum</h2>
 <br>
-<strong>Soil & More Impacts B.V. en nombre de Eosta B.V. / Nature & More</strong>
-<br>
-Kraanspoor 26
-<br>
-1033SE Amsterdam
-<br>
-Netherlands
-<br>
-+31 (0)880 079 500
-<br>
-info@soilandmore.com
-<br>
-<br>
-<strong>KvK-Number:</strong> 70278857
-
- 
-<br>
-Office Hamburg
+<strong>Soil & More Impacts GmbH</strong>
 <br>
 Buttstr. 3
 <br>
 22767 Hamburg
 <br>
+Deutschland
 <br>
-
- 
-<strong>Managing Directors:</strong>
-Tobias Bandel, Niels Dijkman.
-
+info@soilandmore.com
 <br>
 <br>
-<p>Responsable del contenido de este sitio web es Soil & More Impacts B.V. en nombre de Eosta B.V. / Nature & More, Niels Dijkman, Kraanspoor 26, 1033SE Amsterdam</p>
+<strong>Handelsregister:</strong> Hamburg, HRB 163519<br>
+<strong>USt.-ID:</strong> DE331672941<br>
+<strong>Geschäftsführer:</strong> Tobias Bandel<br><br>
 
- 
+Verantwortlich für den Inhalt dieser Website ist Soil & More Impacts GmbH, Tobias Bandel, Buttstr. 3, 22767 Hamburg, Deutschland
 
 </div>
